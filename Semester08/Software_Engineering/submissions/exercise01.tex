@@ -1,0 +1,195 @@
+% ----------------------- TODO ---------------------------
+% Diese Daten müssen pro Blatt angepasst werden:
+\newcommand{\NUMBER}{1}
+\newcommand{\EXERCISES}{2}
+\newcommand{\AUFGABENSTART}{1}
+\newcommand{\DEADLINE}{Wednesday, 2024-04-24, 15:59}
+% Diese Daten müssen einmalig pro Vorlesung angepasst werden:
+\newcommand{\COURSE}{Software Engineering}
+\newcommand{\TUTOR}{}
+\newcommand{\STUDENTA}{Albert Ratschinski (5154309)}
+% ----------------------- TODO ---------------------------
+
+\documentclass[a4paper]{scrartcl}
+
+\usepackage[utf8]{inputenc}
+\usepackage[ngerman]{babel}
+\usepackage{dsfont}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{fancyhdr}
+\usepackage{color}
+\usepackage{graphicx}
+\usepackage{lastpage}
+\usepackage{listings}
+\usepackage{tikz}
+\usepackage{pdflscape}
+\usepackage{subfigure}
+\usepackage{float}
+\usepackage{polynom}
+\usepackage{hyperref}
+\usepackage{tabularx}
+\usepackage{forloop}
+\usepackage{geometry}
+\usepackage{listings}
+\usepackage{fancybox}
+\usepackage{tikz}
+\usepackage{amsmath}
+\usepackage{xfp}
+\usepackage{multirow}
+\usepackage{tabularx}
+\usepackage{xparse}
+\usepackage{xstring}
+\usepackage{ upgreek }
+\usepackage{multicol}
+\usepackage{stmaryrd}
+\usepackage{ bbold }
+
+\usetikzlibrary{calc,arrows}
+%Größe der Ränder setzen
+\geometry{a4paper,left=3cm, right=3cm, top=3cm, bottom=3cm}
+
+%Kopf- und Fußzeile
+\pagestyle {fancy}
+\fancyhead[L]{Tutor: \TUTOR}
+\fancyhead[C]{\COURSE}
+\fancyhead[R]{\today}
+
+\fancyfoot[L]{}
+\fancyfoot[C]{}
+\fancyfoot[R]{Seite \thepage /\pageref*{LastPage}}
+
+\newcounter{aufgabe}
+
+%Formatierung der Überschrift, hier nichts ändern
+\def\header#1#2{
+  \begin{center}
+    {\Large Exercise Sheet #1}\\
+    {(Deadline #2)}
+  \end{center}
+}
+
+%Definition der Punktetabelle, hier nichts ändern
+
+\newcommand{\punkteliste}[2]{%
+
+  \begin{center}%
+  \begin{tabular}{*{#2}{c|} c| c}
+
+  Aufgabe: & 
+  \forloop{aufgabe}{0}{\value{aufgabe} < #2}%
+  {
+    \fpeval{\value{aufgabe}+#1} &
+  }   $\sum $\\
+ \hline
+ Punkte:
+ \forloop{aufgabe}{-1}{\value{aufgabe} < #2}%
+  {
+    &
+  } 
+  \end{tabular}
+  \end{center}
+}
+
+\newcommand{\nextAufgabe}{
+  \section*{Aufgabe \theaufgabe}
+  \stepcounter{aufgabe}
+}
+\newcommand{\circled}[2]{
+  \tikz[baseline=(char.base)]{
+  \node[shape=circle,draw,color=#2,inner sep=2pt] (char) {#1};}
+}
+
+\newcommand{\rc}[1]{
+  \circled{#1}{red}
+}
+\newcommand{\gc}[1]{
+  \circled{#1}{green}
+}
+\newcommand{\bc}[1]{
+  \circled{#1}{blue}
+}
+
+\newcommand{\R}{
+  \mathbb{R}
+}
+\newcommand{\N}{
+  \mathbb{N}
+}
+\newcommand{\Z}{
+  \mathbb{Z}
+}
+\newcommand{\Q}{
+  \mathbb{Q}
+}
+\newcommand{\C}{
+  \mathbb{C}
+}
+\usepackage{xfp}
+\usepackage{listofitems}
+\usepackage{xparse}
+\usepackage{xstring}
+\setsepchar{ }
+\newcounter{spalte}
+\newcounter{zeile}
+
+\newcommand{\spalte}[3]{
+\left(\begin{array}{c}
+  #1   \\
+  #2   \\
+  #3   \\
+\end{array}\right)
+}
+\newcommand{\spaltef}[4]{
+\left(\begin{array}{c}
+  #1   \\
+  #2   \\
+  #3   \\
+  #4   \\
+\end{array}\right)
+}
+\newcommand{\kopf}[4]{
+  
+    idx & 
+    %x werte
+      \setsepchar{ }
+      \forloop{spalte}{0}{\value{spalte} < #1}%
+        {
+        \readlist\arg{#3}
+        \arg[\fpeval{\thespalte+1}] &
+        } 
+      %funktionen
+      \setsepchar{ }
+      \forloop{spalte}{0}{\value{spalte} < #2}%
+        {
+        \readlist\arg{#4}
+        \arg[\fpeval{\thespalte+1}] \ifthenelse{\fpeval{#2-1}=\thespalte}{}{&}
+        }
+        \\\hline 
+}
+
+
+
+\begin{document}
+
+
+\begin{tabularx}{\linewidth}{m{0.5 \linewidth} X}
+  \begin{minipage}{\linewidth}
+    \STUDENTA\\
+  \end{minipage} & 
+  \begin{minipage}{\linewidth}
+    \punkteliste{\AUFGABENSTART}{\EXERCISES}
+  \end{minipage}\\
+\end{tabularx}
+\setcounter{aufgabe}{\AUFGABENSTART}%
+\header{Nr. \NUMBER}{\DEADLINE}
+
+% ----------------------- TODO ---------------------------
+
+\section*{Exercise 1 - Does Software Development Success Matter?}
+
+thespalte
+
+\section*{Exercise 2 - Lines of Code Metrics}
+
+\end{document}

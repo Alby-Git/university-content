@@ -1,6 +1,6 @@
-PWD /home/albertd/Documents/University/university-content/Semester08/Software_Engineering/submissions
+PWD /home/albertd/Documents/University/university-content/Software_Engineering/submissions
 INPUT /home/albertd/.miktex/texmfs/data/miktex/data/le/pdftex/pdflatex.fmt
-INPUT /home/albertd/Documents/University/university-content/Semester08/Software_Engineering/submissions/exercise01.tex
+INPUT /home/albertd/Documents/University/university-content/Software_Engineering/submissions/exercise01.tex
 OUTPUT exercise01.log
 INPUT /home/albertd/.miktex/texmfs/install/tex/latex/koma-script/scrartcl.cls
 INPUT /home/albertd/.miktex/texmfs/install/tex/latex/koma-script/scrartcl.cls

@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.3) (preloaded format=pdflatex 2024.4.18)  22 APR 2024 12:25
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.3) (preloaded format=pdflatex 2024.4.18)  24 APR 2024 16:17
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**/home/albertd/Documents/University/university-content/Semester08/Software_Engineering/submissions/exercise01.tex
-(/home/albertd/Documents/University/university-content/Semester08/Software_Engineering/submissions/exercise01.tex
+**/home/albertd/Documents/University/university-content/Stochastik/submissions/exercise01/exercise01.tex
+(/home/albertd/Documents/University/university-content/Stochastik/submissions/exercise01/exercise01.tex
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-03-14>
 (/home/albertd/.miktex/texmfs/install/tex/latex/koma-script/scrartcl.cls
@@ -240,7 +240,7 @@ Class scrartcl Warning: Usage of package `fancyhdr' together
 (scrartcl)              `\addtokomafont' for the page style elements need
 (scrartcl)              explicite user intervention to work.
 (scrartcl)              Nevertheless, using requested
-(scrartcl)              package `fancyhdr' on input line 22.
+(scrartcl)              package `fancyhdr' on input line 21.
 
 (/home/albertd/.miktex/texmfs/install/tex/latex/fancyhdr/fancyhdr.sty
 Package: fancyhdr 2022/11/09 v4.1 Extensive control of page headers and footers
@@ -706,74 +706,82 @@ LaTeX Font Info:    Overwriting symbol font `stmry' in version `bold'
 ) (/home/albertd/.miktex/texmfs/install/tex/latex/bbold/bbold.sty
 Package: bbold 1994/04/06 Bbold symbol package
 LaTeX Font Info:    Redeclaring math alphabet \mathbb on input line 42.
+) (/home/albertd/.miktex/texmfs/install/tex/latex/enumitem/enumitem.sty
+Package: enumitem 2019/06/20 v3.9 Customized lists
+\labelindent=\skip85
+\enit@outerparindent=\dimen285
+\enit@toks=\toks47
+\enit@inbox=\box74
+\enit@count@id=\count329
+\enitdp@description=\count330
 ) (/usr/local/share/miktex-texmf/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarycalc.code.tex
 File: tikzlibrarycalc.code.tex 2023-01-15 v3.1.10 (3.1.10)
 ) (/usr/local/share/miktex-texmf/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryarrows.code.tex
 File: tikzlibraryarrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
  (/usr/local/share/miktex-texmf/tex/generic/pgf/libraries/pgflibraryarrows.code.tex
 File: pgflibraryarrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\arrowsize=\dimen285
+\arrowsize=\dimen286
 ))
-\c@aufgabe=\count329
-\c@spalte=\count330
-\c@zeile=\count331
+\c@aufgabe=\count331
+\c@spalte=\count332
+\c@zeile=\count333
  (/usr/local/share/miktex-texmf/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2024-03-14 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count332
-\l__pdf_internal_box=\box74
+\l__color_backend_stack_int=\count334
+\l__pdf_internal_box=\box75
 ) (exercise01.aux)
 \openout1 = `exercise01.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 146.
-LaTeX Font Info:    ... okay on input line 146.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 146.
-LaTeX Font Info:    ... okay on input line 146.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 146.
-LaTeX Font Info:    ... okay on input line 146.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 146.
-LaTeX Font Info:    ... okay on input line 146.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 146.
-LaTeX Font Info:    ... okay on input line 146.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 146.
-LaTeX Font Info:    ... okay on input line 146.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 146.
-LaTeX Font Info:    ... okay on input line 146.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 146.
-LaTeX Font Info:    ... okay on input line 146.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 146.
-LaTeX Font Info:    ... okay on input line 146.
-Package scrbase Info: activating ngerman \abstractname on input line 146.
-Package scrbase Info: activating ngerman \partname on input line 146.
-Package scrbase Info: activating ngerman \figurename on input line 146.
-Package scrbase Info: activating ngerman \tablename on input line 146.
-Package scrbase Info: activating ngerman \contentsname on input line 146.
-Package scrbase Info: activating ngerman \listfigurename on input line 146.
-Package scrbase Info: activating ngerman \listtablename on input line 146.
-Package scrbase Info: activating ngerman \refname on input line 146.
-Package scrbase Info: activating ngerman \indexname on input line 146.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 168.
+LaTeX Font Info:    ... okay on input line 168.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 168.
+LaTeX Font Info:    ... okay on input line 168.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 168.
+LaTeX Font Info:    ... okay on input line 168.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 168.
+LaTeX Font Info:    ... okay on input line 168.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 168.
+LaTeX Font Info:    ... okay on input line 168.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 168.
+LaTeX Font Info:    ... okay on input line 168.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 168.
+LaTeX Font Info:    ... okay on input line 168.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 168.
+LaTeX Font Info:    ... okay on input line 168.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 168.
+LaTeX Font Info:    ... okay on input line 168.
+Package scrbase Info: activating ngerman \abstractname on input line 168.
+Package scrbase Info: activating ngerman \partname on input line 168.
+Package scrbase Info: activating ngerman \figurename on input line 168.
+Package scrbase Info: activating ngerman \tablename on input line 168.
+Package scrbase Info: activating ngerman \contentsname on input line 168.
+Package scrbase Info: activating ngerman \listfigurename on input line 168.
+Package scrbase Info: activating ngerman \listtablename on input line 168.
+Package scrbase Info: activating ngerman \refname on input line 168.
+Package scrbase Info: activating ngerman \indexname on input line 168.
  (/usr/local/share/miktex-texmf/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count333
-\scratchdimen=\dimen286
-\scratchbox=\box75
-\nofMPsegments=\count334
-\nofMParguments=\count335
-\everyMPshowfont=\toks47
-\MPscratchCnt=\count336
-\MPscratchDim=\dimen287
-\MPnumerator=\count337
-\makeMPintoPDFobject=\count338
-\everyMPtoPDFconversion=\toks48
+\scratchcounter=\count335
+\scratchdimen=\dimen287
+\scratchbox=\box76
+\nofMPsegments=\count336
+\nofMParguments=\count337
+\everyMPshowfont=\toks48
+\MPscratchCnt=\count338
+\MPscratchDim=\dimen288
+\MPnumerator=\count339
+\makeMPintoPDFobject=\count340
+\everyMPtoPDFconversion=\toks49
 ) (/usr/local/share/miktex-texmf/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
  (/usr/local/share/miktex-texmf/tex/latex/00miktex/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
-\c@lstlisting=\count339
-Package tocbasic Info: setting babel extension for `lol' on input line 146.
-\scr@dte@lstlisting@maxnumwidth=\skip85
-Package hyperref Info: Link coloring OFF on input line 146.
+\c@lstlisting=\count341
+Package tocbasic Info: setting babel extension for `lol' on input line 168.
+\scr@dte@lstlisting@maxnumwidth=\skip86
+Package hyperref Info: Link coloring OFF on input line 168.
  (exercise01.out) (exercise01.out)
 \@outlinefile=\write5
 \openout5 = `exercise01.out'.
@@ -785,12 +793,12 @@ Class scrartcl Info: loading recommended package `bookmark'.
 (scrartcl)           `bookmarkpackage=false' before \begin{document} and
 (scrartcl)           you can avoid this message adding:
 (scrartcl)             \usepackage{bookmark}
-(scrartcl)           before \begin{document} on input line 146.
+(scrartcl)           before \begin{document} on input line 168.
  (/home/albertd/.miktex/texmfs/install/tex/latex/bookmark/bookmark.sty
 Package: bookmark 2023-12-10 v1.31 PDF bookmarks (HO)
  (/home/albertd/.miktex/texmfs/install/tex/latex/bookmark/bkm-pdftex.def
 File: bkm-pdftex.def 2023-12-10 v1.31 bookmark driver for pdfTeX and luaTeX (HO)
-\BKM@id=\count340
+\BKM@id=\count342
 ))
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -827,58 +835,23 @@ File: bkm-pdftex.def 2023-12-10 v1.31 bookmark driver for pdfTeX and luaTeX (HO)
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 (/usr/local/share/miktex-texmf/tex/latex/amsfonts/umsa.fd) (/usr/local/share/miktex-texmf/tex/latex/amsfonts/umsb.fd) (/home/albertd/.miktex/texmfs/install/tex/latex/stmaryrd/Ustmry.fd)
-Underfull \hbox (badness 10000) in paragraph at lines 153--153
+Underfull \hbox (badness 10000) in paragraph at lines 177--177
 
  []
 
 
-Overfull \hbox (10.95003pt too wide) in paragraph at lines 153--155
+Overfull \hbox (10.95003pt too wide) in paragraph at lines 177--179
 [][] 
- []
-
-
-Overfull \hbox (0.16667pt too wide) in paragraph at lines 178--179
-\OT1/cmr/m/n/10.95 test results by Volkswagen (VW) to make their diesel-powered vehicles appear cleaner
- []
-
-
-Overfull \hbox (3.46011pt too wide) in paragraph at lines 182--187
-\OT1/cmr/m/n/10.95 worldwide. This software was designed to detect when the vehicle was undergoing
- []
-
-
-Overfull \hbox (12.30664pt too wide) in paragraph at lines 182--187
-\OT1/cmr/m/n/10.95 However, during normal driving conditions, the emission controls were deactivated,
- []
-
-
-Overfull \hbox (6.49706pt too wide) in paragraph at lines 193--196
-[]\OT1/cmr/m/n/10.95 Volkswagen faced a barrage of lawsuits, regulatory fines, and reputational damage
- []
-
-
-Overfull \hbox (16.25963pt too wide) in paragraph at lines 193--196
-\OT1/cmr/m/n/10.95 pay billions of dollars in settlements and fines, and implement extensive remediation
  []
 
 [1{/home/albertd/.miktex/texmfs/data/fonts/map/pdftex/pdftex.map}
 
 ]
-Overfull \hbox (14.00749pt too wide) in paragraph at lines 212--213
-[]\OT1/cmr/m/n/10.95 'https://www.tagesschau.de/wirtschaft/verbraucher/abgassskandel-vw-verfahren-
+Overfull \hbox (23.01324pt too wide) in paragraph at lines 239--240
+[][]\OT1/cmr/m/n/10.95 Aquivalent zur vorherigen Aufgabe, gibt es zwei M[]oglichkeiten, die die Wahrscheinlichkeit:
  []
 
-
-Overfull \hbox (18.01414pt too wide) in paragraph at lines 226--227
-[]\OT1/cmr/bx/n/10.95 Failure Perspective: \OT1/cmr/m/n/10.95 Resulted in financial losses, environmental harm, and undermined
- []
-
-[2] (/usr/local/share/miktex-texmf/tex/latex/listings/lstlang1.sty
-File: lstlang1.sty 2024/03/11 1.10a listings language file
-)
-LaTeX Font Info:    Font shape `OT1/cmtt/bx/n' in size <10> not available
-(Font)              Font shape `OT1/cmtt/m/n' tried instead on input line 286.
- [3] [4] 
+[2] 
 enddocument/afterlastpage: lastpage setting LastPage.
 (exercise01.aux)
  ***********
@@ -889,17 +862,17 @@ Package rerunfilecheck Info: File `exercise01.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 28796 strings out of 476359
- 541900 string characters out of 5793823
- 2039493 words of memory out of 5000000
- 50382 multiletter control sequences out of 15000+600000
- 565799 words of font info for 66 fonts, out of 8000000 for 9000
+ 28723 strings out of 476359
+ 543219 string characters out of 5793823
+ 1956493 words of memory out of 5000000
+ 50339 multiletter control sequences out of 15000+600000
+ 564866 words of font info for 62 fonts, out of 8000000 for 9000
  0 hyphenation exceptions out of 8191
- 108i,12n,107p,11003b,2102s stack positions out of 10000i,1000n,20000p,200000b,200000s
- </home/albertd/.miktex/texmfs/data/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm1095.pk></usr/local/share/miktex-texmf/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/share/miktex-texmf/fonts/type1/public/amsfonts/cm/cmitt10.pfb></usr/local/share/miktex-texmf/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/share/miktex-texmf/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/share/miktex-texmf/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/share/miktex-texmf/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/share/miktex-texmf/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/share/miktex-texmf/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/share/miktex-texmf/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/local/share/miktex-texmf/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/share/miktex-texmf/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/share/miktex-texmf/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on exercise01.pdf (4 pages, 163713 bytes).
+ 108i,17n,107p,10993b,470s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/local/share/miktex-texmf/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/share/miktex-texmf/fonts/type1/public/amsfonts/cmextra/cmex8.pfb></usr/local/share/miktex-texmf/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/share/miktex-texmf/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/share/miktex-texmf/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/share/miktex-texmf/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/share/miktex-texmf/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/share/miktex-texmf/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/share/miktex-texmf/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/share/miktex-texmf/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/local/share/miktex-texmf/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/share/miktex-texmf/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/share/miktex-texmf/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/share/miktex-texmf/fonts/type1/public/amsfonts/cm/cmti10.pfb>
+Output written on exercise01.pdf (2 pages, 168218 bytes).
 PDF statistics:
- 136 PDF objects out of 1000 (max. 8388607)
- 40 named destinations out of 1000 (max. 500000)
+ 99 PDF objects out of 1000 (max. 8388607)
+ 12 named destinations out of 1000 (max. 500000)
  13 words of extra memory for PDF output out of 10000 (max. 10000000)
 

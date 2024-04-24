@@ -1,0 +1,341 @@
+% ----------------------- TODO ---------------------------
+% Diese Daten müssen pro Blatt angepasst werden:
+\newcommand{\NUMBER}{1}
+\newcommand{\EXERCISES}{2}
+\newcommand{\AUFGABENSTART}{1}
+\newcommand{\DEADLINE}{Wednesday, 2024-04-24, 15:59}
+% Diese Daten müssen einmalig pro Vorlesung angepasst werden:
+\newcommand{\COURSE}{Software Engineering}
+\newcommand{\TUTOR}{}
+\newcommand{\STUDENTA}{Albert Ratschinski (5154309)}
+\newcommand{\STUDENTB}{Severin Plewe (5333060)}
+% ----------------------- TODO ---------------------------
+
+\documentclass[a4paper]{scrartcl}
+
+\usepackage[utf8]{inputenc}
+\usepackage[ngerman]{babel}
+\usepackage{dsfont}
+\usepackage{amsmath}
+\usepackage{amssymb} % Added for square symbols
+\usepackage{fancyhdr}
+\usepackage{color}
+\usepackage{graphicx}
+\usepackage{lastpage}
+\usepackage{listings}
+\usepackage{tikz}
+\usepackage{pdflscape}
+\usepackage{subfigure}
+\usepackage{float}
+\usepackage{polynom}
+\usepackage{hyperref}
+\usepackage{tabularx}
+\usepackage{forloop}
+\usepackage{geometry}
+\usepackage{fancybox}
+\usepackage{stmaryrd}
+\usepackage{bbold}
+
+\usetikzlibrary{calc,arrows}
+\usepackage{listings}
+\lstset{
+    basicstyle=\small\ttfamily,
+    breaklines=true,
+    numbers=left,
+    numberstyle=\tiny,
+    frame=tb,
+    columns=fullflexible
+}
+
+%Größe der Ränder setzen
+\geometry{a4paper,left=3cm, right=3cm, top=3cm, bottom=3cm}
+
+%Kopf- und Fußzeile
+\pagestyle {fancy}
+\fancyhead[L]{Tutor: \TUTOR}
+\fancyhead[C]{\COURSE}
+\fancyhead[R]{\today}
+
+\fancyfoot[L]{}
+\fancyfoot[C]{}
+\fancyfoot[R]{Seite \thepage /\pageref*{LastPage}}
+
+\newcounter{aufgabe}
+
+%Formatierung der Überschrift, hier nichts ändern
+\def\header#1#2{
+  \begin{center}
+    {\Large Exercise Sheet #1}\\
+    {(Deadline #2)}
+  \end{center}
+}
+
+\newcommand{\nextAufgabe}{
+  \section*{Aufgabe \theaufgabe}
+  \stepcounter{aufgabe}
+}
+\newcommand{\circled}[2]{
+  \tikz[baseline=(char.base)]{
+  \node[shape=circle,draw,color=#2,inner sep=2pt] (char) {#1};}
+}
+
+\newcommand{\rc}[1]{
+  \circled{#1}{red}
+}
+\newcommand{\gc}[1]{
+  \circled{#1}{green}
+}
+\newcommand{\bc}[1]{
+  \circled{#1}{blue}
+}
+
+\newcommand{\R}{
+  \mathbb{R}
+}
+\newcommand{\N}{
+  \mathbb{N}
+}
+\newcommand{\Z}{
+  \mathbb{Z}
+}
+\newcommand{\Q}{
+  \mathbb{Q}
+}
+\newcommand{\C}{
+  \mathbb{C}
+}
+
+\newcounter{spalte}
+\newcounter{zeile}
+
+\newcommand{\spalte}[3]{
+\left(\begin{array}{c}
+  #1   \\
+  #2   \\
+  #3   \\
+\end{array}\right)
+}
+\newcommand{\spaltef}[4]{
+\left(\begin{array}{c}
+  #1   \\
+  #2   \\
+  #3   \\
+  #4   \\
+\end{array}\right)
+}
+\newcommand{\kopf}[4]{
+  
+    idx & 
+    %x werte
+      \setsepchar{ }
+      \forloop{spalte}{0}{\value{spalte} < #1}%
+        {
+        \readlist\arg{#3}
+        \arg[\fpeval{\thespalte+1}] &
+        } 
+      %funktionen
+      \setsepchar{ }
+      \forloop{spalte}{0}{\value{spalte} < #2}%
+        {
+        \readlist\arg{#4}
+        \arg[\fpeval{\thespalte+1}] \ifthenelse{\fpeval{#2-1}=\thespalte}{}{&}
+        }
+        \\\hline 
+}
+
+\begin{document}
+
+\begin{tabularx}{\linewidth}{m{0.5 \linewidth} X}
+  \begin{minipage}{\linewidth}
+    \STUDENTA\\
+    \STUDENTB\\
+  \end{minipage} &
+\end{tabularx}
+\setcounter{aufgabe}{\AUFGABENSTART}%
+\header{Nr. \NUMBER}{\DEADLINE}
+
+% ----------------------- TODO ---------------------------
+
+\begin{center}
+  \begin{tabular}{|c|ccc|ccc|}
+    \hline
+    Task      & 1.1         & 1.2         & 1.3         & 2.1       & 2.2       & 2.3       \\
+    \hline
+    Completed & $\boxtimes$ & $\boxtimes$ & $\boxtimes$ & $\boxtimes$ & $\boxtimes$ & $\boxtimes$ \\
+    \hline
+    Feedback  & $\square$   & $\square$   & $\square$   & $\square$ & $\square$ & $\square$ \\
+    \hline
+  \end{tabular}
+\end{center}
+
+
+\section*{Exercise 1 - Does Software Development Success Matter?}
+
+\subsection*{Exercise 1.1}
+\begin{itemize}
+  \item \textbf{G. Volkswagen Diesel Emissions Scandal (2015)}
+
+  \item \textbf{General Description:} The Volkswagen diesel emissions scandal, also known as ''Dieselgate,'' emerged in 2015 and involved the deliberate manipulation of emissions test results by Volkswagen (VW) to make their diesel-powered vehicles appear cleaner and more environmentally friendly than they actually were.
+
+  \item \textbf{Software-Related Issue and Consequences:}
+        \begin{itemize}
+          \item The software-related issue at the heart of the scandal involved the installation of illegal software, known as a ''defeat device,''
+                in millions of VW diesel vehicles worldwide. This software was designed to detect when the vehicle was undergoing emissions testing
+                and to activate emission control systems to reduce pollutants.
+                However, during normal driving conditions, the emission controls were deactivated, allowing the vehicles to
+                emit nitrogen oxide (NOx) pollutants at levels far exceeding regulatory limits.
+
+          \item The consequences of this deception were significant both for VW and the environment.
+                While there was no immediate loss of life directly attributable to the scandal,
+                the increased levels of NOx emissions from affected vehicles posed serious health risks to populations exposed to air pollution,
+                contributing to respiratory illnesses and environmental damage.
+
+          \item Volkswagen faced a barrage of lawsuits, regulatory fines, and reputational damage as a result of the scandal.
+                The company was forced to recall millions of vehicles, pay billions of dollars in settlements and fines,
+                and implement extensive remediation efforts to address the environmental impact of their actions.
+        \end{itemize}
+
+  \item \textbf{Quantification of Damages and Relevance:}
+        \begin{itemize}
+          \item The financial repercussions of the Volkswagen diesel emissions scandal were substantial.
+                Volkswagen ultimately paid over \$30 billion in fines, penalties, settlements, and vehicle buyback programs related to the scandal.
+                Additionally, the company's market value plummeted, and its reputation suffered irreparable harm, leading to a loss of consumer trust and confidence in the brand.
+
+          \item The scandal also had far-reaching implications for the automotive industry as a whole, prompting increased scrutiny of emissions testing procedures,
+                regulatory oversight, and corporate ethics.
+                It served as a stark reminder of the importance of compliance with environmental regulations and the potential consequences of unethical behavior in business.
+        \end{itemize}
+
+  \item \textbf{Sources}
+        \begin{itemize}
+          \item 'https://de.wikipedia.org/wiki/Abgasskandal'
+          \item 'https://www.tagesschau.de/wirtschaft/verbraucher/abgassskandel-vw-verfahren-myright-100.html'
+        \end{itemize}
+\end{itemize}
+
+\subsection*{Exercise 1.2}
+\textbf{Developer (Volkswagen):}
+\begin{itemize}
+  \item \textbf{Success Perspective:} Initially successful in achieving deceptive objectives and gaining market advantage.
+  \item \textbf{Failure Perspective:} Led to severe financial and reputational damage, loss of trust, and legal consequences.
+\end{itemize}
+
+\textbf{Customer (Consumers and Regulatory Authorities):}
+\begin{itemize}
+  \item \textbf{Success Perspective:} None, as consumers were deceived, and regulatory standards were circumvented.
+  \item \textbf{Failure Perspective:} Resulted in financial losses, environmental harm, and undermined trust in both Volkswagen and regulatory authorities.
+\end{itemize}
+
+\textbf{User (Drivers and the General Public):}
+\begin{itemize}
+  \item \textbf{Success Perspective:} None, as drivers were misled by deceptive marketing and false claims.
+  \item \textbf{Failure Perspective:} Increased emissions contributed to environmental pollution and health risks, eroded public trust in corporate ethics.
+\end{itemize}
+In summary, while the software development initially appeared successful for Volkswagen in achieving deceptive objectives, it ultimately resulted in significant
+failure from the perspectives of developers, customers, and users due to severe financial, reputational, and environmental consequences of the scandal.
+
+\newpage
+
+\subsection*{Exercise 1.3}
+\textbf{Therac-25:}
+\begin{itemize}
+  \item \textbf{Requirements:} Flaws in requirements specification and validation.
+  \item \textbf{Design:} Lack of error handling and fault tolerance mechanisms.
+  \item \textbf{Quality Assurance:} Inadequate testing and validation.
+  \item \textbf{Management:} Poor communication and risk management.
+\end{itemize}
+
+\textbf{Ariane-5 Rocket:}
+\begin{itemize}
+  \item \textbf{Requirements:} Failure to consider new rocket's performance.
+  \item \textbf{Design:} Oversight in data conversion and error handling.
+  \item \textbf{Quality Assurance:} Lack of testing under realistic conditions.
+  \item \textbf{Management:} Coordination and risk management issues.
+\end{itemize}
+
+\textbf{Toll Collect:}
+\begin{itemize}
+  \item \textbf{Requirements:} Ambiguous requirements and poor integration.
+  \item \textbf{Design:} Lack of standardized interfaces and modularization.
+  \item \textbf{Quality Assurance:} Insufficient testing and regression testing.
+  \item \textbf{Management:} Poor project planning and resource allocation.
+\end{itemize}
+
+\textbf{Volkswagen Diesel Scandal:}
+\begin{itemize}
+  \item \textbf{Requirements:} Intentional manipulation of emissions tests.
+  \item \textbf{Design:} Implementation of illegal defeat devices.
+  \item \textbf{Quality Assurance:} Compromised testing and lack of transparency.
+  \item \textbf{Management:} Lack of accountability and governance.
+\end{itemize}
+
+\section*{Exercise 2 - Lines of Code Metrics}
+\subsection*{Exercise 2.1}
+
+\begin{itemize}
+  \item $LOC_{tot} = 73$
+  \item $LOC_{ne} = 64$
+  \item $LOC_{pars} = 48$
+\end{itemize}
+
+\subsection*{Exercise 2.2}
+\subsubsection*{(a)}
+\textbf{Program 1:}
+
+\begin{lstlisting}[language=Java]
+public class Program1 {
+    public static void main(String[] args) {
+        // This program calculates the factorial of 5
+        
+        int n = 5;
+        int factorial = 1;
+        for (int i = 1; i <= n; i++) {
+            factorial *= i;
+        }
+        System.out.println("Factorial of " + n + ": " + factorial);
+    }
+}
+\end{lstlisting}
+
+\textbf{Program 2:}
+
+\begin{lstlisting}[language=Java]
+public class Program2 {
+    public static void main(String[] args) {
+        // This program calculates the factorial of 5
+        
+        int n = 5;
+        int factorial = 1;
+        factorial = factorial * 1 * 2 * 3 * 4 * 5;
+        System.out.println("Factorial of " + n + ": " + factorial);
+    }
+}
+\end{lstlisting}
+
+\subsubsection*{}
+Both programs calculate the factorial of 5.
+Program 1 uses a loop to calculate the factorial incrementally,
+while Program 2 directly computes the factorial using the multiplication of individual numbers.
+As a result, Program 1 has substantially more lines of code than Program 2, leading to different $LOC_{pars}$ values.
+
+\subsubsection*{(b)}
+No, the example provided is not a rare exception.
+It's common for semantically equivalent programs to have substantially different metric values, such as $LOC_{pars}$,
+due to variations in coding style, algorithm choice, and implementation details.
+
+\subsection*{Exercise 2.3}
+
+\begin{itemize}
+  \item \textbf{Albert:}
+        \begin{itemize}
+          \item $[10^3, 3*10^3]$ for contribution 
+          \item $[10^5, 10^6]$ for the whole project
+        \end{itemize}
+
+  \item \textbf{Severin:}
+        \begin{itemize}
+          \item $[10^3, 3*10^3]$ for contribution 
+          \item $[10^5, 10^6]$ for the whole project
+        \end{itemize}
+\end{itemize}
+\end{document}

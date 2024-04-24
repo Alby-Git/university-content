@@ -1,0 +1,227 @@
+% ----------------------- TODO ---------------------------
+% Diese Daten müssen pro Blatt angepasst werden:
+\newcommand{\NUMBER}{1}
+\newcommand{\EXERCISES}{6}
+\newcommand{\AUFGABENSTART}{1}
+\newcommand{\DEADLINE}{- Freitag bis 14 Uhr}
+% Diese Daten müssen einmalig pro Vorlesung angepasst werden:
+\newcommand{\COURSE}{Mathematik II für Informatiker - SS 2024}
+\newcommand{\TUTOR}{Clara Wasmer}
+\newcommand{\STUDENTA}{Albert Ratschinski (5154309)}
+% ----------------------- TODO ---------------------------
+
+\documentclass[a4paper]{scrartcl}
+
+\usepackage[utf8]{inputenc}
+\usepackage[ngerman]{babel}
+\usepackage{dsfont}
+\usepackage{amsmath}
+\usepackage{amssymb} % Added for square symbols
+\usepackage{fancyhdr}
+\usepackage{color}
+\usepackage{graphicx}
+\usepackage{lastpage}
+\usepackage{listings}
+\usepackage{tikz}
+\usepackage{pdflscape}
+\usepackage{subfigure}
+\usepackage{float}
+\usepackage{polynom}
+\usepackage{hyperref}
+\usepackage{tabularx}
+\usepackage{forloop}
+\usepackage{geometry}
+\usepackage{fancybox}
+\usepackage{stmaryrd}
+\usepackage{bbold}
+\usepackage{enumitem} % This package allows customization of lists
+
+\usetikzlibrary{calc,arrows}
+\usepackage{listings}
+\lstset{
+    basicstyle=\small\ttfamily,
+    breaklines=true,
+    numbers=left,
+    numberstyle=\tiny,
+    frame=tb,
+    columns=fullflexible
+}
+
+%Größe der Ränder setzen
+\geometry{a4paper,left=3cm, right=3cm, top=3cm, bottom=3cm}
+
+%Kopf- und Fußzeile
+\pagestyle {fancy}
+\fancyhead[L]{Tutor: \TUTOR}
+\fancyhead[C]{\COURSE}
+\fancyhead[R]{\today}
+
+\fancyfoot[L]{}
+\fancyfoot[C]{}
+\fancyfoot[R]{Seite \thepage /\pageref*{LastPage}}
+
+\newcounter{aufgabe}
+
+%Definition der Punktetabelle, hier nichts ändern
+
+\newcommand{\punkteliste}[2]{%
+
+  \begin{center}%
+  \begin{tabular}{*{#2}{c|} c| c}
+
+  Aufgabe: & 
+  \forloop{aufgabe}{0}{\value{aufgabe} < #2}%
+  {
+    \fpeval{\value{aufgabe}+#1} &
+  }   $\sum $\\
+ \hline
+ Punkte:
+ \forloop{aufgabe}{-1}{\value{aufgabe} < #2}%
+  {
+    &
+  } 
+  \end{tabular}
+  \end{center}
+}
+
+%Formatierung der Überschrift, hier nichts ändern
+\def\header#1#2{
+  \begin{center}
+    {\Large Exercise Sheet #1}\\
+    {(Deadline #2)}
+  \end{center}
+}
+
+\newcommand{\nextAufgabe}{
+  \section*{Aufgabe \theaufgabe}
+  \stepcounter{aufgabe}
+}
+\newcommand{\circled}[2]{
+  \tikz[baseline=(char.base)]{
+  \node[shape=circle,draw,color=#2,inner sep=2pt] (char) {#1};}
+}
+
+\newcommand{\rc}[1]{
+  \circled{#1}{red}
+}
+\newcommand{\gc}[1]{
+  \circled{#1}{green}
+}
+\newcommand{\bc}[1]{
+  \circled{#1}{blue}
+}
+
+\newcommand{\R}{
+  \mathbb{R}
+}
+\newcommand{\N}{
+  \mathbb{N}
+}
+\newcommand{\Z}{
+  \mathbb{Z}
+}
+\newcommand{\Q}{
+  \mathbb{Q}
+}
+\newcommand{\C}{
+  \mathbb{C}
+}
+
+\newcounter{spalte}
+\newcounter{zeile}
+
+\newcommand{\spalte}[3]{
+\left(\begin{array}{c}
+  #1   \\
+  #2   \\
+  #3   \\
+\end{array}\right)
+}
+\newcommand{\spaltef}[4]{
+\left(\begin{array}{c}
+  #1   \\
+  #2   \\
+  #3   \\
+  #4   \\ 
+\end{array}\right)
+}
+\newcommand{\kopf}[4]{
+  
+    idx & 
+    %x werte
+      \setsepchar{ }
+      \forloop{spalte}{0}{\value{spalte} < #1}%
+        {
+        \readlist\arg{#3}
+        \arg[\fpeval{\thespalte+1}] &
+        } 
+      %funktionen
+      \setsepchar{ }
+      \forloop{spalte}{0}{\value{spalte} < #2}%
+        {
+        \readlist\arg{#4}
+        \arg[\fpeval{\thespalte+1}] \ifthenelse{\fpeval{#2-1}=\thespalte}{}{&}
+        }
+        \\\hline 
+}
+
+\begin{document}
+
+\begin{tabularx}{\linewidth}{m{0.5 \linewidth} X}
+    \begin{minipage}{\linewidth}
+      \STUDENTA\\
+    \end{minipage} & 
+    \begin{minipage}{\linewidth}
+      \punkteliste{\AUFGABENSTART}{\EXERCISES}
+    \end{minipage}\\
+  \end{tabularx}
+  \setcounter{aufgabe}{\AUFGABENSTART}%
+  \header{Nr. \NUMBER}{\DEADLINE}
+
+% ----------------------- TODO ---------------------------
+\section*{Aufgabe 1}
+
+\[
+(A|b)=
+\begin{pmatrix}
+  1 & 3 & 0 & | & 1 \\ 
+  2 & 1 & \lambda & | & 1 \\
+  1 & 5 & 4 & | & \beta
+\end{pmatrix}
+\]
+
+Ich wende die Gauß-Elimination an und erhalte:
+
+\[
+\begin{array}{c@{\hspace{2em}}l}
+\begin{pmatrix}
+1 & 3 & 0 & | & 1 \\
+2 & 1 & \lambda & | & 1 \\
+1 & 5 & 4 & | & \beta
+\end{pmatrix}
+&
+\begin{array}{l}
+\text{Apply operation } II - 2 \times I \text{ to row 2.} \\
+\text{Apply operation } I - 2 \times III \text{ to row 2.} \\
+\text{Apply operation } I - 1 \times III \text{ to row 1.}
+\end{array}
+\end{array}
+\]
+
+\[
+\begin{array}{c@{\hspace{2em}}l}
+\begin{pmatrix}
+1 & 3 & 0 & | & 1 \\
+0 & -5 & \lambda & | & -1 \\
+0 & -1 & 4 & | & \beta - 1
+\end{pmatrix}
+&
+\begin{array}{l}
+\text{Apply operation } III + \frac{1}{5} \times II \text{ to row 3.} \\
+\text{Apply operation } II \times -\frac{1}{5} \text{ to row 2.}
+\end{array}
+\end{array}
+\]
+
+
+\end{document}

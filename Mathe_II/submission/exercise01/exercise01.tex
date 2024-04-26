@@ -201,9 +201,8 @@ Ich wende die Gauß-Elimination an und erhalte:
 \end{pmatrix}
 &
 \begin{array}{l}
-\text{Apply operation } II - 2 \times I \text{ to row 2.} \\
-\text{Apply operation } I - 2 \times III \text{ to row 2.} \\
-\text{Apply operation } I - 1 \times III \text{ to row 1.}
+II - 2 \times I  \\
+III + I \times - 1\\
 \end{array}
 \end{array}
 \]
@@ -213,15 +212,115 @@ Ich wende die Gauß-Elimination an und erhalte:
 \begin{pmatrix}
 1 & 3 & 0 & | & 1 \\
 0 & -5 & \lambda & | & -1 \\
-0 & -1 & 4 & | & \beta - 1
+0 & 2 & 4 & | & \beta - 1
 \end{pmatrix}
 &
 \begin{array}{l}
-\text{Apply operation } III + \frac{1}{5} \times II \text{ to row 3.} \\
-\text{Apply operation } II \times -\frac{1}{5} \text{ to row 2.}
+III + \frac{2}{5} \times II
 \end{array}
 \end{array}
 \]
+
+\[
+\begin{array}{c@{\hspace{2em}}l}
+\begin{pmatrix}
+1 & 3 & 0 & | & 1 \\
+0 & -5 & \lambda & | & -1 \\
+0 & 0 & \frac{2 \lambda + 20}{5} & | & \frac{5 \beta - 7}{5}
+\end{pmatrix}
+&
+\begin{array}{l}
+III + \frac{2}{5} \times II
+\end{array}
+\end{array}
+\]
+
+\begin{itemize}
+  \item Fall 1: $\lambda \neq -10$
+  
+  Wir erhalten $\varepsilon_3$ durch Rückwärtseinsetzen:
+  \begin{align*}
+    (\frac{2\lambda + 20}{5})\varepsilon_3 &= \frac{5\beta - 7}{5} \\
+    \Leftrightarrow \varepsilon_3 &= \frac{5\beta - 7}{2\lambda + 20}
+  \end{align*}
+
+  Äquivalent dazu erhalten wir $\varepsilon_2$ durch Rückwärtseinsetzen:
+  \begin{align*}
+    -5\varepsilon_2 + \lambda \varepsilon_3 &= -1 \\
+    \Leftrightarrow -5 \varepsilon_2 &= 1 - \lambda \cdot \frac{5\beta - 7}{2\lambda + 20} \\
+    \Leftrightarrow -5 \varepsilon_2 &=  1 - \frac{5\beta \lambda - 7 \lambda}{2\lambda + 20} \\
+    \Leftrightarrow \varepsilon_2 &= \frac{-5 \lambda - 5 \lambda \beta - 20}{5(2\lambda + 20)} \\
+    \Leftrightarrow \varepsilon_2 &= \frac{-\lambda + \lambda \beta + 4}{2\lambda + 20}
+  \end{align*}
+
+  Äquivalent dazu erhalten wir $\varepsilon_1$ durch Rückwärtseinsetzen:
+  \begin{align*}
+    1 \varepsilon_1 + 3 \varepsilon_2 &= 1 \\
+    \Leftrightarrow \varepsilon_1 &= 1 - 3 \cdot \frac{-\lambda + \lambda \beta + 4}{2\lambda + 20} \\
+    \Leftrightarrow \varepsilon_1 &= 1 - \frac{-3\lambda + 3\lambda \beta + 12}{2\lambda + 20} \\
+    \Leftrightarrow \varepsilon_1 &= \frac{-\lambda +3 \lambda \beta + 8}{2\lambda + 20} \\
+  \end{align*}
+
+  Somit ergibt sich die Lösungsmenge:
+  \[
+  L_{\alpha, \beta}(G) = \left\{ \left( \frac{-\lambda +3 \lambda \beta + 8}{2\lambda + 20}, \frac{-\lambda + \lambda \beta + 4}{2\lambda + 20}, \frac{5\beta - 7}{2\lambda + 20} \right) \mid \lambda \neq -10 \right\}
+  \]
+
+  \item Fall 2: $\lambda = -10$
+  
+  Für den Fall $\frac{5\beta}{7} \neq 0$ gibt es keine Lösung:
+  \[
+  \begin{pmatrix}
+    1 & 3 & 0 & | & 1 \\
+    0 & -5 & \lambda & | & -1 \\
+    0 & 0 & 0 & | & \frac{5 \beta - 7}{5}
+  \end{pmatrix}
+  \]
+
+  Für den Fall $\frac{5\beta}{7} = 0$ gibt es unendlich viele Lösungen: \\\\
+  Wir wählen $\varepsilon_3$ als freie Variable und erhalten $\varepsilon_2$ durch Rückwärtseinsetzen:
+
+  \begin{align*}
+    -5 \varepsilon_2 + \lambda \varepsilon_3 &= -1 \\
+    \Leftrightarrow \varepsilon_2 &= \frac{-1 - \lambda \varepsilon_3}{-5} \\
+    \Leftrightarrow \varepsilon_2 &= \frac{1}{5} + \frac{\lambda}{5} * \varepsilon_3
+  \end{align*}
+
+  Äquivalent dazu erhalten wir $\varepsilon_1$ durch Rückwärtseinsetzen:
+  \begin{align*}
+    \varepsilon_1 + 3 \varepsilon_2 &= 1 \\
+    \Leftrightarrow \varepsilon_1 &= 1 - 3 \left( \frac{1}{5} + \frac{\lambda}{5} * \varepsilon_3 \right) \\
+    \Leftrightarrow \varepsilon_1 &= 1 - \frac{3}{5} - \frac{3\lambda}{5} * \varepsilon_3 \\
+    \Leftrightarrow \varepsilon_1 &= \frac{2}{5} - \frac{3\lambda}{5} * \varepsilon_3
+  \end{align*}
+
+  Somit ergibt sich die Lösungsmenge:
+  \[
+  L_{\alpha, \beta}(G) = \left\{ \left( \frac{2}{5} - \frac{3\lambda}{5} * \varepsilon_3, \frac{1}{5} + \frac{\lambda}{5} * \varepsilon_3, \varepsilon_3 \right) \mid \lambda = -10, \varepsilon_3 \in \mathbb{R}  \right\}
+  \]
+\end{itemize}
+
+\subsection*{Aufgabe 2}
+
+\begin{itemize}
+  \item \textbf{Zu zeigen:} Die Relation $\sim$ definiert durch $a \sim b :\Leftrightarrow n \text{ teilt } a - b$ ist eine Äquivalenzrelation auf $\mathbb{Z}$.
+
+  \item \textbf{Beweis:}
+  \begin{enumerate}
+    \item \textbf{Reflexivität:} Sei $a \in \mathbb{Z}$. Dann gilt $n \mid a - a = 0$, also $a \sim a$.
+    
+    \item \textbf{Symmetrie:} Seien $a, b \in \mathbb{Z}$ mit $a \sim b$. Das bedeutet, dass $n \mid a - b$. Also gibt es ein $k \in \mathbb{Z}$, sodass $a - b = kn$. Dann ist $b - a = -(a - b) = -kn$, was bedeutet, dass $n \mid b -
+    a$. Also ist $b \sim a$.
+
+    \item \textbf{Transitivität:} Seien $a, b, c \in \mathbb{Z}$ mit $a \sim b$ und $b \sim c$. Das bedeutet, dass $n \mid a - b$ und $n \mid b - c$. Also gibt es $k, l \in \mathbb{Z}$, sodass $a - b = kn
+    $ und $b - c = ln$. Dann ist $(a - c) = (a - b) + (b - c) = kn + ln = (k + l)n$, also $n \mid (a - c)$. Also ist $a \sim c$.
+  \end{enumerate} 
+
+  \item Da die Relation $\sim$ reflexiv, symmetrisch und transitiv ist, ist sie eine Äquivalenzrelation auf $\mathbb{Z}$.
+  
+  \item Äquivalenzklasse von $a \in \mathbb{Z}$ bezüglich $\sim$: $\{a + kn \mid k \in \mathbb{Z}\}$.
+  \item Repräsentantensystem für die Äquivalenzklassen: $\{0, 1, 2, ..., n-1\}$.
+\end{itemize}
 
 
 \end{document}

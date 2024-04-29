@@ -1,0 +1,279 @@
+% ----------------------- TODO ---------------------------
+% Diese Daten müssen pro Blatt angepasst werden:
+\newcommand{\NUMBER}{2}
+\newcommand{\EXERCISES}{3}
+\newcommand{\AUFGABENSTART}{1}
+\newcommand{\DEADLINE}{- Freitag bis 12 Uhr}
+% Diese Daten müssen einmalig pro Vorlesung angepasst werden:
+\newcommand{\COURSE}{Stochastik fur Studierende der Informatik}
+\newcommand{\TUTOR}{Timo Enger}
+\newcommand{\STUDENTA}{Albert Ratschinski (5154309)}
+% ----------------------- TODO ---------------------------
+
+\documentclass[a4paper]{scrartcl}
+
+\usepackage[utf8]{inputenc}
+\usepackage[ngerman]{babel}
+\usepackage{dsfont}
+\usepackage{amsmath}
+\usepackage{amssymb} % Added for square symbols
+\usepackage{fancyhdr}
+\usepackage{color}
+\usepackage{graphicx}
+\usepackage{lastpage}
+\usepackage{listings}
+\usepackage{tikz}
+\usepackage{pdflscape}
+\usepackage{subfigure}
+\usepackage{float}
+\usepackage{polynom}
+\usepackage{hyperref}
+\usepackage{tabularx}
+\usepackage{forloop}
+\usepackage{geometry}
+\usepackage{fancybox}
+\usepackage{stmaryrd}
+\usepackage{bbold}
+\usepackage{enumitem} % This package allows customization of lists
+
+\usetikzlibrary{calc,arrows}
+\usepackage{listings}
+\lstset{
+    basicstyle=\small\ttfamily,
+    breaklines=true,
+    numbers=left,
+    numberstyle=\tiny,
+    frame=tb,
+    columns=fullflexible
+}
+
+%Größe der Ränder setzen
+\geometry{a4paper,left=3cm, right=3cm, top=3cm, bottom=3cm}
+
+%Kopf- und Fußzeile
+\pagestyle {fancy}
+\fancyhead[L]{Tutor: \TUTOR}
+\fancyhead[C]{\COURSE}
+\fancyhead[R]{\today}
+
+\fancyfoot[L]{}
+\fancyfoot[C]{}
+\fancyfoot[R]{Seite \thepage /\pageref*{LastPage}}
+
+\newcounter{aufgabe}
+
+%Definition der Punktetabelle, hier nichts ändern
+
+\newcommand{\punkteliste}[2]{%
+
+  \begin{center}%
+  \begin{tabular}{*{#2}{c|} c| c}
+
+  Aufgabe: & 
+  \forloop{aufgabe}{0}{\value{aufgabe} < #2}%
+  {
+    \fpeval{\value{aufgabe}+#1} &
+  }   $\sum $\\
+ \hline
+ Punkte:
+ \forloop{aufgabe}{-1}{\value{aufgabe} < #2}%
+  {
+    &
+  } 
+  \end{tabular}
+  \end{center}
+}
+
+%Formatierung der Überschrift, hier nichts ändern
+\def\header#1#2{
+  \begin{center}
+    {\Large Exercise Sheet #1}\\
+    {(Deadline #2)}
+  \end{center}
+}
+
+\newcommand{\nextAufgabe}{
+  \section*{Aufgabe \theaufgabe}
+  \stepcounter{aufgabe}
+}
+\newcommand{\circled}[2]{
+  \tikz[baseline=(char.base)]{
+  \node[shape=circle,draw,color=#2,inner sep=2pt] (char) {#1};}
+}
+
+\newcommand{\rc}[1]{
+  \circled{#1}{red}
+}
+\newcommand{\gc}[1]{
+  \circled{#1}{green}
+}
+\newcommand{\bc}[1]{
+  \circled{#1}{blue}
+}
+
+\newcommand{\R}{
+  \mathbb{R}
+}
+\newcommand{\N}{
+  \mathbb{N}
+}
+\newcommand{\Z}{
+  \mathbb{Z}
+}
+\newcommand{\Q}{
+  \mathbb{Q}
+}
+\newcommand{\C}{
+  \mathbb{C}
+}
+
+\newcounter{spalte}
+\newcounter{zeile}
+
+\newcommand{\spalte}[3]{
+\left(\begin{array}{c}
+  #1   \\
+  #2   \\
+  #3   \\
+\end{array}\right)
+}
+\newcommand{\spaltef}[4]{
+\left(\begin{array}{c}
+  #1   \\
+  #2   \\
+  #3   \\
+  #4   \\ 
+\end{array}\right)
+}
+\newcommand{\kopf}[4]{
+  
+    idx & 
+    %x werte
+      \setsepchar{ }
+      \forloop{spalte}{0}{\value{spalte} < #1}%
+        {
+        \readlist\arg{#3}
+        \arg[\fpeval{\thespalte+1}] &
+        } 
+      %funktionen
+      \setsepchar{ }
+      \forloop{spalte}{0}{\value{spalte} < #2}%
+        {
+        \readlist\arg{#4}
+        \arg[\fpeval{\thespalte+1}] \ifthenelse{\fpeval{#2-1}=\thespalte}{}{&}
+        }
+        \\\hline 
+}
+
+\begin{document}
+
+\begin{tabularx}{\linewidth}{m{0.5 \linewidth} X}
+    \begin{minipage}{\linewidth}
+      \STUDENTA\\
+    \end{minipage} & 
+    \begin{minipage}{\linewidth}
+      \punkteliste{\AUFGABENSTART}{\EXERCISES}
+    \end{minipage}\\
+  \end{tabularx}
+  \setcounter{aufgabe}{\AUFGABENSTART}%
+  \header{Nr. \NUMBER}{\DEADLINE}
+
+% ----------------------- TODO ---------------------------
+\section*{Aufgabe 1}
+\subsection*{(a)}
+Gegeben sind:
+\begin{itemize}
+    \item 52 Buchstaben (Groß- und Kleinschreibung)
+    \item 10 Ziffern (0 bis 9)
+\end{itemize}
+
+Der Nutzername hat eine Länge von 5 Zeichen. Die Verteilung von Buchstaben und Ziffern kann folgende Formen annehmen:
+\begin{itemize}
+    \item 1 Buchstabe und 4 Ziffern
+    \item 2 Buchstaben und 3 Ziffern
+    \item 3 Buchstaben und 2 Ziffern
+    \item 4 Buchstaben und 1 Ziffer
+\end{itemize}
+
+Da keine Ziffer vor einem Buchstaben stehen darf, kommen die Ziffern immer nach den Buchstaben. Die Anzahl der Möglichkeiten für jede Konfiguration lässt sich mit der Formel berechnen:
+
+\[
+\text{Gesamtzahl} = \sum_{k=1}^{4} \binom{5}{k} \cdot 52^k \cdot 10^{5-k}
+\]
+
+Dabei ist \( k \) die Anzahl der Buchstaben. Der Ausdruck \( \binom{5}{k} \) ist der Binomialkoeffizient, der die Anzahl der Möglichkeiten angibt, \( k \) Buchstabenpositionen aus 5 auszuwählen. \( 52^k \) ist die Anzahl der Möglichkeiten, \( k \) Buchstaben auszuwählen, und \( 10^{5-k} \) ist die Anzahl der Möglichkeiten, \( 5-k \) Ziffern auszuwählen.
+
+Die einzelnen Terme lauten somit:
+\begin{align*}
+\text{Ein Buchstabe, vier Ziffern:} & \quad \binom{5}{1} \cdot 52^1 \cdot 10^4, \\
+\text{Zwei Buchstaben, drei Ziffern:} & \quad \binom{5}{2} \cdot 52^2 \cdot 10^3, \\
+\text{Drei Buchstaben, zwei Ziffern:} & \quad \binom{5}{3} \cdot 52^3 \cdot 10^2, \\
+\text{Vier Buchstaben, eine Ziffer:} & \quad \binom{5}{4} \cdot 52^4 \cdot 10^1.
+\end{align*}
+
+Addieren wir diese Werte, erhalten wir die Gesamtzahl der möglichen Nutzernamen unter den gegebenen Einschränkungen.
+
+\[
+\text{Gesamtzahl} = \binom{5}{1} \cdot 52^1 \cdot 10^4 + \binom{5}{2} \cdot 52^2 \cdot 10^3 + \binom{5}{3} \cdot 52^3 \cdot 10^2 + \binom{5}{4} \cdot 52^4 \cdot 10^1 = 535.828.800 \text{ Möglichkeiten}
+\]
+
+\subsection*{(b)}
+Gegeben sind: 
+\begin{itemize}
+    \item 52 Buchstaben (Groß- und Kleinschreibung)
+    \item 10 Ziffern (0 bis 9)
+    \item 8 Sonderzeichen
+\end{itemize}
+Die ersten drei Zeichen des Passworts müssen sich von denen des Nutzernamens unterscheiden. Daher gibt es genau $70 - 1$ Optionen für jedes der ersten drei Zeichen des Passworts, da sie nicht mit den entsprechenden Zeichen des Nutzernamens übereinstimmen dürfen.
+Für die verbleibenden fünf Zeichen des Passworts gibt es keine solchen Einschränkungen. Daher gibt es für jedes dieser Zeichen $70$ mögliche Optionen.
+Somit haben wir:
+
+\[
+  \text{Gesamtzahl} = 69 \cdot 69 \cdot 69 \cdot 70 \cdot 70 = 1.609.694.100 \text{ Möglichkeiten}
+\]
+
+\subsection*{(c)}
+Die Gesamtzahl der Paare (Nutzername, Passwort) ist das Produkt der Anzahl der möglichen Nutzernamen und der Anzahl der möglichen Passwörter.
+Somit:
+\[
+  \text{Gesamtzahl} = 535.828.800 \cdot 1.609.694.100 = 8,6252045797008e+17
+\]
+
+\section*{Aufgabe 2}
+Der Grundraum $\Omega$ umfasst alle möglichen Positionen auf dem Schachbrett. Da es sich um ein 8x8-Schachbrett handelt und jeder Figur 64 Positionen einnehmen kann, gibt es:
+\[
+  |\Omega| = 64 \cdot 64 = 4096 \text{ mögliche Positionen}
+\]
+\subsection*{(a)}
+Wir definieren die Menge A als die Menge der Positionen, die von einem Turm eingenommen werden können. Ein Turm kann sich in einer Zeile oder Spalte bewegen, daher gibt es 8 mögliche Positionen in einer Zeile und 8 mögliche Positionen in einer Spalte.
+Da der Turm sich nur in einer Zeile oder Spalte bewegen kann, gibt es insgesamt 16 mögliche Positionen, die der Turm einnehmen kann. Somit:
+\[
+  A = \{(x,y) \in \Omega  | row(x) = row(y) \text{ oder } col(x) = col(y)\}
+\]
+Es folgt:
+\[
+  |A| = 8 \cdot 64 + 8 \cdot 64 - 64 = 960.
+\]
+\text{(-64 für die Position, in der beide Türme gleichzeitig in der gleichen Zeile oder Spalte sind.)}
+und somit:
+\[
+  P(A) = \frac{|A|}{|\Omega|} = \frac{960}{4096} = \frac{15}{64}
+\]
+\subsection*{(b)}
+Wir definieren die Menge B als die Menge der Positionen, die von einem Läufer eingenommen werden können. Ein Läufer kann sich entlang einer Diagonale bewegen, daher gibt es 8 mögliche Positionen entlang einer Diagonale.
+\[
+  S = \{(x,y) \in \Omega  | Farbe(x) = Frabe(y)\}
+\]
+und
+\[
+  B = \{(x,y) \in S  | diag(x) = diag(y)\}
+\]
+Es folgt:
+\[
+  |B| = 2 \cdot (\binom{8}{2} + 2 \cdot \binom{7}{2} + 2 \cdot \binom{6}{2} + 2 \cdot \binom{5}{2} + 2 \cdot \binom{4}{2} + 2 \cdot \binom{3}{2} + 2 \cdot \binom{2}{2}) = 280.
+\]
+
+\[
+  P(B) = \frac{1}{2}\frac{|B|}{|\Omega|} = \frac{1}{2}\frac{280}{32*32} = \frac{}{}
+\]
+\end{document}

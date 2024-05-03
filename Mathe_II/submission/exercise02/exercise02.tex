@@ -1,0 +1,416 @@
+% ----------------------- TODO ---------------------------
+% Diese Daten müssen pro Blatt angepasst werden:
+\newcommand{\NUMBER}{2}
+\newcommand{\EXERCISES}{4}
+\newcommand{\AUFGABENSTART}{1}
+\newcommand{\DEADLINE}{- Freitag bis 14 Uhr}
+% Diese Daten müssen einmalig pro Vorlesung angepasst werden:
+\newcommand{\COURSE}{Mathematik II für Informatiker - SS 2024}
+\newcommand{\TUTOR}{Clara Wasmer}
+\newcommand{\STUDENTA}{Albert Ratschinski (5154309)}
+% ----------------------- TODO ---------------------------
+
+\documentclass[a4paper]{scrartcl}
+
+\usepackage[utf8]{inputenc}
+\usepackage[ngerman]{babel}
+\usepackage{dsfont}
+\usepackage{amsmath}
+\usepackage{amssymb} % Added for square symbols
+\usepackage{fancyhdr}
+\usepackage{color}
+\usepackage{graphicx}
+\usepackage{lastpage}
+\usepackage{listings}
+\usepackage{tikz}
+\usepackage{pdflscape}
+\usepackage{subfigure}
+\usepackage{float}
+\usepackage{polynom}
+\usepackage{hyperref}
+\usepackage{tabularx}
+\usepackage{forloop}
+\usepackage{geometry}
+\usepackage{fancybox}
+\usepackage{stmaryrd}
+\usepackage{bbold}
+\usepackage{enumitem} % This package allows customization of lists
+
+\usetikzlibrary{calc,arrows}
+\usepackage{listings}
+\lstset{
+    basicstyle=\small\ttfamily,
+    breaklines=true,
+    numbers=left,
+    numberstyle=\tiny,
+    frame=tb,
+    columns=fullflexible
+}
+
+%Größe der Ränder setzen
+\geometry{a4paper,left=3cm, right=3cm, top=3cm, bottom=3cm}
+
+%Kopf- und Fußzeile
+\pagestyle {fancy}
+\fancyhead[L]{Tutor: \TUTOR}
+\fancyhead[C]{\COURSE}
+\fancyhead[R]{\today}
+
+\fancyfoot[L]{}
+\fancyfoot[C]{}
+\fancyfoot[R]{Seite \thepage /\pageref*{LastPage}}
+
+\newcounter{aufgabe}
+
+%Definition der Punktetabelle, hier nichts ändern
+
+\newcommand{\punkteliste}[2]{%
+
+  \begin{center}%
+  \begin{tabular}{*{#2}{c|} c| c}
+
+  Aufgabe: & 
+  \forloop{aufgabe}{0}{\value{aufgabe} < #2}%
+  {
+    \fpeval{\value{aufgabe}+#1} &
+  }   $\sum $\\
+ \hline
+ Punkte:
+ \forloop{aufgabe}{-1}{\value{aufgabe} < #2}%
+  {
+    &
+  } 
+  \end{tabular}
+  \end{center}
+}
+
+%Formatierung der Überschrift, hier nichts ändern
+\def\header#1#2{
+  \begin{center}
+    {\Large Exercise Sheet #1}\\
+    {(Deadline #2)}
+  \end{center}
+}
+
+\newcommand{\nextAufgabe}{
+  \section*{Aufgabe \theaufgabe}
+  \stepcounter{aufgabe}
+}
+\newcommand{\circled}[2]{
+  \tikz[baseline=(char.base)]{
+  \node[shape=circle,draw,color=#2,inner sep=2pt] (char) {#1};}
+}
+
+\newcommand{\rc}[1]{
+  \circled{#1}{red}
+}
+\newcommand{\gc}[1]{
+  \circled{#1}{green}
+}
+\newcommand{\bc}[1]{
+  \circled{#1}{blue}
+}
+
+\newcommand{\R}{
+  \mathbb{R}
+}
+\newcommand{\N}{
+  \mathbb{N}
+}
+\newcommand{\Z}{
+  \mathbb{Z}
+}
+\newcommand{\Q}{
+  \mathbb{Q}
+}
+\newcommand{\C}{
+  \mathbb{C}
+}
+
+\newcounter{spalte}
+\newcounter{zeile}
+
+\newcommand{\spalte}[3]{
+\left(\begin{array}{c}
+  #1   \\
+  #2   \\
+  #3   \\
+\end{array}\right)
+}
+\newcommand{\spaltef}[4]{
+\left(\begin{array}{c}
+  #1   \\
+  #2   \\
+  #3   \\
+  #4   \\ 
+\end{array}\right)
+}
+\newcommand{\kopf}[4]{
+  
+    idx & 
+    %x werte
+      \setsepchar{ }
+      \forloop{spalte}{0}{\value{spalte} < #1}%
+        {
+        \readlist\arg{#3}
+        \arg[\fpeval{\thespalte+1}] &
+        } 
+      %funktionen
+      \setsepchar{ }
+      \forloop{spalte}{0}{\value{spalte} < #2}%
+        {
+        \readlist\arg{#4}
+        \arg[\fpeval{\thespalte+1}] \ifthenelse{\fpeval{#2-1}=\thespalte}{}{&}
+        }
+        \\\hline 
+}
+
+\begin{document}
+
+\begin{tabularx}{\linewidth}{m{0.5 \linewidth} X}
+    \begin{minipage}{\linewidth}
+      \STUDENTA\\
+    \end{minipage} & 
+    \begin{minipage}{\linewidth}
+      \punkteliste{\AUFGABENSTART}{\EXERCISES}
+    \end{minipage}\\
+  \end{tabularx}
+  \setcounter{aufgabe}{\AUFGABENSTART}%
+  \header{Nr. \NUMBER}{\DEADLINE}
+
+% ----------------------- TODO ---------------------------
+\section*{Aufgabe 1}
+\begin{enumerate}[label=\alph*)]
+  \item Ich zeige, dass $\mathbb{Z}_4$ kein Körper ist, indem ich zeige, dass mindestens eine der Körperaxiome nicht erfüllt ist:
+  \begin{itemize}
+    \item \textbf{Assoziativität der Addition und Multiplikation}
+    \item \textbf{Kommutativität der Addition und Multiplikation}
+    \item \textbf{Existenz eines neutralen Elements bezüglich der Addition und Multiplikation}
+    \item \textbf{Existenz eines inversen Elements bezüglich der Addition und Multiplikation}
+    \item \textbf{Distributivgesetz}
+  \end{itemize}
+
+  $\mathbb{Z}_4$ besteht aus den Elementen $\{0, 1, 2, 3\}$. Ich prüfe zunächst die ersten vier Axiome, die $\mathbb{Z}_4$ erfüllen muss:
+  \begin{itemize}
+    \item \textbf{Assoziativität und Kommutativität der Addition und Multiplikation} von $+_4 \text{ und } \cdot_4$ sind erfüllt, da die Operation modulo 4 diese Eigenschaft von den ganzen Zahlen bereits erfüllt.
+    \item \textbf{Neutrale Elemente:} 0 ist das additive neutrale Element, und 1 ist das multiplikative neutrale Element.
+    \item \textbf{Additives Inverses:} Jedes Element in $\mathbb{Z}_4$ hat ein additiv Inverses (0 zu 0, 1 zu 3, 2 zu 2, 3 zu 1).
+  \end{itemize}
+  Das mir entscheidende Problem für $\mathbb{Z}_4$ liegt bei der Existenz des multiplikativen Invesren. 
+  \begin{itemize}
+    \item \textbf{Multiplikatives Inverses:} Ein multiplikatives Invervses zu einem Element $a \in \mathbb{Z}_4$ ist ein Element $b \in \mathbb{Z}_4$, sodass $a \cdot_4 b = 1$.
+  \end{itemize}
+
+  Ich zeige, dass es kein multiplikatives Inverses für $2 \in \mathbb{Z}_4$ gibt:
+  \begin{align*}
+    2 \cdot_4 0 &= 0 \\
+    2 \cdot_4 1 &= 2 \\
+    2 \cdot_4 2 &= 0 \\
+    2 \cdot_4 3 &= 2 \\
+  \end{align*}
+  Da es kein Element $b \in \mathbb{Z}_4$ gibt, sodass $2 \cdot_4 b = 1$, ist $\mathbb{Z}_4$ kein Körper.
+  \newpage
+  \item 
+  \begin{itemize}
+    \item \textbf{Additionstabelle:} Die Additionstabelle für $\mathbb{F}_4$ ist gegeben durch:
+  \begin{itemize}
+  \item Die Werte für die Addition mit Null (neutrales Element) folgen trivial. 
+  \item Die Werte für die Addition mit Eins (additives Inverses) in \( \mathbb{F}_4 \) sind ebenfalls trivial.
+    \begin{itemize}
+      \item \( 0 + 1 = 1 \) und \( 1 + 1 = 0 \)
+      \item \( a + 1 = b \) und \( b + 1 = a \)
+    \end{itemize}
+  \item Die Werte für die Addition mit \( a \) und \( b \) folgen aus den Eigenschaften der Addition in \( \mathbb{F}_4 \).
+  \begin{itemize}
+    \item \( a + a = 0 \) und \( b + b = 0 \)
+    \item \(a + b = 1 \) und \( b + a = 1 \) - dies folgt durch Fallunterscheidung der Addition in \( \mathbb{F}_4 \). Für den Fall \( a + b \) gibt es zwei Möglichkeiten: \( a + b = 0 \) oder \( a + b = 1 \).
+    \begin{itemize}
+      \item \( a + b = 0 \) ist nicht möglich, da \( a \) und \( b \) unterschiedliche Elemente sind.
+      \item $( a + b = 1 ) = a + (a + 1) = a + a + 1 = 0 + 1 = 1$
+    \end{itemize} 
+  \end{itemize}
+  \end{itemize}
+  Somit foglt die gegebnene Additionstabelle für \( \mathbb{F}_4 \):
+  \[
+    \begin{array}{c|cccc}
+    + & 0 & 1 & a & b \\
+    \hline
+    0 & 0 & 1 & a & b \\
+    1 & 1 & 0 & b & a \\
+    a & a & b & 0 & 1 \\
+    b & b & a & 1 & 0 \\
+    \end{array}
+    \]
+  \item \textbf{Multiplikationstabelle:} Die Multiplikation für $\mathbb{F}_4$ ist gegeben durch:
+  \begin{itemize}
+    \item Die Werte für die Multiplikation mit Null folgen trivial. 
+    \item Die Werte für die Multiplikation mit Eins (neutrales Element) in \( \mathbb{F}_4 \) sind ebenfalls trivial.
+    \item Die Werte für die Multiplikation mit \( a \) und \( b \) unter der Annahme, dass \(a^2 = a + 1\) und \(b^2 = b + 1\).
+    \begin{itemize}
+        \item $a \times a = a^2 = a + 1$, nach der Definition von $a$.
+        \item $a \times b$: Da $a \times b$ ein Element in $\mathbb{F}_4$ sein muss und wir wissen, dass $\{0,1,a,b\}$ abgeschlossen unter Multiplikation ist, muss $a \times b$ das fehlende Element sein, wenn wir $a$, $b$, $0$, $1$ als Ergebnisse betrachten. Wenn $a^2 = a + 1 = b$, dann $a \times b = 1$, da $a$, $b$ invers zueinander sein müssen.
+        \item $b \times b$: Wegen der symmetrischen Eigenschaften und weil $a \times b = 1$ und $b$ ein anderes Element als $a$ ist, muss $b^2 = b + 1 = a$.
+    \end{itemize}
+    \end{itemize}
+    Somit foglt die gegebnene Multiplikationstabelle für \( \mathbb{F}_4 \):
+  \[
+  \begin{array}{c|cccc}
+  \times & 0 & 1 & a & b \\
+  \hline
+  0 & 0 & 0 & 0 & 0 \\
+  1 & 0 & 1 & a & b \\
+  a & 0 & a & b & 1 \\
+  b & 0 & b & 1 & a \\
+  \end{array}
+  \]
+  \end{itemize}
+\end{enumerate}
+
+\newpage
+\section*{Aufgabe 2}
+\begin{enumerate}[label=\alph*)]
+  \item Um zu entscheiden, ob die Menge 
+  \[
+  \left\{ \begin{pmatrix} a \\ b \\ c \end{pmatrix} \mid a, b, c \in \mathbb{Q} \right\}
+  \]
+  ein \(\mathbb{R}\)-Untervektorraum des \(\mathbb{R}^3\) ist, müssen wir prüfen, ob diese Menge drei grundlegende Eigenschaften erfüllt, die für einen Untervektorraum notwendig sind:
+  
+  \begin{enumerate}
+      \item \textbf{Vorhandensein des Nullvektors}\\
+      Der Nullvektor in \(\mathbb{R}^3\) ist \(\begin{pmatrix} 0 \\ 0 \\ 0 \end{pmatrix}\), und da \(0 \in \mathbb{Q}\), gehört der Nullvektor zur gegebenen Menge. Diese Bedingung ist somit erfüllt.
+      
+      \item \textbf{Abgeschlossenheit bezüglich der Vektoraddition}\\
+      Wenn \(\begin{pmatrix} a \\ b \\ c \end{pmatrix}\) und \(\begin{pmatrix} a' \\ b' \\ c' \end{pmatrix}\) zwei Vektoren der Menge sind, mit \(a, b, c, a', b', c' \in \mathbb{Q}\), dann ist ihre Summe 
+      \[
+      \begin{pmatrix} a \\ b \\ c \end{pmatrix} + \begin{pmatrix} a' \\ b' \\ c' \end{pmatrix} = \begin{pmatrix} a+a' \\ b+b' \\ c+c' \end{pmatrix}
+      \]
+      Da die Summe zweier rationaler Zahlen wieder rational ist (\(a+a', b+b', c+c' \in \mathbb{Q}\)), ist die Menge abgeschlossen unter Addition.
+      
+      \item \textbf{Abgeschlossenheit bezüglich der Skalarmultiplikation}\\
+      Hier prüfen wir, ob das Produkt eines Skalars \(r \in \mathbb{R}\) mit einem Vektor \(\begin{pmatrix} a \\ b \\ c \end{pmatrix}\), wobei \(a, b, c \in \mathbb{Q}\), immer noch in der Menge liegt. Das Produkt ist 
+      \[
+      r \begin{pmatrix} a \\ b \\ c \end{pmatrix} = \begin{pmatrix} ra \\ rb \\ rc \end{pmatrix}
+      \]
+      Da \(r\) eine reelle Zahl sein kann und nicht notwendigerweise rational sein muss, können die Produkte \(ra, rb, rc\) irrational sein, wenn \(r\) irrational ist. Zum Beispiel würde \(r = \sqrt{2}\) und \(a = b = c = 1\) zu \(\begin{pmatrix} \sqrt{2} \\ \sqrt{2} \\ \sqrt{2} \end{pmatrix}\) führen, ein Vektor, dessen Komponenten nicht rational sind und somit nicht in der Menge enthalten sind.
+  \end{enumerate}
+  \item Um zu entscheiden, ob die Menge
+  \[
+  \left\{ \alpha \cdot \begin{pmatrix} 0 \\ 1 \\ 2 \end{pmatrix} + \begin{pmatrix} 1 \\ 2 \\ 4 \end{pmatrix} \mid \alpha \in \mathbb{R} \right\}
+  \]
+  ein \(\mathbb{R}\)-Untervektorraum des \(\mathbb{R}^3\) ist, müssen wir die drei grundlegenden Eigenschaften eines Untervektorraums überprüfen:
+  
+  \textbf{a) Vorhandensein des Nullvektors}
+  
+  Für den Nullvektor muss gelten, dass er durch eine lineare Kombination der Vektoren in der Menge mit Skalaren aus \(\mathbb{R}\) darstellbar ist. Der Nullvektor in \(\mathbb{R}^3\) ist \(\begin{pmatrix} 0 \\ 0 \\ 0 \end{pmatrix}\). Setzen wir diesen in unsere Menge ein, erhalten wir die Gleichung:
+  \[
+  \alpha \cdot \begin{pmatrix} 0 \\ 1 \\ 2 \end{pmatrix} + \begin{pmatrix} 1 \\ 2 \\ 4 \end{pmatrix} = \begin{pmatrix} 0 \\ 0 \\ 0 \end{pmatrix}
+  \]
+  Dies lässt sich umformen zu:
+  \[
+  \begin{pmatrix} 0 \\ \alpha + 2 \\ 2\alpha + 4 \end{pmatrix} = \begin{pmatrix} 0 \\ 0 \\ 0 \end{pmatrix}
+  \]
+  Aus den letzten beiden Gleichungen ergibt sich für \(\alpha\):
+  \[
+  \alpha + 2 = 0 \Rightarrow \alpha = -2
+  \]
+  \[
+  2\alpha + 4 = 0 \Rightarrow 2(-2) + 4 = 0
+  \]
+  Die Gleichungen sind konsistent und zeigen, dass \(\alpha = -2\) eine mögliche Lösung ist, um den Nullvektor zu erzeugen. Allerdings führt die spezifische Kombination von \(\alpha = -2\) und dem konstanten Vektor \(\begin{pmatrix} 1 \\ 2 \\ 4 \end{pmatrix}\) dazu, dass der resultierende Vektor nicht der Nullvektor ist:
+  \[
+  -2 \cdot \begin{pmatrix} 0 \\ 1 \\ 2 \end{pmatrix} + \begin{pmatrix} 1 \\ 2 \\ 4 \end{pmatrix} = \begin{pmatrix} 1 \\ -2 + 2 \\ -4 + 4 \end{pmatrix} = \begin{pmatrix} 1 \\ 0 \\ 0 \end{pmatrix}
+  \]
+  Dies ist ein Widerspruch. Daher kann der Nullvektor nicht als Linearkombination dieser Form in der Menge erzeugt werden, ohne den konstanten Vektor \(\begin{pmatrix} 1 \\ 2 \\ 4 \end{pmatrix}\) zu modifizieren.
+  
+  \textbf{Schlussfolgerung}
+  
+  Da die Menge den Nullvektor nicht enthält, ist sie \textit{kein} \(\mathbb{R}\)-Untervektorraum des \(\mathbb{R}^3\). Dies ist eine grundlegende Anforderung, die nicht erfüllt ist, daher müssen wir nicht weiter prüfen (Addition oder Skalarmultiplikation).
+  
+  \newpage
+
+  \item Um zu entscheiden, ob die Menge 
+  \[
+  \left\{ \alpha \cdot \begin{pmatrix} 2 \\ 1 \\ 2 \end{pmatrix} + \begin{pmatrix} -4 \\-2 \\ -4 \end{pmatrix} \mid \alpha \in \mathbb{R} \right\}
+  \]
+  ein \(\mathbb{R}\)-Untervektorraum des \(\mathbb{R}^3\) ist, müssen wir prüfen, ob diese Menge drei grundlegende Eigenschaften erfüllt, die für einen Untervektorraum notwendig sind:
+  
+\begin{enumerate}[label=\alph*)]
+  \item Vorhandensein des Nullvektors\\
+  Der Nullvektor in \(\mathbb{R}^3\) ist \(\begin{pmatrix} 0 \\ 0 \\ 0 \end{pmatrix}\). Setzen wir $\alpha = 2$ in unsere Menge ein, erhalten wir die Gleichung:
+  \[
+  2 \cdot \begin{pmatrix} 2 \\ 1 \\ 2 \end{pmatrix} + \begin{pmatrix} -4 \\ -2 \\ -4 \end{pmatrix} = \begin{pmatrix} 0 \\ 0 \\ 0 \end{pmatrix}
+  \]
+  Somit ist der Nullvektor in der Menge enthalten.
+  \item Abgeschlossenheit bezüglich der Vektoraddition\\
+  Es muss gelten für alle $u, v \in V$ auch $u + v \in V$. 
+  In der gegebenen Menge betrachten wir zwei allgemeine Vektoren:
+  \[
+    v_1 = \alpha_1 \cdot \begin{pmatrix} 2 \\ 1 \\ 2 \end{pmatrix} + \begin{pmatrix} -4 \\ -2 \\ -4 \end{pmatrix}
+    \text{ und }
+    v_2 = \alpha_2 \cdot \begin{pmatrix} 2 \\ 1 \\ 2 \end{pmatrix} + \begin{pmatrix} -4 \\ -2 \\ -4 \end{pmatrix}
+  \]
+  Die Addition dieser Vektoren ergibt:
+  \begin{align*}
+    v_1 + v_2 &= (\alpha_1 + \alpha_2) \cdot \begin{pmatrix} 2 \\ 1 \\ 2 \end{pmatrix} + 2 \cdot \begin{pmatrix} -4 \\ -2 \\ -4 \end{pmatrix} \\
+    &= (\alpha_1 + \alpha_2) \cdot \begin{pmatrix} 2 \\ 1 \\ 2 \end{pmatrix} - \begin{pmatrix} 8 \\ 4 \\ 8 \end{pmatrix}
+\end{align*}
+Die Summe der Vektoren $v_1$ und $v_2$ kann umgeformt werden zu einem Vektor in $V$ durch Einstellen von $\gamma = \alpha_1 + \alpha_2$ und Berücksichtigung, dass der konstante Vektor $\begin{pmatrix} -4 \\ -2 \\ -4 \end{pmatrix}$ sich skalieren lässt. Daher ist $V$ abgeschlossen unter Addition.
+\item Abgeschlossen unter der Skalarmultiplikation\\
+Sei \(\lambda \in \mathbb{R}\) und \(v \in V\):
+
+\[
+\lambda v = \lambda \left( \alpha \begin{pmatrix} 2 \\ 1 \\ 2 \end{pmatrix} + \begin{pmatrix} -4 \\ -2 \\ -4 \end{pmatrix} \right)
+\]
+
+\[
+= \lambda \alpha \begin{pmatrix} 2 \\ 1 \\ 2 \end{pmatrix} + \lambda \begin{pmatrix} -4 \\ -2 \\ -4 \end{pmatrix}
+\]
+
+Dies ist wiederum ein Vektor in \(V\) mit \(\gamma = \lambda \alpha\) und dem entsprechenden skalierten konstanten Vektor. Daher ist \(V\) abgeschlossen unter Skalarmultiplikation.
+
+\textbf{Schlussfolgerung:} Da \(V\) den Nullvektor enthält, unter Addition und Skalarmultiplikation abgeschlossen ist, ist \(V\) ein Untervektorraum von \(\mathbb{R}^3\).
+\end{enumerate}
+\end{enumerate}
+
+\section*{Aufgabe 3}
+\subsection*{a) Vektorraumstruktur von $U \subseteq \mathbb{R}^3$}
+
+Die Menge $U$ wird beschrieben durch:
+\[ U = \left\{ \begin{pmatrix} x_1 \\ x_2 \\ x_3 \end{pmatrix} \in \mathbb{R}^3 \mid 2x_1 + 4x_2 = 1 \right\} \]
+
+Um zu überprüfen, ob $U$ einen Untervektorraum des $\mathbb{R}^3$ bildet, müssen zwei Bedingungen erfüllt sein: Die Abgeschlossenheit bezüglich der Vektoraddition und der Skalarmultiplikation. Zudem muss der Nullvektor in $U$ enthalten sein.
+
+\begin{itemize}
+    \item Nullvektor: Der Nullvektor im $\mathbb{R}^3$ ist $\begin{pmatrix} 0 \\ 0 \\ 0 \end{pmatrix}$. Setzt man diesen in die Bedingung $2x_1 + 4x_2 = 1$ ein, ergibt sich $2 \cdot 0 + 4 \cdot 0 = 0$, was ungleich 1 ist. Also ist der Nullvektor nicht in $U$, was bereits zeigt, dass $U$ kein Untervektorraum ist.
+\end{itemize}
+
+Da der Nullvektor nicht enthalten ist, ist $U$ kein Untervektorraum von $\mathbb{R}^3$.
+
+\subsection*{b) Untervektorraumstruktur von $V \subseteq \mathbb{R}^4$}
+
+Die Menge $V$ wird definiert als:
+\[ V = \left\{ \begin{pmatrix} x_1 \\ x_2 \\ x_3 \\ x_4 \end{pmatrix} \in \mathbb{R}^4 \mid x_2 = x_1 - 2x_3 + x_4 \right\} \]
+Zu zeigen ist, dass $V$ ein Untervektorraum ist und von den Vektoren $v_1, v_2, v_3$ aufgespannt wird.
+\begin{itemize}
+    \item Nullvektor: Setzen wir $x_1 = x_3 = x_4 = 0$ ein, folgt $x_2 = 0 - 2\cdot0 + 0 = 0$. Damit ist der Nullvektor in $V$ enthalten.
+    
+    \item Abgeschlossenheit unter Addition: Seien $\begin{pmatrix} x_1 \\ x_1 - 2x_3 + x_4 \\ x_3 \\ x_4 \end{pmatrix}$ und $\begin{pmatrix} y_1 \\ y_1 - 2y_3 + y_4 \\ y_3 \\ y_4 \end{pmatrix}$ in $V$. Die Summe ist $\begin{pmatrix} x_1 + y_1 \\ (x_1 + y_1) - 2(x_3 + y_3) + (x_4 + y_4) \\ x_3 + y_3 \\ x_4 + y_4 \end{pmatrix}$, was ebenfalls die Bedingung $x_2 = x_1 - 2x_3 + x_4$ erfüllt.
+    
+    \item Abgeschlossenheit unter Skalarmultiplikation: Für einen Skalar $k$ und $\begin{pmatrix} x_1 \\ x_1 - 2x_3 + x_4 \\ x_3 \\ x_4 \end{pmatrix}$ in $V$ gilt für $k \cdot \begin{pmatrix} x_1 \\ x_1 - 2x_3 + x_4 \\ x_3 \\ x_4 \end{pmatrix} = \begin{pmatrix} kx_1 \\ kx_1 - 2kx_3 + kx_4 \\ kx_3 \\ kx_4 \end{pmatrix}$, was wieder die Bedingung erfüllt.
+\end{itemize}
+$V$ ist also ein Untervektorraum.
+\textbf{Aufspannen durch $v_1, v_2, v_3$:}
+Vergleichen wir nun, ob sich jeder Vektor in $V$ als Linearkombination von $v_1, v_2, v_3$ darstellen lässt. Dies kann überprüft werden, indem man die Vektoren $v_1, v_2, v_3$ als Spaltenvektoren in eine Matrix einträgt und prüft, ob die resultierende Matrix den ganzen Raum $V$ beschreibt. Wenn das der Fall ist, spannen sie $V$ auf.
+Um zu zeigen, dass die Vektoren $v_1, v_2, v_3$ den Untervektorraum $V$ aufspannen, müssen wir überprüfen, ob jeder Vektor in $V$ als Linearkombination dieser Vektoren dargestellt werden kann. Das bedeutet, wir müssen die lineare Unabhängigkeit der Vektoren überprüfen und sehen, ob sie den gesamten Raum $V$ abdecken.
+Die Vektoren $v_1, v_2, v_3$ sind gegeben durch:
+\[ v_1 = \begin{pmatrix} 0 \\ -1 \\ 1 \\ 1 \end{pmatrix}, \quad v_2 = \begin{pmatrix} 1 \\ 2 \\ 0 \\ 1 \end{pmatrix}, \quad v_3 = \begin{pmatrix} 1 \\ -1 \\ 1 \\ 0 \end{pmatrix} \]
+
+Wir können diese Vektoren als Spalten einer Matrix schreiben:
+\[ A = \begin{pmatrix} 0 & 1 & 1 \\ -1 & 2 & -1 \\ 1 & 0 & 1 \\ 1 & 1 & 0 \end{pmatrix} \]
+
+Um zu überprüfen, ob $v_1, v_2, v_3$ linear unabhängig sind und ob sie $V$ aufspannen, betrachten wir die reduzierte Zeilenstufenform von $A$. Wenn jede Zeile der reduzierten Zeilenstufenform von $A$ eine Pivotspalte hat, sind die Vektoren linear unabhängig und spannen den Raum auf.
+\[ A = \begin{pmatrix} 1 & 0 & 1 \\ 0 & 1 & -1 \\ 0 & 0 & 0 \\ 0 & 0 & 0 \end{pmatrix} \]
+Da die dritte und vierte Zeile der reduzierten Zeilenstufenform Nullzeilen sind, haben $v_1, v_2, v_3$ nur zwei unabhängige Vektoren. Das bedeutet, sie spannen keinen 4-dimensionalen Raum auf, sondern lediglich eine Ebene oder einen 2-dimensionalen Unterraum.
+Daher spannen die Vektoren $v_1, v_2, v_3$ den Unterraum $V$ nicht auf, da sie nicht linear unabhängig sind und nicht den gesamten Raum $V$ abdecken.
+
+\end{document}

@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.3) (preloaded format=pdflatex 2024.4.18)  2 MAY 2024 15:34
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.3) (preloaded format=pdflatex 2024.4.18)  30 APR 2024 09:22
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**/home/albertd/Documents/University/university-content/Stochastik/submissions/exercise02/exercise02.tex
-(/home/albertd/Documents/University/university-content/Stochastik/submissions/exercise02/exercise02.tex
+**/home/albertd/Documents/University/university-content/Stochastik/submissions/exercise01/correction/c1.tex
+(/home/albertd/Documents/University/university-content/Stochastik/submissions/exercise01/correction/c1.tex
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-03-14>
 (/home/albertd/.miktex/texmfs/install/tex/latex/koma-script/scrartcl.cls
@@ -714,9 +714,7 @@ Package: enumitem 2019/06/20 v3.9 Customized lists
 \enit@inbox=\box74
 \enit@count@id=\count329
 \enitdp@description=\count330
-) (/home/albertd/.miktex/texmfs/install/tex/latex/comment/comment.sty
-\CommentStream=\write5
- Excluding comment 'comment') (/usr/local/share/miktex-texmf/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarycalc.code.tex
+) (/usr/local/share/miktex-texmf/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarycalc.code.tex
 File: tikzlibrarycalc.code.tex 2023-01-15 v3.1.10 (3.1.10)
 ) (/usr/local/share/miktex-texmf/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryarrows.code.tex
 File: tikzlibraryarrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
@@ -731,36 +729,36 @@ File: pgflibraryarrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
 File: l3backend-pdftex.def 2024-03-14 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count334
 \l__pdf_internal_box=\box75
-) (exercise02.aux)
-\openout1 = `exercise02.aux'.
+) (c1.aux)
+\openout1 = `c1.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 169.
-LaTeX Font Info:    ... okay on input line 169.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 169.
-LaTeX Font Info:    ... okay on input line 169.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 169.
-LaTeX Font Info:    ... okay on input line 169.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 169.
-LaTeX Font Info:    ... okay on input line 169.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 169.
-LaTeX Font Info:    ... okay on input line 169.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 169.
-LaTeX Font Info:    ... okay on input line 169.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 169.
-LaTeX Font Info:    ... okay on input line 169.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 169.
-LaTeX Font Info:    ... okay on input line 169.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 169.
-LaTeX Font Info:    ... okay on input line 169.
-Package scrbase Info: activating ngerman \abstractname on input line 169.
-Package scrbase Info: activating ngerman \partname on input line 169.
-Package scrbase Info: activating ngerman \figurename on input line 169.
-Package scrbase Info: activating ngerman \tablename on input line 169.
-Package scrbase Info: activating ngerman \contentsname on input line 169.
-Package scrbase Info: activating ngerman \listfigurename on input line 169.
-Package scrbase Info: activating ngerman \listtablename on input line 169.
-Package scrbase Info: activating ngerman \refname on input line 169.
-Package scrbase Info: activating ngerman \indexname on input line 169.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 168.
+LaTeX Font Info:    ... okay on input line 168.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 168.
+LaTeX Font Info:    ... okay on input line 168.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 168.
+LaTeX Font Info:    ... okay on input line 168.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 168.
+LaTeX Font Info:    ... okay on input line 168.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 168.
+LaTeX Font Info:    ... okay on input line 168.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 168.
+LaTeX Font Info:    ... okay on input line 168.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 168.
+LaTeX Font Info:    ... okay on input line 168.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 168.
+LaTeX Font Info:    ... okay on input line 168.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 168.
+LaTeX Font Info:    ... okay on input line 168.
+Package scrbase Info: activating ngerman \abstractname on input line 168.
+Package scrbase Info: activating ngerman \partname on input line 168.
+Package scrbase Info: activating ngerman \figurename on input line 168.
+Package scrbase Info: activating ngerman \tablename on input line 168.
+Package scrbase Info: activating ngerman \contentsname on input line 168.
+Package scrbase Info: activating ngerman \listfigurename on input line 168.
+Package scrbase Info: activating ngerman \listtablename on input line 168.
+Package scrbase Info: activating ngerman \refname on input line 168.
+Package scrbase Info: activating ngerman \indexname on input line 168.
  (/usr/local/share/miktex-texmf/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count335
@@ -781,12 +779,12 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
 \c@lstlisting=\count341
-Package tocbasic Info: setting babel extension for `lol' on input line 169.
+Package tocbasic Info: setting babel extension for `lol' on input line 168.
 \scr@dte@lstlisting@maxnumwidth=\skip86
-Package hyperref Info: Link coloring OFF on input line 169.
- (exercise02.out) (exercise02.out)
-\@outlinefile=\write6
-\openout6 = `exercise02.out'.
+Package hyperref Info: Link coloring OFF on input line 168.
+ (c1.out) (c1.out)
+\@outlinefile=\write5
+\openout5 = `c1.out'.
 
 Class scrartcl Info: loading recommended package `bookmark'.
 (scrartcl)           Using `bookmark' together with `hyperref' is recommended,
@@ -795,7 +793,7 @@ Class scrartcl Info: loading recommended package `bookmark'.
 (scrartcl)           `bookmarkpackage=false' before \begin{document} and
 (scrartcl)           you can avoid this message adding:
 (scrartcl)             \usepackage{bookmark}
-(scrartcl)           before \begin{document} on input line 169.
+(scrartcl)           before \begin{document} on input line 168.
  (/home/albertd/.miktex/texmfs/install/tex/latex/bookmark/bookmark.sty
 Package: bookmark 2023-12-10 v1.31 PDF bookmarks (HO)
  (/home/albertd/.miktex/texmfs/install/tex/latex/bookmark/bkm-pdftex.def
@@ -846,41 +844,11 @@ Overfull \hbox (10.95003pt too wide) in paragraph at lines 177--179
 [][] 
  []
 
-
-Overfull \hbox (45.3923pt too wide) detected at line 217
-[] \OT1/cmr/m/n/10.95 = [] \OMS/cmsy/m/n/10.95 ^^A \OT1/cmr/m/n/10.95 52[] \OMS/cmsy/m/n/10.95 ^^A \OT1/cmr/m/n/10.95 10[] + [] \OMS/cmsy/m/n/10.95 ^^A \OT1/cmr/m/n/10.95 52[] \OMS/cmsy/m/n/10.95 ^^A \OT1/cmr/m/n/10.95 10[] + [] \OMS/cmsy/m/n/10.95 ^^A \OT1/cmr/m/n/10.95 52[] \OMS/cmsy/m/n/10.95 ^^A \OT1/cmr/m/n/10.95 10[] + [] \OMS/cmsy/m/n/10.95 ^^A \OT1/cmr/m/n/10.95 52[] \OMS/cmsy/m/n/10.95 ^^A \OT1/cmr/m/n/10.95 10[] = 535\OML/cmm/m/it/10.95 :\OT1/cmr/m/n/10.95 828\OML/cmm/m/it/10.95 :\OT1/cmr/m/n/10.95 800[]
- []
-
 [1{/home/albertd/.miktex/texmfs/data/fonts/map/pdftex/pdftex.map}
 
 ]
-Overfull \hbox (14.15947pt too wide) in paragraph at lines 226--229
-\OT1/cmr/m/n/10.95 Die ersten drei Zeichen des Passworts m[]ussen sich von denen des Nutzernamens unterscheiden.
- []
-
-
-Overfull \hbox (8.76181pt too wide) in paragraph at lines 235--237
-\OT1/cmr/m/n/10.95 Die Gesamtzahl der Paare (Nutzername, Passwort) ist das Produkt der Anzahl der m[]oglichen
- []
-
-
-Overfull \hbox (2.48077pt too wide) in paragraph at lines 250--252
-\OT1/cmr/m/n/10.95 Wir definieren die Menge $\OML/cmm/m/it/10.95 A$ \OT1/cmr/m/n/10.95 als die Menge der Positionen, die von einem Turm eingenommen
- []
-
-
-Overfull \hbox (8.74667pt too wide) in paragraph at lines 254--257
-\OT1/cmr/m/n/10.95 Die Subtraktion von 64 ist notwendig, um die doppelte Z[]ahlung der Positionen zu korrigieren,
- []
-
-
-Overfull \hbox (41.99811pt too wide) in paragraph at lines 254--257
-\OT1/cmr/m/n/10.95 bei denen sich beide T[]urme in derselben Zeile oder Spalte befinden. Somit ist die Wahrscheinlichkeit,
- []
-
-
-Overfull \hbox (7.53375pt too wide) in paragraph at lines 262--264
-\OT1/cmr/m/n/10.95 Wir definieren die Menge $\OML/cmm/m/it/10.95 B$ \OT1/cmr/m/n/10.95 als die Menge der Positionen, die von einem L[]aufer eingenommen
+Overfull \hbox (23.01324pt too wide) in paragraph at lines 259--260
+[][]\OT1/cmr/m/n/10.95 Aquivalent zur vorherigen Aufgabe, gibt es zwei M[]oglichkeiten, die die Wahrscheinlichkeit:
  []
 
 [2]
@@ -890,26 +858,26 @@ Underfull \hbox (badness 10000) in paragraph at lines 288--289
 
 [3] 
 enddocument/afterlastpage: lastpage setting LastPage.
-(exercise02.aux)
+(c1.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-03-14>
  ***********
-Package rerunfilecheck Info: File `exercise02.out' has not changed.
+Package rerunfilecheck Info: File `c1.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 28782 strings out of 476359
- 544539 string characters out of 5793823
- 1945493 words of memory out of 5000000
- 50393 multiletter control sequences out of 15000+600000
- 565155 words of font info for 63 fonts, out of 8000000 for 9000
+ 28745 strings out of 476359
+ 543688 string characters out of 5793823
+ 1948493 words of memory out of 5000000
+ 50353 multiletter control sequences out of 15000+600000
+ 565468 words of font info for 64 fonts, out of 8000000 for 9000
  0 hyphenation exceptions out of 8191
- 108i,12n,107p,10993b,557s stack positions out of 10000i,1000n,20000p,200000b,200000s
- </home/albertd/.miktex/texmfs/data/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm1095.pk></usr/local/share/miktex-texmf/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/share/miktex-texmf/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/share/miktex-texmf/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/share/miktex-texmf/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/share/miktex-texmf/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/share/miktex-texmf/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/share/miktex-texmf/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/local/share/miktex-texmf/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/share/miktex-texmf/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on exercise02.pdf (3 pages, 115289 bytes).
+ 108i,17n,107p,10996b,681s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/local/share/miktex-texmf/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/share/miktex-texmf/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/share/miktex-texmf/fonts/type1/public/amsfonts/cmextra/cmex8.pfb></usr/local/share/miktex-texmf/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/share/miktex-texmf/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/share/miktex-texmf/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/share/miktex-texmf/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/share/miktex-texmf/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/share/miktex-texmf/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/share/miktex-texmf/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/share/miktex-texmf/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/local/share/miktex-texmf/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/share/miktex-texmf/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/share/miktex-texmf/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/share/miktex-texmf/fonts/type1/public/amsfonts/cm/cmti10.pfb>
+Output written on c1.pdf (3 pages, 190258 bytes).
 PDF statistics:
- 84 PDF objects out of 1000 (max. 8388607)
- 13 named destinations out of 1000 (max. 500000)
+ 116 PDF objects out of 1000 (max. 8388607)
+ 19 named destinations out of 1000 (max. 500000)
  13 words of extra memory for PDF output out of 10000 (max. 10000000)
 

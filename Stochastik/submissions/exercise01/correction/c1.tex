@@ -1,0 +1,298 @@
+% ----------------------- TODO ---------------------------
+% Diese Daten müssen pro Blatt angepasst werden:
+\newcommand{\NUMBER}{1}
+\newcommand{\EXERCISES}{4}
+\newcommand{\AUFGABENSTART}{1}
+\newcommand{\DEADLINE}{- Freitag bis 12 Uhr}
+% Diese Daten müssen einmalig pro Vorlesung angepasst werden:
+\newcommand{\COURSE}{Stochastik fur Studierende der Informatik}
+\newcommand{\TUTOR}{Timo Enger}
+\newcommand{\STUDENTA}{Albert Ratschinski (5154309)}
+% ----------------------- TODO ---------------------------
+
+\documentclass[a4paper]{scrartcl}
+
+\usepackage[utf8]{inputenc}
+\usepackage[ngerman]{babel}
+\usepackage{dsfont}
+\usepackage{amsmath}
+\usepackage{amssymb} % Added for square symbols
+\usepackage{fancyhdr}
+\usepackage{color}
+\usepackage{graphicx}
+\usepackage{lastpage}
+\usepackage{listings}
+\usepackage{tikz}
+\usepackage{pdflscape}
+\usepackage{subfigure}
+\usepackage{float}
+\usepackage{polynom}
+\usepackage{hyperref}
+\usepackage{tabularx}
+\usepackage{forloop}
+\usepackage{geometry}
+\usepackage{fancybox}
+\usepackage{stmaryrd}
+\usepackage{bbold}
+\usepackage{enumitem} % This package allows customization of lists
+
+\usetikzlibrary{calc,arrows}
+\usepackage{listings}
+\lstset{
+    basicstyle=\small\ttfamily,
+    breaklines=true,
+    numbers=left,
+    numberstyle=\tiny,
+    frame=tb,
+    columns=fullflexible
+}
+
+%Größe der Ränder setzen
+\geometry{a4paper,left=3cm, right=3cm, top=3cm, bottom=3cm}
+
+%Kopf- und Fußzeile
+\pagestyle {fancy}
+\fancyhead[L]{Tutor: \TUTOR}
+\fancyhead[C]{\COURSE}
+\fancyhead[R]{\today}
+
+\fancyfoot[L]{}
+\fancyfoot[C]{}
+\fancyfoot[R]{Seite \thepage /\pageref*{LastPage}}
+
+\newcounter{aufgabe}
+
+%Definition der Punktetabelle, hier nichts ändern
+
+\newcommand{\punkteliste}[2]{%
+
+  \begin{center}%
+  \begin{tabular}{*{#2}{c|} c| c}
+
+  Aufgabe: & 
+  \forloop{aufgabe}{0}{\value{aufgabe} < #2}%
+  {
+    \fpeval{\value{aufgabe}+#1} &
+  }   $\sum $\\
+ \hline
+ Punkte:
+ \forloop{aufgabe}{-1}{\value{aufgabe} < #2}%
+  {
+    &
+  } 
+  \end{tabular}
+  \end{center}
+}
+
+%Formatierung der Überschrift, hier nichts ändern
+\def\header#1#2{
+  \begin{center}
+    {\Large Exercise Sheet #1}\\
+    {(Deadline #2)}
+  \end{center}
+}
+
+\newcommand{\nextAufgabe}{
+  \section*{Aufgabe \theaufgabe}
+  \stepcounter{aufgabe}
+}
+\newcommand{\circled}[2]{
+  \tikz[baseline=(char.base)]{
+  \node[shape=circle,draw,color=#2,inner sep=2pt] (char) {#1};}
+}
+
+\newcommand{\rc}[1]{
+  \circled{#1}{red}
+}
+\newcommand{\gc}[1]{
+  \circled{#1}{green}
+}
+\newcommand{\bc}[1]{
+  \circled{#1}{blue}
+}
+
+\newcommand{\R}{
+  \mathbb{R}
+}
+\newcommand{\N}{
+  \mathbb{N}
+}
+\newcommand{\Z}{
+  \mathbb{Z}
+}
+\newcommand{\Q}{
+  \mathbb{Q}
+}
+\newcommand{\C}{
+  \mathbb{C}
+}
+
+\newcounter{spalte}
+\newcounter{zeile}
+
+\newcommand{\spalte}[3]{
+\left(\begin{array}{c}
+  #1   \\
+  #2   \\
+  #3   \\
+\end{array}\right)
+}
+\newcommand{\spaltef}[4]{
+\left(\begin{array}{c}
+  #1   \\
+  #2   \\
+  #3   \\
+  #4   \\ 
+\end{array}\right)
+}
+\newcommand{\kopf}[4]{
+  
+    idx & 
+    %x werte
+      \setsepchar{ }
+      \forloop{spalte}{0}{\value{spalte} < #1}%
+        {
+        \readlist\arg{#3}
+        \arg[\fpeval{\thespalte+1}] &
+        } 
+      %funktionen
+      \setsepchar{ }
+      \forloop{spalte}{0}{\value{spalte} < #2}%
+        {
+        \readlist\arg{#4}
+        \arg[\fpeval{\thespalte+1}] \ifthenelse{\fpeval{#2-1}=\thespalte}{}{&}
+        }
+        \\\hline 
+}
+
+\begin{document}
+
+\begin{tabularx}{\linewidth}{m{0.5 \linewidth} X}
+    \begin{minipage}{\linewidth}
+      \STUDENTA\\
+    \end{minipage} & 
+    \begin{minipage}{\linewidth}
+      \punkteliste{\AUFGABENSTART}{\EXERCISES}
+    \end{minipage}\\
+  \end{tabularx}
+  \setcounter{aufgabe}{\AUFGABENSTART}%
+  \header{Nr. \NUMBER}{\DEADLINE}
+
+% ----------------------- TODO ---------------------------
+\section*{Aufgabe 1}
+Der Grundraum $\Omega$ ist wie folgt definiert: \vspace{6pt} 
+\begin{center}
+    $\Omega = \{\omega_1, \omega_2, \omega_3, \omega_4 | \omega_i \in \{1,2,3,4,5,6\}\} = \{1,2,3,4,5,6\}^4$.
+\end{center}
+\begin{enumerate}[label=(\alph*)] 
+    \item Um das Maximum der erhaltenen Augenzahl zu bestimmen, welches kleiner oder gleich 4 ist, verwende ich $(1.1.1)$ 
+    aus dem \textit{Beispiel 1.3} und zeige: \vspace{6pt} 
+    \begin{center}
+        $P(A) = \frac{|A|}{|\Omega|} = (\frac{4}{6})^4 = \frac{16}{81} \approx 0.1975$.
+    \end{center}
+    \item Die Summe der Kombinationen für strinkt absteigende Folgen lässt sich als:
+    \begin{center}
+         $|B| = \binom{6}{4} = \frac{6!}{4!(6-4)!} = 15$ 
+    \end{center}
+    berechnen. Mit \textit{1.1.1} folgt: \vspace{6pt}
+    \begin{center}
+        $P(B) = \frac{|B|}{|\Omega|} = \frac{15}{6^4} = \frac{5}{432} \approx 0.01157$.
+    \end{center}
+\end{enumerate}
+
+\subsection*{Lösungsvorschlag:}
+\begin{enumerate}[label=(\alph*)]
+    \item 
+
+    \item Es wird erwartet, dass Grundraum bei Stochastischen Experimenten angegeben wird.
+    \[
+      A = \{ \omega = \{\omega_1, \omega_2, \omega_3, \omega_4 \} | \omega_1 > \omega_2 > \omega_3 > \omega_4 \}  
+    \]
+\end{enumerate}
+\section*{Aufgabe 2}
+Um die minimale Anzahl an Personen zu ermitteln, die befragt werden müssen, um eine Wahrscheinlichkeit von mindestens 0.5 zu erreichen, dass zwei Personen am selben Tag Geburtstag haben, stelle ich folgende Formel auf: \vspace{6pt}
+\[
+\begin{aligned}
+    P(A) &\overset{\text{Gegenereignis}}{=} 1 - P(\bar{A}) \\
+    &= 1 - \frac{365}{365} \cdot \frac{364}{365} \cdot \frac{363}{365} \cdot \ldots \cdot \frac{365-(k-1)}{365} \\
+    &= 1 - \prod^{k-1}_{i=0} (\frac{365-i}{365}) \overset{(1-x \geq e^{-x})}{\approx} 1 - \prod^{k-1}_{i=0} e^{-\frac{i}{365}} = 1 - e^{\sum ^{k-1}_{j=1} - \frac{j}{365}} \\
+    &= 1 - e^{-\frac{1}{365} \sum ^{k-1}_{j=1} j} = 1 - e^{-\frac{1}{365} \cdot \frac{k(k-1)}{2}} = 1 - e^{-\frac{k^2 - k}{730}} \\
+    &\Leftrightarrow e^{-\frac{k^2 - k}{730}} \geq 1 - P(A) \\
+    &\Leftrightarrow \frac{k^2 - k}{730} \geq - \ln(1 - P(A)) \\
+    &\Leftrightarrow k^2 - k \geq - 730 \cdot \ln(\frac{1}{1 - P(A)}) \\
+    &\Leftrightarrow k^2 - k + 730 \cdot \ln(\frac{1}{1 - P(A)}) \geq 0 \\
+    &\Leftrightarrow (k-\frac{1}{2})^2 - \frac{1}{4} + 730 \cdot \ln(\frac{1}{1 - P(A)}) \geq 0 \\
+    &\Leftrightarrow k \geq \frac{1}{2} + \sqrt[]{\frac{1}{4}-730*ln(1-P(A))} \\
+\end{aligned}
+\]
+
+Ich setze nun für $P(A) = 0.5$ ein und erhalte: \vspace{6pt}
+\[
+\begin{aligned}
+    k &\geq \frac{1}{2} + \sqrt[]{\frac{1}{4}-730*ln(1-0.5)} \\
+    &\approx 23.
+\end{aligned}
+\]
+Daher ist die Wahrscheinlichkeit, dass ich meinen Geburtstag mit einer anderen Person teile, größer als 0,5, wenn es 23 oder mehr Personen gibt.
+
+\subsection*{Lösungsvorschlag:}
+\textbf{Fehler: Du hast die Aufgabenstellung falsch gelesen.}
+Kriterium, dass jemand am gleichen Tag wie ich Geburtstag hat. $\frac{1}{365}$ (hier wird nur genau eine Person befragt)
+Das Gegenereignis hat Wahrscheinlichkeit $1 - \frac{1}{365} = \frac{364}{365}$.
+Jetzt befrage ich n viele Personen:
+\begin{center}
+    $1 - (\frac{364}{365})^n \geq 0.5$ \\
+    $\dots$ \\
+    $n = 253$
+\end{center}
+
+\section*{Aufgabe 3}
+Der Grundraum $\Omega$ für die Aufgabenstellung lässt sich definieren als: \vspace{6pt}
+\begin{center}
+    $\Omega = \{\omega_1, \omega_2 | \omega_i \in \{Rot, Schwarz\}\} = \{RR, RS, SS, SR\}$.
+\end{center}
+\begin{enumerate}[label=(\alph*)]
+    \item Unter betrachtung des Grundraumes $\Omega$ folgere ich, dass es zwei Möglichkeiten gibt welche die Wahrscheinlichkeit: \vspace{6pt}
+    \begin{center}
+        $P(A) =  P(RR) + P(SR) = (\frac{2}{4} \cdot \frac{1}{3}) + (\frac{2}{4} \cdot \frac{2}{3}) = \frac{1}{6} + \frac{1}{3} = \frac{1}{2}$.
+    \end{center}
+    \item Äquivalent zur vorherigen Aufgabe, gibt es zwei Möglichkeiten, die die Wahrscheinlichkeit: \vspace{6pt}
+    \begin{center}
+        $P(B) = P(RR) + P(SS) = (\frac{2}{4} \cdot \frac{1}{3}) + (\frac{2}{4} \cdot \frac{1}{3}) = \frac{1}{6} + \frac{1}{6} = \frac{1}{3}$.
+    \end{center}
+\end{enumerate}
+
+\subsection*{Lösungsvorschlag:}
+\textbf{Gebe den Grundraum an. z.B.} $A = \{(a, b) \in \Omega | a = b\}$.
+
+\section*{Aufgabe 4}
+\begin{enumerate}[label=(\alph*)]
+    \item Wir zeigen durch Äquivalenzumformung, dass
+    \begin{center}
+        $P(A \cup B) = P(A) + P(B) - P(A \cap B)$.
+    \end{center}
+    Sei X eine $\mathcal{F}$-wertige Zufallsvariable und $A, B \in \mathcal{F}$, dann gilt: \vspace{6pt}
+    \[
+    \begin{aligned}
+    P(X \in A \cup B) &= P((X \in A) + P(x \in B \backslash (A \cap B))) \\
+    &= P(X \in A) + P(X \in B) - P(X \in A \cap B) \\
+    \end{aligned}    
+    \] 
+    folgt, da $A \cap B$ und $B \backslash (A \cap B)$ disjunkt sind.
+\end{enumerate}
+\subsection*{Lösungsvorschlag:}
+\begin{align*}
+    \mathcal{Z}\mathcal{Z}. P(A \cup B) &= P(A) + P(B) - P(A \cap B) && \text{für } A, B \in \Omega \text{ beliebig} \\
+\end{align*}
+
+Beweis: Es gilt: \\
+\begin{align*}
+    A \setminus B &\overset{(i)}{=} A \setminus (A \cup B) \\
+    P(D \setminus C) &\overset{(ii)}{=} P(D) - P(C) \quad \text{für } C \subseteq D \\
+    P(A \cap B) &= P(B \overset{\text{disjunkt}}{\cup} (A \setminus B)) = P(B) + P(A \setminus B) \\
+    &\overset{(i)}{=} P(B) + A \setminus (A \cap B) \\
+    &\overset{(ii)}{=} P(B) + P(A) - P(A \cap B)
+\end{align*}
+
+
+\end{document}

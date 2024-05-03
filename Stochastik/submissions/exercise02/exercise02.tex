@@ -6,7 +6,7 @@
 \newcommand{\DEADLINE}{- Freitag bis 12 Uhr}
 % Diese Daten müssen einmalig pro Vorlesung angepasst werden:
 \newcommand{\COURSE}{Stochastik fur Studierende der Informatik}
-\newcommand{\TUTOR}{Timo Enger}
+\newcommand{\TUTOR}{Anja Buschle}
 \newcommand{\STUDENTA}{Albert Ratschinski (5154309)}
 % ----------------------- TODO ---------------------------
 
@@ -35,6 +35,7 @@
 \usepackage{stmaryrd}
 \usepackage{bbold}
 \usepackage{enumitem} % This package allows customization of lists
+\usepackage{comment}
 
 \usetikzlibrary{calc,arrows}
 \usepackage{listings}
@@ -166,18 +167,16 @@
 }
 
 \begin{document}
-
 \begin{tabularx}{\linewidth}{m{0.5 \linewidth} X}
     \begin{minipage}{\linewidth}
       \STUDENTA\\
     \end{minipage} & 
     \begin{minipage}{\linewidth}
-      \punkteliste{\AUFGABENSTART}{\EXERCISES}
+    % \punkteliste{\AUFGABENSTART}{\EXERCISES}
     \end{minipage}\\
   \end{tabularx}
   \setcounter{aufgabe}{\AUFGABENSTART}%
   \header{Nr. \NUMBER}{\DEADLINE}
-
 % ----------------------- TODO ---------------------------
 \section*{Aufgabe 1}
 \subsection*{(a)}
@@ -239,41 +238,65 @@ Somit:
   \text{Gesamtzahl} = 535.828.800 \cdot 1.609.694.100 = 8,6252045797008e+17
 \]
 
+Deine Herangehensweise ist größtenteils korrekt, aber es gibt einige kleine Fehler und Unklarheiten. Hier ist eine überarbeitete Version:
+
 \section*{Aufgabe 2}
-Der Grundraum $\Omega$ umfasst alle möglichen Positionen auf dem Schachbrett. Da es sich um ein 8x8-Schachbrett handelt und jeder Figur 64 Positionen einnehmen kann, gibt es:
+Der Grundraum \( \Omega \) umfasst alle möglichen Positionen auf dem Schachbrett. Da es sich um ein 8x8-Schachbrett handelt und jede Figur 64 Positionen einnehmen kann, gibt es:
 \[
-  |\Omega| = 64 \cdot 64 = 4096 \text{ mögliche Positionen}
-\]
-\subsection*{(a)}
-Wir definieren die Menge A als die Menge der Positionen, die von einem Turm eingenommen werden können. Ein Turm kann sich in einer Zeile oder Spalte bewegen, daher gibt es 8 mögliche Positionen in einer Zeile und 8 mögliche Positionen in einer Spalte.
-Da der Turm sich nur in einer Zeile oder Spalte bewegen kann, gibt es insgesamt 16 mögliche Positionen, die der Turm einnehmen kann. Somit:
-\[
-  A = \{(x,y) \in \Omega  | row(x) = row(y) \text{ oder } col(x) = col(y)\}
-\]
-Es folgt:
-\[
-  |A| = 8 \cdot 64 + 8 \cdot 64 - 64 = 960.
-\]
-\text{(-64 für die Position, in der beide Türme gleichzeitig in der gleichen Zeile oder Spalte sind.)}
-und somit:
-\[
-  P(A) = \frac{|A|}{|\Omega|} = \frac{960}{4096} = \frac{15}{64}
-\]
-\subsection*{(b)}
-Wir definieren die Menge B als die Menge der Positionen, die von einem Läufer eingenommen werden können. Ein Läufer kann sich entlang einer Diagonale bewegen, daher gibt es 8 mögliche Positionen entlang einer Diagonale.
-\[
-  S = \{(x,y) \in \Omega  | Farbe(x) = Frabe(y)\}
-\]
-und
-\[
-  B = \{(x,y) \in S  | diag(x) = diag(y)\}
-\]
-Es folgt:
-\[
-  |B| = 2 \cdot (\binom{8}{2} + 2 \cdot \binom{7}{2} + 2 \cdot \binom{6}{2} + 2 \cdot \binom{5}{2} + 2 \cdot \binom{4}{2} + 2 \cdot \binom{3}{2} + 2 \cdot \binom{2}{2}) = 280.
+  |\Omega| = 64 \times 64 = 4096 \text{ mögliche Positionen}
 \]
 
+\subsection*{(a)}
+Wir definieren die Menge \( A \) als die Menge der Positionen, die von einem Turm eingenommen werden können. Ein Turm kann sich entlang einer Zeile oder Spalte bewegen, daher gibt es 8 mögliche Positionen in einer Zeile und 8 mögliche Positionen in einer Spalte.
+Die Anzahl der Positionen, die ein Turm einnehmen kann, beträgt daher:
 \[
-  P(B) = \frac{1}{2}\frac{|B|}{|\Omega|} = \frac{1}{2}\frac{280}{32*32} = \frac{}{}
+  |A| = 8 \times 64 + 8 \times 64 - 64 = 960
 \]
+Die Subtraktion von 64 ist notwendig, um die doppelte Zählung der Positionen zu korrigieren, bei denen sich beide Türme in derselben Zeile oder Spalte befinden.
+Somit ist die Wahrscheinlichkeit, dass sich zwei Türme schlagen können:
+\[
+  P(A) = \frac{|A|}{|\Omega|} = \frac{960}{4096} = \frac{15}{64} \approx 0.2344 
+\]
+
+\subsection*{(b)}
+Wir definieren die Menge \( B \) als die Menge der Positionen, die von einem Läufer eingenommen werden können. Ein Läufer kann sich entlang einer Diagonale bewegen, daher gibt es 8 mögliche Positionen entlang einer Diagonale.
+Um die Wahrscheinlichkeit zu berechnen, dass sich zwei Läufer schlagen können, müssen wir berücksichtigen, dass sie sich auf Feldern derselben Farbe befinden müssen. Daher ist die Anzahl der möglichen Positionen, die von zwei Läufern eingenommen werden können:
+\[
+  |B| = 2 \cdot \left(\binom{8}{2} + 2 \cdot \binom{7}{2} + 2 \cdot \binom{6}{2} + 2 \cdot \binom{5}{2} + 2 \cdot \binom{4}{2} + 2 \cdot \binom{3}{2} + 2 \cdot \binom{2}{2}\right) = 280
+\]
+Somit ist die Wahrscheinlichkeit, dass sich zwei Läufer schlagen können:
+\[
+  P(B) = \frac{1}{2} \cdot \frac{|B|}{|\Omega|} = \frac{1}{2} \cdot \frac{280}{32 \times 32} \approx 0.1367
+\]
+Die Multiplikation mit \( \frac{1}{2} \) berücksichtigt, dass die Läufer sich auf Feldern derselben Farbe befinden müssen.
+
+\subsection*{(c)}
+Da Damen sowohl Türme als auch Läufer sind, können sie sich sowohl horizontal und vertikal als auch entlang einer Diagonale bewegen. Daher ist die Wahrscheinlichkeit, dass sich zwei Damen schlagen können, die Vereinigung der Wahrscheinlichkeiten, dass sich zwei Türme schlagen können und dass sich zwei Läufer schlagen können, abzüglich der Positionen, die von beiden Figuren eingenommen werden können (da sich Türme und Läufer nicht schlagen können).
+
+Formell:
+\[
+  P(C) = P(A \cup B) = P(A) + P(B) - P(A \cap B)
+\]
+Da sich Türme und Läufer nicht schlagen können, ist \( A \cap B = \emptyset \), also \( P(A \cap B) = 0 \).
+
+Somit ist die Wahrscheinlichkeit, dass sich zwei Damen schlagen können:
+\[
+  P(C) = P(A) + P(B) = \frac{15}{64} + \frac{1}{2} \cdot \frac{280}{32 \times 32} \approx 0.3711
+\]
+
+\section*{Aufgabe 3}
+Ich berechne zuerst die Wahrscheinlichkeit,\\
+\[
+  P(\text{250 Tage lang keine Panne}) = 0.99^{250} \approx 0.0808
+\]
+Nun berechne ich die Wahrscheinlichkeit, am letzten Arbeitstag die zehne Panne zu haben.
+Dafür berechne ich mit der Biniomialverteilung die Wahrscheinlichkeit, dass genau 9 Pannen in 249 Tagen auftreten:
+\[
+  P(\text{9 Pannen in 249 Tagen}) = \binom{249}{9} \cdot 0.01^9 \cdot 0.99^{240} \approx 0.1631
+\]
+und multipliziere dies mit der Wahrscheinlichkeit, dass am letzten Tag eine Panne auftritt:
+\[
+  P(\text{10 Pannen in 250 Tagen}) = P(\text{9 Pannen in 249 Tagen}) \cdot 0.01 \approx 0.0016
+\]
+
 \end{document}

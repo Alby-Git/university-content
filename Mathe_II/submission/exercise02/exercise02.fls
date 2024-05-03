@@ -1,6 +1,6 @@
-PWD g:\Drive\My files\university-content\Stochastik\submissions\exercise02
+PWD g:\Drive\My files\university-content\Mathe_II\submission\exercise02
 INPUT C:\Users\TempestW\AppData\Local\MiKTeX\miktex\data\le\pdftex\pdflatex.fmt
-INPUT g:\Drive\My files\university-content\Stochastik\submissions\exercise02\exercise02.tex
+INPUT g:\Drive\My files\university-content\Mathe_II\submission\exercise02\exercise02.tex
 OUTPUT exercise02.log
 INPUT C:\Users\TempestW\AppData\Local\Programs\MiKTeX\tex\latex\koma-script\scrartcl.cls
 INPUT C:\Users\TempestW\AppData\Local\Programs\MiKTeX\tex\latex\koma-script\scrartcl.cls
@@ -290,8 +290,6 @@ INPUT C:\Users\TempestW\AppData\Local\Programs\MiKTeX\tex\latex\bbold\bbold.sty
 INPUT C:\Users\TempestW\AppData\Local\Programs\MiKTeX\tex\latex\bbold\bbold.sty
 INPUT C:\Users\TempestW\AppData\Local\Programs\MiKTeX\tex\latex\enumitem\enumitem.sty
 INPUT C:\Users\TempestW\AppData\Local\Programs\MiKTeX\tex\latex\enumitem\enumitem.sty
-INPUT C:\Users\TempestW\AppData\Local\Programs\MiKTeX\tex\latex\comment\comment.sty
-INPUT C:\Users\TempestW\AppData\Local\Programs\MiKTeX\tex\latex\comment\comment.sty
 INPUT C:\Users\TempestW\AppData\Local\Programs\MiKTeX\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibrarycalc.code.tex
 INPUT C:\Users\TempestW\AppData\Local\Programs\MiKTeX\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibrarycalc.code.tex
 INPUT C:\Users\TempestW\AppData\Local\Programs\MiKTeX\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibraryarrows.code.tex
@@ -358,20 +356,42 @@ INPUT C:\Users\TempestW\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr12.
 INPUT C:\Users\TempestW\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmss10.tfm
 INPUT C:\Users\TempestW\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmssbx10.tfm
 INPUT C:\Users\TempestW\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmssbx10.tfm
-INPUT C:\Users\TempestW\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmssbx10.tfm
+INPUT C:\Users\TempestW\AppData\Local\Programs\MiKTeX\tex\latex\bbold\ubbold.fd
+INPUT C:\Users\TempestW\AppData\Local\Programs\MiKTeX\tex\latex\bbold\ubbold.fd
+INPUT C:\Users\TempestW\AppData\Local\Programs\MiKTeX\tex\latex\bbold\ubbold.fd
+INPUT C:\Users\TempestW\AppData\Local\MiKTeX\fonts\tfm\public\bbold\bbold10.tfm
+INPUT C:\Users\TempestW\AppData\Local\MiKTeX\fonts\tfm\public\bbold\bbold8.tfm
+INPUT C:\Users\TempestW\AppData\Local\MiKTeX\fonts\tfm\public\bbold\bbold6.tfm
 INPUT C:\Users\TempestW\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\tcrm1095.tfm
+INPUT C:\Users\TempestW\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmbx10.tfm
 INPUT C:\Users\TempestW\AppData\Local\MiKTeX\fonts\map\pdftex\pdftex.map
+INPUT C:\Users\TempestW\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmti10.tfm
+INPUT C:\Users\TempestW\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmssbx10.tfm
+INPUT C:\Users\TempestW\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr12.tfm
+INPUT C:\Users\TempestW\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmmi12.tfm
+INPUT C:\Users\TempestW\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmsy10.tfm
+INPUT C:\Users\TempestW\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmex10.tfm
+INPUT C:\Users\TempestW\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msam10.tfm
+INPUT C:\Users\TempestW\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
+INPUT C:\Users\TempestW\AppData\Local\MiKTeX\fonts\tfm\public\stmaryrd\stmary10.tfm
+INPUT C:\Users\TempestW\AppData\Local\MiKTeX\fonts\tfm\public\bbold\bbold12.tfm
 INPUT exercise02.aux
 INPUT .\exercise02.out
 INPUT .\exercise02.out
+INPUT C:\Users\TempestW\AppData\Local\MiKTeX\fonts\pk\ljfour\public\bbold\dpi600\bbold12.pk
+INPUT C:\Users\TempestW\AppData\Local\MiKTeX\fonts\pk\ljfour\public\bbold\dpi600\bbold12.pk
 INPUT C:\Users\TempestW\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\tcrm1095.pk
 INPUT C:\Users\TempestW\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\tcrm1095.pk
+INPUT C:\Users\TempestW\AppData\Local\MiKTeX\fonts\pk\ljfour\public\bbold\dpi657\bbold10.pk
+INPUT C:\Users\TempestW\AppData\Local\MiKTeX\fonts\pk\ljfour\public\bbold\dpi657\bbold10.pk
+INPUT C:\Users\TempestW\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmbx10.pfb
+INPUT C:\Users\TempestW\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmbx10.pfb
 INPUT C:\Users\TempestW\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmex10.pfb
 INPUT C:\Users\TempestW\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmex10.pfb
 INPUT C:\Users\TempestW\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi10.pfb
 INPUT C:\Users\TempestW\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi10.pfb
-INPUT C:\Users\TempestW\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi8.pfb
-INPUT C:\Users\TempestW\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi8.pfb
+INPUT C:\Users\TempestW\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi12.pfb
+INPUT C:\Users\TempestW\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi12.pfb
 INPUT C:\Users\TempestW\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr10.pfb
 INPUT C:\Users\TempestW\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr10.pfb
 INPUT C:\Users\TempestW\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr12.pfb
@@ -384,3 +404,5 @@ INPUT C:\Users\TempestW\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfont
 INPUT C:\Users\TempestW\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy10.pfb
 INPUT C:\Users\TempestW\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy8.pfb
 INPUT C:\Users\TempestW\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy8.pfb
+INPUT C:\Users\TempestW\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmti10.pfb
+INPUT C:\Users\TempestW\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmti10.pfb

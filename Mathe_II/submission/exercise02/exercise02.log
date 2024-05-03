@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.4.20)  3 MAY 2024 08:59
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.4.20)  3 MAY 2024 10:19
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**"g:/Drive/My files/university-content/Stochastik/submissions/exercise02/exercise02.tex"
-(g:/Drive/My files/university-content/Stochastik/submissions/exercise02/exercise02.tex
+**"g:/Drive/My files/university-content/Mathe_II/submission/exercise02/exercise02.tex"
+(g:/Drive/My files/university-content/Mathe_II/submission/exercise02/exercise02.tex
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-04>
 (C:\Users\TempestW\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\scrartcl.cls
@@ -232,7 +232,7 @@ Class scrartcl Warning: Usage of package `fancyhdr' together
 (scrartcl)              `\addtokomafont' for the page style elements need
 (scrartcl)              explicite user intervention to work.
 (scrartcl)              Nevertheless, using requested
-(scrartcl)              package `fancyhdr' on input line 22.
+(scrartcl)              package `fancyhdr' on input line 21.
 
 (C:\Users\TempestW\AppData\Local\Programs\MiKTeX\tex/latex/fancyhdr\fancyhdr.sty
 Package: fancyhdr 2022/11/09 v4.1 Extensive control of page headers and footers
@@ -705,9 +705,7 @@ Package: enumitem 2019/06/20 v3.9 Customized lists
 \enit@inbox=\box74
 \enit@count@id=\count328
 \enitdp@description=\count329
-) (C:\Users\TempestW\AppData\Local\Programs\MiKTeX\tex/latex/comment\comment.sty
-\CommentStream=\write5
- Excluding comment 'comment') (C:\Users\TempestW\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibrarycalc.code.tex
+) (C:\Users\TempestW\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibrarycalc.code.tex
 File: tikzlibrarycalc.code.tex 2023-01-15 v3.1.10 (3.1.10)
 ) (C:\Users\TempestW\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibraryarrows.code.tex
 File: tikzlibraryarrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
@@ -725,24 +723,24 @@ File: l3backend-pdftex.def 2024-01-04 L3 backend support: PDF output (pdfTeX)
 ) (exercise02.aux)
 \openout1 = `exercise02.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 170.
-LaTeX Font Info:    ... okay on input line 170.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 170.
-LaTeX Font Info:    ... okay on input line 170.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 170.
-LaTeX Font Info:    ... okay on input line 170.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 170.
-LaTeX Font Info:    ... okay on input line 170.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 170.
-LaTeX Font Info:    ... okay on input line 170.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 170.
-LaTeX Font Info:    ... okay on input line 170.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 170.
-LaTeX Font Info:    ... okay on input line 170.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 170.
-LaTeX Font Info:    ... okay on input line 170.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 170.
-LaTeX Font Info:    ... okay on input line 170.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 168.
+LaTeX Font Info:    ... okay on input line 168.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 168.
+LaTeX Font Info:    ... okay on input line 168.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 168.
+LaTeX Font Info:    ... okay on input line 168.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 168.
+LaTeX Font Info:    ... okay on input line 168.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 168.
+LaTeX Font Info:    ... okay on input line 168.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 168.
+LaTeX Font Info:    ... okay on input line 168.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 168.
+LaTeX Font Info:    ... okay on input line 168.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 168.
+LaTeX Font Info:    ... okay on input line 168.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 168.
+LaTeX Font Info:    ... okay on input line 168.
  (C:\Users\TempestW\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count334
@@ -763,10 +761,10 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
 \c@lstlisting=\count340
-Package hyperref Info: Link coloring OFF on input line 170.
+Package hyperref Info: Link coloring OFF on input line 168.
  (exercise02.out) (exercise02.out)
-\@outlinefile=\write6
-\openout6 = `exercise02.out'.
+\@outlinefile=\write5
+\openout5 = `exercise02.out'.
 
 Class scrartcl Info: loading recommended package `bookmark'.
 (scrartcl)           Using `bookmark' together with `hyperref' is recommended,
@@ -775,7 +773,7 @@ Class scrartcl Info: loading recommended package `bookmark'.
 (scrartcl)           `bookmarkpackage=false' before \begin{document} and
 (scrartcl)           you can avoid this message adding:
 (scrartcl)             \usepackage{bookmark}
-(scrartcl)           before \begin{document} on input line 170.
+(scrartcl)           before \begin{document} on input line 168.
  (C:\Users\TempestW\AppData\Local\Programs\MiKTeX\tex/latex/bookmark\bookmark.sty
 Package: bookmark 2023-12-10 v1.31 PDF bookmarks (HO)
  (C:\Users\TempestW\AppData\Local\Programs\MiKTeX\tex/latex/bookmark\bkm-pdftex.def
@@ -817,33 +815,34 @@ File: bkm-pdftex.def 2023-12-10 v1.31 bookmark driver for pdfTeX and luaTeX (HO)
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 (C:\Users\TempestW\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd) (C:\Users\TempestW\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd) (C:\Users\TempestW\AppData\Local\Programs\MiKTeX\tex/latex/stmaryrd\ustmry.fd)
-Underfull \hbox (badness 10000) in paragraph at lines 179--179
+Underfull \hbox (badness 10000) in paragraph at lines 177--177
 
  []
 
 
-Overfull \hbox (10.95003pt too wide) in paragraph at lines 179--181
+Overfull \hbox (10.95003pt too wide) in paragraph at lines 177--179
 [][] 
  []
 
-
-Overfull \hbox (45.3923pt too wide) detected at line 219
-[] \OT1/cmr/m/n/10.95 = [] \OMS/cmsy/m/n/10.95 ^^A \OT1/cmr/m/n/10.95 52[] \OMS/cmsy/m/n/10.95 ^^A \OT1/cmr/m/n/10.95 10[] + [] \OMS/cmsy/m/n/10.95 ^^A \OT1/cmr/m/n/10.95 52[] \OMS/cmsy/m/n/10.95 ^^A \OT1/cmr/m/n/10.95 10[] + [] \OMS/cmsy/m/n/10.95 ^^A \OT1/cmr/m/n/10.95 52[] \OMS/cmsy/m/n/10.95 ^^A \OT1/cmr/m/n/10.95 10[] + [] \OMS/cmsy/m/n/10.95 ^^A \OT1/cmr/m/n/10.95 52[] \OMS/cmsy/m/n/10.95 ^^A \OT1/cmr/m/n/10.95 10[] = 535\OML/cmm/m/it/10.95 :\OT1/cmr/m/n/10.95 828\OML/cmm/m/it/10.95 :\OT1/cmr/m/n/10.95 800[]
+LaTeX Font Info:    Trying to load font information for U+bbold on input line 184.
+(C:\Users\TempestW\AppData\Local\Programs\MiKTeX\tex/latex/bbold\ubbold.fd)
+Overfull \hbox (19.5825pt too wide) in paragraph at lines 184--186
+[]\OT1/cmr/m/n/10.95 Ich zei-ge, dass $\U/bbold/m/n/10.95 Z[]$ \OT1/cmr/m/n/10.95 kein K[]orper ist, in-dem ich zei-ge, dass min-des-tens ei-ne der K[]orperaxiome
  []
 
 [1{C:/Users/TempestW/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}
 
-]
-Overfull \hbox (8.76181pt too wide) in paragraph at lines 237--239
-\OT1/cmr/m/n/10.95 Die Ge-samt-zahl der Paa-re (Nut-zer-na-me, Pass-wort) ist das Pro-dukt der An-zahl der m[]oglichen
+] [2] [3] [4] [5]
+Overfull \hbox (11.50165pt too wide) in paragraph at lines 399--400
+[]\OT1/cmr/m/n/10.95 Abgeschlossenheit un-ter Sk-a-lar-mul-ti-pli-ka-ti-on: F[]ur einen Ska-lar $\OML/cmm/m/it/10.95 k$ \OT1/cmr/m/n/10.95 und $[]$
  []
 
-[2]
-Underfull \hbox (badness 10000) in paragraph at lines 290--291
-
+[6]
+Overfull \hbox (1.39294pt too wide) in paragraph at lines 412--415
+\OML/cmm/m/it/10.95 v[]; v[]; v[]$ \OT1/cmr/m/n/10.95 nur zwei un-abh[]angige Vek-to-ren. Das be-deu-tet, sie span-nen kei-nen 4-dimensionalen
  []
 
-[3] 
+[7] 
 enddocument/afterlastpage: lastpage setting LastPage.
 (exercise02.aux)
  ***********
@@ -854,17 +853,17 @@ Package rerunfilecheck Info: File `exercise02.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 28789 strings out of 474485
- 550799 string characters out of 5742318
- 1944542 words of memory out of 5000000
- 50578 multiletter control sequences out of 15000+600000
- 565155 words of font info for 63 fonts, out of 8000000 for 9000
+ 28790 strings out of 474485
+ 550687 string characters out of 5742318
+ 1946542 words of memory out of 5000000
+ 50562 multiletter control sequences out of 15000+600000
+ 568298 words of font info for 76 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 108i,12n,107p,10978b,557s stack positions out of 10000i,1000n,20000p,200000b,200000s
- <C:\Users\TempestW\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1095.pk><C:/Users/TempestW/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/TempestW/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/TempestW/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/TempestW/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/TempestW/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/TempestW/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/TempestW/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><C:/Users/TempestW/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/TempestW/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on exercise02.pdf (3 pages, 115298 bytes).
+ 108i,17n,107p,10975b,743s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ <C:\Users\TempestW\AppData\Local\MiKTeX\fonts/pk/ljfour/public/bbold/dpi600\bbold12.pk> <C:\Users\TempestW\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1095.pk> <C:\Users\TempestW\AppData\Local\MiKTeX\fonts/pk/ljfour/public/bbold/dpi657\bbold10.pk><C:/Users/TempestW/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/TempestW/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/TempestW/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/TempestW/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/TempestW/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/TempestW/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/TempestW/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/TempestW/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><C:/Users/TempestW/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/TempestW/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/TempestW/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb>
+Output written on exercise02.pdf (7 pages, 161915 bytes).
 PDF statistics:
- 84 PDF objects out of 1000 (max. 8388607)
- 13 named destinations out of 1000 (max. 500000)
+ 135 PDF objects out of 1000 (max. 8388607)
+ 24 named destinations out of 1000 (max. 500000)
  13 words of extra memory for PDF output out of 10000 (max. 10000000)
 

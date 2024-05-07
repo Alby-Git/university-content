@@ -1,0 +1,343 @@
+% ----------------------- TODO ---------------------------
+% Diese Daten müssen pro Blatt angepasst werden:
+\newcommand{\NUMBER}{3}
+\newcommand{\EXERCISES}{3}
+\newcommand{\AUFGABENSTART}{1}
+\newcommand{\DEADLINE}{- Freitag bis 12 Uhr}
+% Diese Daten müssen einmalig pro Vorlesung angepasst werden:
+\newcommand{\COURSE}{Stochastik fur Studierende der Informatik}
+\newcommand{\TUTOR}{Anja Buschle}
+\newcommand{\STUDENTA}{Albert Ratschinski (5154309)}
+\newcommand{\STUDENTB}{Valentin Oskui (5149151)}
+% ----------------------- TODO ---------------------------
+
+\documentclass[a4paper]{scrartcl}
+
+\usepackage[utf8]{inputenc}
+\usepackage[ngerman]{babel}
+\usepackage{dsfont}
+\usepackage{amsmath}
+\usepackage{amssymb} % Added for square symbols
+\usepackage{fancyhdr}
+\usepackage{color}
+\usepackage{graphicx}
+\usepackage{lastpage}
+\usepackage{listings}
+\usepackage{tikz}
+\usepackage{pdflscape}
+\usepackage{subfigure}
+\usepackage{float}
+\usepackage{polynom}
+\usepackage{hyperref}
+\usepackage{tabularx}
+\usepackage{forloop}
+\usepackage{geometry}
+\usepackage{fancybox}
+\usepackage{stmaryrd}
+\usepackage{bbold}
+\usepackage{enumitem} % This package allows customization of lists
+\usepackage{comment}
+
+\usetikzlibrary{calc,arrows}
+\usepackage{listings}
+\lstset{
+    basicstyle=\small\ttfamily,
+    breaklines=true,
+    numbers=left,
+    numberstyle=\tiny,
+    frame=tb,
+    columns=fullflexible
+}
+
+%Größe der Ränder setzen
+\geometry{a4paper,left=3cm, right=3cm, top=3cm, bottom=3cm}
+
+%Kopf- und Fußzeile
+\pagestyle {fancy}
+\fancyhead[L]{Tutor: \TUTOR}
+\fancyhead[C]{\COURSE}
+\fancyhead[R]{\today}
+
+\fancyfoot[L]{}
+\fancyfoot[C]{}
+\fancyfoot[R]{Seite \thepage /\pageref*{LastPage}}
+
+\newcounter{aufgabe}
+
+%Definition der Punktetabelle, hier nichts ändern
+
+\newcommand{\punkteliste}[2]{%
+
+  \begin{center}%
+  \begin{tabular}{*{#2}{c|} c| c}
+
+  Aufgabe: & 
+  \forloop{aufgabe}{0}{\value{aufgabe} < #2}%
+  {
+    \fpeval{\value{aufgabe}+#1} &
+  }   $\sum $\\
+ \hline
+ Punkte:
+ \forloop{aufgabe}{-1}{\value{aufgabe} < #2}%
+  {
+    &
+  } 
+  \end{tabular}
+  \end{center}
+}
+
+%Formatierung der Überschrift, hier nichts ändern
+\def\header#1#2{
+  \begin{center}
+    {\Large Exercise Sheet #1}\\
+    {(Deadline #2)}
+  \end{center}
+}
+
+\newcommand{\nextAufgabe}{
+  \section*{Aufgabe \theaufgabe}
+  \stepcounter{aufgabe}
+}
+\newcommand{\circled}[2]{
+  \tikz[baseline=(char.base)]{
+  \node[shape=circle,draw,color=#2,inner sep=2pt] (char) {#1};}
+}
+
+\newcommand{\rc}[1]{
+  \circled{#1}{red}
+}
+\newcommand{\gc}[1]{
+  \circled{#1}{green}
+}
+\newcommand{\bc}[1]{
+  \circled{#1}{blue}
+}
+
+\newcommand{\R}{
+  \mathbb{R}
+}
+\newcommand{\N}{
+  \mathbb{N}
+}
+\newcommand{\Z}{
+  \mathbb{Z}
+}
+\newcommand{\Q}{
+  \mathbb{Q}
+}
+\newcommand{\C}{
+  \mathbb{C}
+}
+
+\newcounter{spalte}
+\newcounter{zeile}
+
+\newcommand{\spalte}[3]{
+\left(\begin{array}{c}
+  #1   \\
+  #2   \\
+  #3   \\
+\end{array}\right)
+}
+\newcommand{\spaltef}[4]{
+\left(\begin{array}{c}
+  #1   \\
+  #2   \\
+  #3   \\
+  #4   \\ 
+\end{array}\right)
+}
+\newcommand{\kopf}[4]{
+  
+    idx & 
+    %x werte
+      \setsepchar{ }
+      \forloop{spalte}{0}{\value{spalte} < #1}%
+        {
+        \readlist\arg{#3}
+        \arg[\fpeval{\thespalte+1}] &
+        } 
+      %funktionen
+      \setsepchar{ }
+      \forloop{spalte}{0}{\value{spalte} < #2}%
+        {
+        \readlist\arg{#4}
+        \arg[\fpeval{\thespalte+1}] \ifthenelse{\fpeval{#2-1}=\thespalte}{}{&}
+        }
+        \\\hline 
+}
+
+\begin{document}
+\begin{tabularx}{\linewidth}{m{0.5 \linewidth} X}
+    \begin{minipage}{\linewidth}
+      \STUDENTA\\
+      \STUDENTB\\
+    \end{minipage} & 
+    \begin{minipage}{\linewidth}
+    % \punkteliste{\AUFGABENSTART}{\EXERCISES}
+    \end{minipage}\\
+  \end{tabularx}
+  \setcounter{aufgabe}{\AUFGABENSTART}%
+  \header{Nr. \NUMBER}{\DEADLINE}
+% ----------------------- TODO ---------------------------
+\section*{Aufgabe 1}
+\subsection*{(a)}
+Das Ereignis \(\{\omega\}\) kennzeichnet das Auftreten einer spezifischen unendlichen Sequenz \(\omega\). Die Wahrscheinlichkeit eines spezifischen unendlichen Ergebnisses ist das Produkt der Wahrscheinlichkeiten für jedes einzelne Ereignis in dieser Sequenz. Da diese Ereignisse über eine unendliche Anzahl von Würfen verteilt sind, konvergiert die Wahrscheinlichkeit des genauen Auftretens von \(\omega\) gegen 0, denn:
+\[
+P(\omega) = \lim_{n \to \infty} 2^{-n} = 0
+\]
+Dies impliziert, dass trotz der Existenz unendlich vieler möglicher Ergebnisse, die Wahrscheinlichkeit, dass ein spezifisches unendliches Ergebnis auftritt, Null ist.
+
+\subsection*{(b)}
+In der Wahrscheinlichkeitstheorie wird ein Wahrscheinlichkeitsmaß \( P \) auf einem Ergebnisraum \( \Omega \) als sigma-additiv betrachtet, wenn für jede abzählbare Folge von disjunkten Ereignissen \( A_1, A_2, \dots \) gilt:
+\[
+P\left(\bigcup_{i=1}^\infty A_i\right) = \sum_{i=1}^\infty P(A_i).
+\]
+Im speziellen Fall des unendlichen Münzwurfs, wo \( \Omega = \{0, 1\}^N \) der Raum aller unendlichen Sequenzen von Nullen und Einsen ist, kann jedes einzelne Ereignis \( \{ \omega \} \), das ein spezifisches Ergebnis einer solchen Sequenz repräsentiert, als ein Elementarereignis betrachtet werden. Die Wahrscheinlichkeit jedes einzelnen solchen Ergebnisses (einer spezifischen unendlichen Sequenz) ist jedoch 0, denn wie in der Aufgabenstellung definiert, beträgt die Wahrscheinlichkeit für eine Sequenz von \( n \) festgelegten Ergebnissen \( 2^{-n} \), und da \( n \) zu Unendlich geht (d.h., wenn man eine spezifische unendliche Sequenz betrachtet), nähert sich die Wahrscheinlichkeit dem Wert 0.
+Dies bedeutet, dass obwohl der Ergebnisraum \( \Omega \) aus der Vereinigung aller einzelnen Ergebnisse \( \omega \) besteht:
+\[
+\Omega = \bigcup_{\omega \in \Omega} \{\omega\},
+\]
+und jedes \( \{\omega\} \) eine Wahrscheinlichkeit von 0 hat, ergibt die Summe dieser Wahrscheinlichkeiten (wegen der Sigma-Additivität) immer noch 1, das Wahrscheinlichkeitsmaß des gesamten Raums.
+
+\section*{Aufgabe 2}
+Betrachten wir das Experiment, bei dem ein fairer Würfel dreimal geworfen wird. 
+Der Wahrscheinlichkeitsraum für dieses Experiment ist das kartesische Produkt \(\Omega = \{1, 2, 3, 4, 5, 6\}^3\), wobei jeder der drei Einträge im Tupel das Ergebnis eines Würfelwurfs repräsentiert.
+Definieren wir eine Zufallsvariable \( T \) auf diesem Raum, die jedem Element \( (a, b, c) \in \Omega \) das Produkt \( T(a, b, c) = a \cdot b \cdot c \) zuweist.
+Die Wahrscheinlichkeit \( P(T = 6) \) berechnen wir, indem wir alle Fälle zählen, in denen das Produkt der drei Würfelwürfe gleich 6 ist, und dies durch die Gesamtzahl der möglichen Ergebnisse teilen. Es gibt insgesamt \( 6 \times 6 \times 6 = 216 \) mögliche Ergebnisse.
+Die Produkte, die gleich 6 sind, können sein:
+\begin{itemize}
+    \item \( (1, 1, 6) \)
+    \item \( (1, 6, 1) \)
+    \item \( (6, 1, 1) \)
+    \item \( (1, 2, 3) \)
+    \item \( (1, 3, 2) \)
+    \item \( (2, 1, 3) \)
+    \item \( (2, 3, 1) \)
+    \item \( (3, 1, 2) \)
+    \item \( (3, 2, 1) \)
+\end{itemize}
+Jede der Kombinationen tritt genau einmal auf, was insgesamt 9 günstige Ausgänge ergibt.
+Die Wahrscheinlichkeit, dass \( T = 6 \) ist, wird dann berechnet als:
+\[
+P(T = 6) = \frac{\text{Anzahl der günstigen Ausgänge}}{\text{Anzahl der möglichen Ausgänge}} = \frac{9}{216} = \frac{1}{24}
+\]
+Somit ist \( P(T = 6) = \frac{1}{24} \).
+
+\section*{Aufgabe 3}
+% Definition des Wahrscheinlichkeitsraums
+\subsection*{Wahrscheinlichkeitsraum}
+\begin{itemize}
+\item \textbf{Ergebnisraum \(\Omega\)}: Jedes Ergebnis der Ziehung kann als eine Sequenz oder Kombination von \(n\) Zahlen aus der Menge \(\{1, 2, ..., N\}\) dargestellt werden, abhängig davon, ob die Ziehung mit oder ohne Zurücklegen erfolgt.
+\item \textbf{Sigma-Algebra \(\mathcal{F}\)}: Da wir es mit einer endlichen Ergebnismenge zu tun haben, verwenden wir wieder die Potenzmenge von \(\Omega\) als Sigma-Algebra.
+\item \textbf{Wahrscheinlichkeitsmaß \(P\)}: Dies hängt davon ab, ob die Ziehung mit oder ohne Zurücklegen erfolgt.
+\end{itemize}
+
+% Definition der Zufallsvariable X
+\subsection*{Zufallsvariable \(X\)}
+\(X : \Omega \rightarrow \{1, 2, ..., N\}\), wobei \(X\) das Maximum der gezogenen Nummern ist.
+
+% Fall 1: Ziehen mit Zurücklegen
+\subsubsection*{a) Mit Zurücklegen}
+Beim Ziehen mit Zurücklegen ist jedes Element von \(\Omega\) eine Sequenz von \(n\) Zahlen, wobei jede Zahl unabhängig von den vorherigen Zahlen und mit gleicher Wahrscheinlichkeit gezogen wird. Jede Ziehung hat eine Wahrscheinlichkeit von \(1/N\).
+Die Wahrscheinlichkeit, dass die höchste gezogene Nummer genau \(k\) ist, wird wie folgt berechnet:
+\[
+P(X = k) = P(\text{maximale Zahl} = k) - P(\text{maximale Zahl} = k - 1)
+\]
+wobei \(P(\text{maximale Zahl} \leq k) = \left(\frac{k}{N}\right)^n\). Also:
+\[
+P(X = k) = \left(\frac{k}{N}\right)^n - \left(\frac{k-1}{N}\right)^n
+\]
+
+% Fall 2: Ziehen ohne Zurücklegen
+\subsubsection*{b) Ohne Zurücklegen}
+Beim Ziehen ohne Zurücklegen ist jedes Element von \(\Omega\) eine Kombination von \(n\) Zahlen. Die Ziehung jedes spezifischen Satzes erfolgt ohne Wiederholung, was die Berechnungen verändert.
+Die Wahrscheinlichkeit, dass \(X = k\) (d.h. das Maximum \(k\) ist und \(k\) in der Ziehung enthalten ist), hängt davon ab, wie viele Möglichkeiten es gibt, die verbleibenden \(n-1\) Zahlen aus den Zahlen \(1\) bis \(k-1\) zu ziehen, da \(k\) bereits gezogen wurde:
+\[
+P(X = k) = \frac{{k-1 \choose n-1}}{{N \choose n}}
+\]
+Hier ist \({k-1 \choose n-1}\) die Anzahl der Möglichkeiten, \(n-1\) Zahlen aus den ersten \(k-1\) Zahlen zu ziehen, und \({N \choose n}\) ist die Gesamtzahl der Möglichkeiten, \(n\) Zahlen aus \(N\) zu ziehen.
+% Abschluss
+Diese Formeln geben die Wahrscheinlichkeiten für beide Ziehungsmethoden an und definieren damit die Verteilung der Zufallsvariablen \(X\) für beide Szenarien.
+
+\section*{Aufgabe 4}
+Ich überprüfe die folgenden Zährdichten auf folgende Eigenschaften der Zähldichte:
+\begin{enumerate}
+  \item Nichtnegativität: Die Zähldichte ist immer nichtnegativ.
+  \item Normierung: Die Zähldichte ist normiert, d.h. die Fläche unter der Dichte ist 1.
+\end{enumerate}
+
+\subsection*{a)}
+\textbf{Nichtnegativität:}Der Ausdruck $\frac{(-1)^(k-1)}{k}$ wechselt das Vorzeichen für aufeinanderfolgende k. Das bedeutet, $(-1)^(k-1)$ ist positiv für ungerade k und negativ für gerade k.
+Daher kann $f(k)$ nicht für alle k nichtnegativ sein, es sei denn, c = 0, aber dann wäre die Summe aller $f(k)$ ebenfalls 0, was keine gültige Zähldichte ist. 
+\\\\
+\textbf{Normierung:} Nehmen wir dennoch hypothetisch an, wir könnten den Wert von \( c \) finden, der \( \sum_{k=1}^\infty f(k) = 1 \) erfüllt, auch wenn \( f(k) \) negative Werte annehmen könnte. Der Ausdruck konvergiert tatsächlich gegen einen bestimmten Wert, wenn \( c \) so gewählt wird, dass:
+\[
+\sum_{k=1}^\infty \frac{(-1)^{k-1}}{k} = \log(2),
+\]
+was die Alternierende Harmonische Reihe ist und gegen \( \log(2) \) konvergiert. Wäre eine Normierung mit einem positiven \( c \) möglich, müsste gelten:
+\[
+c \cdot \log(2) = 1 \implies c = \frac{1}{\log(2)}.
+\]
+Jedoch führt dieser Wert für \( c \) zu einem \( f(k) \), das nicht die Nichtnegativität erfüllt.
+
+\subsection*{b)}
+\textbf{Nichtnegativität: } Die Binomialkoeffizienten \(\binom{n}{k}\) sind immer nichtnegativ, \(p^k\) und \((1-p)^{n-k}\) sind ebenfalls nichtnegativ, da \(p\) im Intervall \([0, 1]\) liegt. Daher ist \(f(k)\) nichtnegativ, solange \(c\) nichtnegativ ist.
+\\\\
+\textbf{Normierung: } Wir müssen prüfen, ob die Summe aller \(f(k)\) gleich 1 ist. Unter der Annahme, dass die Formel korrekt ist, sehen wir, dass sie stark der Binomialverteilung ähnelt. Die Summe der Wahrscheinlichkeiten in einer Binomialverteilung für alle \(k\) von 0 bis \(n\) ist:
+\[
+\sum_{k=0}^n \binom{n}{k} p^k (1-p)^{n-k} = (p + (1-p))^n = 1^{\,n} = 1
+\]
+Für unsere Funktion \(f(k)\) müssen wir daher sicherstellen, dass:
+\[
+\sum_{k=0}^n f(k) = \sum_{k=0}^n c \binom{n}{k} p^k (1-p)^{n-k} = c \sum_{k=0}^n \binom{n}{k} p^k (1-p)^{n-k} = c \cdot 1 = 1
+\]
+Damit dies der Fall ist, muss \(c = 1\) gesetzt werden.
+
+\subsection*{c)}
+\textbf{Nichtnegativität:} Die Funktion ist offensichtlich nichtnegativ für alle \( k \in N \), vorausgesetzt, \( \lambda > 0 \) und \( c \geq 0 \). Dies liegt daran, dass sowohl \(\lambda^k\) als auch \(k!\) immer nichtnegativ sind und \( e^{-\lambda} \) ebenfalls immer positiv ist (da \(e^{-\lambda}\) niemals negativ wird).
+\\\\
+\textbf{Normierung:} Die normierte Summe aller \( f(k) \) für \( k \) von 0 bis unendlich muss 1 ergeben. Setzen wir die Funktion in die Summe ein:
+\[
+\sum_{k=0}^\infty f(k) = \sum_{k=0}^\infty c \frac{\lambda^k}{k!} 
+\]
+Um zu zeigen, dass dies eine Zähldichte ist, muss die Summe gleich 1 sein. Für eine Standard-Poisson-Verteilung ohne den Faktor \( c \), ergibt die Summe:
+\[
+\sum_{k=0}^\infty \frac{\lambda^k}{k!} = e^{\lambda}
+\]
+Dies folgt aus der Taylor-Reihe für \( e^x \), wo \( x = \lambda \). Daher muss die Summe für \( f(k) \) so aussehen:
+\[
+c \sum_{k=0}^\infty \frac{\lambda^k}{k!} = c e^{\lambda}
+\]
+Damit die Summe gleich 1 ist, setzen wir:
+\[
+c e^{\lambda} = 1 \implies c = \frac{1}{e^{\lambda}}
+\]
+Wenn wir \( c = \frac{1}{e^{\lambda}} \) in die gegebene Funktion einsetzen, erhalten wir:
+\[
+f(k) = \frac{1}{e^{\lambda}} \frac{\lambda^k}{k!} = \frac{\lambda^k e^{-\lambda}}{k!}
+\]
+Diese Form ist identisch mit der Wahrscheinlichkeitsfunktion der Poisson-Verteilung. Das bedeutet, dass \( f(k) \) eine Zähldichte darstellt, solange \( c = \frac{1}{e^{\lambda}} \) gewählt wird.
+
+\subsection*{d)}
+\textbf{Nichtnegativität: } Da \( 0 < p \leq 1 \), ist \( 1-p \) eine nichtnegative Zahl, und \( (1-p)^{k-1} \) ist ebenfalls nichtnegativ für alle \( k \). Daher ist \( f(k) \) nichtnegativ, solange \( c \geq 0 \).
+\\\\
+\textbf{Normierung:} Die normierte Summe aller \( f(k) \) für \( k \) von 1 bis unendlich muss 1 sein. Setzen wir die Funktion in die Summe ein:
+\[
+\sum_{k=1}^\infty f(k) = \sum_{k=1}^\infty c(1-p)^{k-1}
+\]
+Das ist eine unendliche geometrische Reihe mit dem Anfangswert 1 und dem Quotienten \( 1-p \). Die Summenformel für eine unendliche geometrische Reihe \( \sum_{k=0}^\infty ar^k \) ist \( \frac{a}{1-r} \), wenn \( |r| < 1 \). Für unsere Funktion sieht das so aus:
+\[
+\sum_{k=1}^\infty (1-p)^{k-1} = \frac{1}{1-(1-p)} = \frac{1}{p}
+\]
+Damit die Gesamtsumme 1 ergibt, muss \( c \) so gewählt werden, dass:
+\[
+c \frac{1}{p} = 1 \implies c = p
+\]
+Wenn wir \( c = p \) in die gegebene Funktion einsetzen, erhalten wir:
+\[
+f(k) = p(1-p)^{k-1}
+\]
+Dies ist genau die Form der Wahrscheinlichkeitsfunktion einer geometrischen Verteilung. Diese Funktion definiert die Wahrscheinlichkeit dafür, dass der erste Erfolg beim \( k \)-ten Versuch eintritt.
+\end{document}
+

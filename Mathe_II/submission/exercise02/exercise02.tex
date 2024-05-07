@@ -16,7 +16,7 @@
 \usepackage[ngerman]{babel}
 \usepackage{dsfont}
 \usepackage{amsmath}
-\usepackage{amssymb} % Added for square symbols
+\usepackage{amssymb} % Amssymb-Paket für mathematische Symbole
 \usepackage{fancyhdr}
 \usepackage{color}
 \usepackage{graphicx}
@@ -409,8 +409,8 @@ Wir können diese Vektoren als Spalten einer Matrix schreiben:
 \[ A = \begin{pmatrix} 0 & 1 & 1 \\ -1 & 2 & -1 \\ 1 & 0 & 1 \\ 1 & 1 & 0 \end{pmatrix} \]
 
 Um zu überprüfen, ob $v_1, v_2, v_3$ linear unabhängig sind und ob sie $V$ aufspannen, betrachten wir die reduzierte Zeilenstufenform von $A$. Wenn jede Zeile der reduzierten Zeilenstufenform von $A$ eine Pivotspalte hat, sind die Vektoren linear unabhängig und spannen den Raum auf.
-\[ A = \begin{pmatrix} 1 & 0 & 1 \\ 0 & 1 & -1 \\ 0 & 0 & 0 \\ 0 & 0 & 0 \end{pmatrix} \]
-Da die dritte und vierte Zeile der reduzierten Zeilenstufenform Nullzeilen sind, haben $v_1, v_2, v_3$ nur zwei unabhängige Vektoren. Das bedeutet, sie spannen keinen 4-dimensionalen Raum auf, sondern lediglich eine Ebene oder einen 2-dimensionalen Unterraum.
+\[ A = \begin{pmatrix} -1 & 2 & -1 \\ 0 & 1 & 1 \\ 0 & 0 & -2 \\ 0 & 0 & 0 \end{pmatrix} \]
+Da die vierte Zeile der reduzierten Zeilenstufenform Nullzeilen sind, haben $v_1, v_2, v_3$ nur zwei unabhängige Vektoren. Das bedeutet, sie spannen keinen 4-dimensionalen Raum auf, sondern lediglich eine Ebene oder einen 2-dimensionalen Unterraum.
 Daher spannen die Vektoren $v_1, v_2, v_3$ den Unterraum $V$ nicht auf, da sie nicht linear unabhängig sind und nicht den gesamten Raum $V$ abdecken.
 
 \end{document}

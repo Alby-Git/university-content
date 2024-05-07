@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.3) (preloaded format=pdflatex 2024.4.18)  3 MAY 2024 14:09
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.3) (preloaded format=pdflatex 2024.4.18)  7 MAY 2024 16:27
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**/home/albertd/Documents/University/university-content/Mathe_II/submission/exercise02/exercise02.tex
-(/home/albertd/Documents/University/university-content/Mathe_II/submission/exercise02/exercise02.tex
+**/home/albertd/Documents/University/university-content/Stochastik/submissions/exercise03/exercise03.tex
+(/home/albertd/Documents/University/university-content/Stochastik/submissions/exercise03/exercise03.tex
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-03-14>
 (/home/albertd/.miktex/texmfs/install/tex/latex/koma-script/scrartcl.cls
@@ -240,7 +240,7 @@ Class scrartcl Warning: Usage of package `fancyhdr' together
 (scrartcl)              `\addtokomafont' for the page style elements need
 (scrartcl)              explicite user intervention to work.
 (scrartcl)              Nevertheless, using requested
-(scrartcl)              package `fancyhdr' on input line 21.
+(scrartcl)              package `fancyhdr' on input line 22.
 
 (/home/albertd/.miktex/texmfs/install/tex/latex/fancyhdr/fancyhdr.sty
 Package: fancyhdr 2022/11/09 v4.1 Extensive control of page headers and footers
@@ -714,7 +714,9 @@ Package: enumitem 2019/06/20 v3.9 Customized lists
 \enit@inbox=\box74
 \enit@count@id=\count329
 \enitdp@description=\count330
-) (/usr/local/share/miktex-texmf/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarycalc.code.tex
+) (/home/albertd/.miktex/texmfs/install/tex/latex/comment/comment.sty
+\CommentStream=\write5
+ Excluding comment 'comment') (/usr/local/share/miktex-texmf/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarycalc.code.tex
 File: tikzlibrarycalc.code.tex 2023-01-15 v3.1.10 (3.1.10)
 ) (/usr/local/share/miktex-texmf/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryarrows.code.tex
 File: tikzlibraryarrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
@@ -729,38 +731,37 @@ File: pgflibraryarrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
 File: l3backend-pdftex.def 2024-03-14 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count334
 \l__pdf_internal_box=\box75
-)
-No file exercise02.aux.
-\openout1 = `exercise02.aux'.
+) (exercise03.aux)
+\openout1 = `exercise03.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 168.
-LaTeX Font Info:    ... okay on input line 168.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 168.
-LaTeX Font Info:    ... okay on input line 168.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 168.
-LaTeX Font Info:    ... okay on input line 168.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 168.
-LaTeX Font Info:    ... okay on input line 168.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 168.
-LaTeX Font Info:    ... okay on input line 168.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 168.
-LaTeX Font Info:    ... okay on input line 168.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 168.
-LaTeX Font Info:    ... okay on input line 168.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 168.
-LaTeX Font Info:    ... okay on input line 168.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 168.
-LaTeX Font Info:    ... okay on input line 168.
-Package scrbase Info: activating ngerman \abstractname on input line 168.
-Package scrbase Info: activating ngerman \partname on input line 168.
-Package scrbase Info: activating ngerman \figurename on input line 168.
-Package scrbase Info: activating ngerman \tablename on input line 168.
-Package scrbase Info: activating ngerman \contentsname on input line 168.
-Package scrbase Info: activating ngerman \listfigurename on input line 168.
-Package scrbase Info: activating ngerman \listtablename on input line 168.
-Package scrbase Info: activating ngerman \refname on input line 168.
-Package scrbase Info: activating ngerman \indexname on input line 168.
-(/usr/local/share/miktex-texmf/tex/context/base/mkii/supp-pdf.mkii
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 170.
+LaTeX Font Info:    ... okay on input line 170.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 170.
+LaTeX Font Info:    ... okay on input line 170.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 170.
+LaTeX Font Info:    ... okay on input line 170.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 170.
+LaTeX Font Info:    ... okay on input line 170.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 170.
+LaTeX Font Info:    ... okay on input line 170.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 170.
+LaTeX Font Info:    ... okay on input line 170.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 170.
+LaTeX Font Info:    ... okay on input line 170.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 170.
+LaTeX Font Info:    ... okay on input line 170.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 170.
+LaTeX Font Info:    ... okay on input line 170.
+Package scrbase Info: activating ngerman \abstractname on input line 170.
+Package scrbase Info: activating ngerman \partname on input line 170.
+Package scrbase Info: activating ngerman \figurename on input line 170.
+Package scrbase Info: activating ngerman \tablename on input line 170.
+Package scrbase Info: activating ngerman \contentsname on input line 170.
+Package scrbase Info: activating ngerman \listfigurename on input line 170.
+Package scrbase Info: activating ngerman \listtablename on input line 170.
+Package scrbase Info: activating ngerman \refname on input line 170.
+Package scrbase Info: activating ngerman \indexname on input line 170.
+ (/usr/local/share/miktex-texmf/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count335
 \scratchdimen=\dimen287
@@ -780,11 +781,12 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
 \c@lstlisting=\count341
-Package tocbasic Info: setting babel extension for `lol' on input line 168.
+Package tocbasic Info: setting babel extension for `lol' on input line 170.
 \scr@dte@lstlisting@maxnumwidth=\skip86
-Package hyperref Info: Link coloring OFF on input line 168.
-\@outlinefile=\write5
-\openout5 = `exercise02.out'.
+Package hyperref Info: Link coloring OFF on input line 170.
+ (exercise03.out) (exercise03.out)
+\@outlinefile=\write6
+\openout6 = `exercise03.out'.
 
 Class scrartcl Info: loading recommended package `bookmark'.
 (scrartcl)           Using `bookmark' together with `hyperref' is recommended,
@@ -793,7 +795,7 @@ Class scrartcl Info: loading recommended package `bookmark'.
 (scrartcl)           `bookmarkpackage=false' before \begin{document} and
 (scrartcl)           you can avoid this message adding:
 (scrartcl)             \usepackage{bookmark}
-(scrartcl)           before \begin{document} on input line 168.
+(scrartcl)           before \begin{document} on input line 170.
  (/home/albertd/.miktex/texmfs/install/tex/latex/bookmark/bookmark.sty
 Package: bookmark 2023-12-10 v1.31 PDF bookmarks (HO)
  (/home/albertd/.miktex/texmfs/install/tex/latex/bookmark/bkm-pdftex.def
@@ -835,579 +837,117 @@ File: bkm-pdftex.def 2023-12-10 v1.31 bookmark driver for pdfTeX and luaTeX (HO)
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 (/usr/local/share/miktex-texmf/tex/latex/amsfonts/umsa.fd) (/usr/local/share/miktex-texmf/tex/latex/amsfonts/umsb.fd) (/home/albertd/.miktex/texmfs/install/tex/latex/stmaryrd/Ustmry.fd)
-Underfull \hbox (badness 10000) in paragraph at lines 177--177
+Underfull \hbox (badness 10000) in paragraph at lines 179--179
 
  []
 
 
-Overfull \hbox (10.95003pt too wide) in paragraph at lines 177--179
+Overfull \hbox (10.95003pt too wide) in paragraph at lines 179--181
 [][] 
  []
 
-LaTeX Font Info:    Trying to load font information for U+bbold on input line 184.
-(/home/albertd/.miktex/texmfs/install/tex/latex/jknappen/ubbold.fd
-File: ubbold.fd 1996/01/01 Blackboard Bold Font Definition File (jk)
-)
-/home/albertd/Documents/University/university-content/Mathe_II/submission/exercise02/exercise02.tex:184: Font U/bbold/m/n/10.95=bbold11 at 10.95pt not loadable: Metric (TFM) file not found.
-<to be read again> 
-                   relax 
-l.184   \item Ich zeige, dass $\mathbb{Z}
-                                         _4$ kein Körper ist, indem ich zei...
-I wasn't able to read the size data for this font,
-so I will ignore the font specification.
-[Wizards can fix TFM files using TFtoPL/PLtoTF.]
-You might try inserting a different font spec;
-e.g., type `I\font<same font id>=<substitute font name>'.
 
-/home/albertd/Documents/University/university-content/Mathe_II/submission/exercise02/exercise02.tex:184: \textfont 7 is undefined (character Z).
-l.184   \item Ich zeige, dass $\mathbb{Z}_4$
-                                             kein Körper ist, indem ich zei...
-Somewhere in the math formula just ended, you used the
-stated character from an undefined font family. For example,
-plain TeX doesn't allow \it or \sl in subscripts. Proceed,
-and I'll try to forget that I needed that character.
-
-
-Overfull \hbox (12.28249pt too wide) in paragraph at lines 184--186
-[]\OT1/cmr/m/n/10.95 Ich zeige, dass $[]$ kein K[]orper ist, indem ich zeige, dass mindestens eine der K[]orperaxiome
+Overfull \hbox (46.67744pt too wide) in paragraph at lines 188--190
+\OT1/cmr/m/n/10.95 Dies impliziert, dass trotz der Existenz unendlich vieler m[]oglicher Ergebnisse, die Wahrscheinlichkeit,
  []
 
 
-Overfull \hbox (40.72995pt too wide) in paragraph at lines 188--189
-[]\OT1/cmr/bx/n/10.95 Existenz eines neutralen Elements bez[]uglich der Addition und Multiplikation 
+Overfull \hbox (14.34581pt too wide) in paragraph at lines 192--193
+\OT1/cmr/m/n/10.95 In der Wahrscheinlichkeitstheorie wird ein Wahrscheinlichkeitsma^^Y $\OML/cmm/m/it/10.95 P$ \OT1/cmr/m/n/10.95 auf einem Ergebnisraum
  []
 
 
-Overfull \hbox (33.62923pt too wide) in paragraph at lines 189--190
-[]\OT1/cmr/bx/n/10.95 Existenz eines inversen Elements bez[]uglich der Addition und Multiplikation 
+Overfull \hbox (23.68243pt too wide) in paragraph at lines 195--198
+\OT1/cmr/m/n/10.95 Sequenz) ist jedoch 0, denn wie in der Aufgabenstellung definiert, betr[]agt die Wahrscheinlichkeit
  []
 
-/home/albertd/Documents/University/university-content/Mathe_II/submission/exercise02/exercise02.tex:193: \textfont 7 is undefined (character Z).
-l.193   $\mathbb{Z}_4$
-                       besteht aus den Elementen $\{0, 1, 2, 3\}$. Ich prüf...
-Somewhere in the math formula just ended, you used the
-stated character from an undefined font family. For example,
-plain TeX doesn't allow \it or \sl in subscripts. Proceed,
-and I'll try to forget that I needed that character.
 
-/home/albertd/Documents/University/university-content/Mathe_II/submission/exercise02/exercise02.tex:193: \textfont 7 is undefined (character Z).
-l.193 ...ie ersten vier Axiome, die $\mathbb{Z}_4$
-                                                   erfüllen muss:
-Somewhere in the math formula just ended, you used the
-stated character from an undefined font family. For example,
-plain TeX doesn't allow \it or \sl in subscripts. Proceed,
-and I'll try to forget that I needed that character.
-
-
-Overfull \hbox (26.57375pt too wide) in paragraph at lines 196--197
-[]\OT1/cmr/bx/n/10.95 Neutrale Elemente: \OT1/cmr/m/n/10.95 0 ist das additive neutrale Element, und 1 ist das multiplikative
+Overfull \hbox (9.41566pt too wide) in paragraph at lines 195--198
+\OT1/cmr/m/n/10.95 wenn man eine spezifische unendliche Sequenz betrachtet), n[]ahert sich die Wahrscheinlichkeit
  []
 
-/home/albertd/Documents/University/university-content/Mathe_II/submission/exercise02/exercise02.tex:197: \textfont 7 is undefined (character Z).
-l.197 ...nverses:} Jedes Element in $\mathbb{Z}_4$
-                                                   hat ein additiv Inverses ...
-Somewhere in the math formula just ended, you used the
-stated character from an undefined font family. For example,
-plain TeX doesn't allow \it or \sl in subscripts. Proceed,
-and I'll try to forget that I needed that character.
 
-/home/albertd/Documents/University/university-content/Mathe_II/submission/exercise02/exercise02.tex:199: \textfont 7 is undefined (character Z).
-l.199 ...entscheidende Problem für $\mathbb{Z}_4$
-                                                   liegt bei der Existenz de...
-Somewhere in the math formula just ended, you used the
-stated character from an undefined font family. For example,
-plain TeX doesn't allow \it or \sl in subscripts. Proceed,
-and I'll try to forget that I needed that character.
-
-/home/albertd/Documents/University/university-content/Mathe_II/submission/exercise02/exercise02.tex:201: \textfont 7 is undefined (character Z).
-l.201 ...ses zu einem Element $a \in \mathbb{Z}_4$
-                                                   ist ein Element $b \in \m...
-Somewhere in the math formula just ended, you used the
-stated character from an undefined font family. For example,
-plain TeX doesn't allow \it or \sl in subscripts. Proceed,
-and I'll try to forget that I needed that character.
-
-/home/albertd/Documents/University/university-content/Mathe_II/submission/exercise02/exercise02.tex:201: \textfont 7 is undefined (character Z).
-l.201 ...}_4$ ist ein Element $b \in \mathbb{Z}_4$
-                                                  , sodass $a \cdot_4 b = 1$.
-Somewhere in the math formula just ended, you used the
-stated character from an undefined font family. For example,
-plain TeX doesn't allow \it or \sl in subscripts. Proceed,
-and I'll try to forget that I needed that character.
-
-/home/albertd/Documents/University/university-content/Mathe_II/submission/exercise02/exercise02.tex:204: \textfont 7 is undefined (character Z).
-l.204 ...atives Inverses für $2 \in \mathbb{Z}_4$
-                                                   gibt:
-Somewhere in the math formula just ended, you used the
-stated character from an undefined font family. For example,
-plain TeX doesn't allow \it or \sl in subscripts. Proceed,
-and I'll try to forget that I needed that character.
-
-/home/albertd/Documents/University/university-content/Mathe_II/submission/exercise02/exercise02.tex:211: \textfont 7 is undefined (character Z).
-l.211   Da es kein Element $b \in \mathbb{Z}_4$
-                                                gibt, sodass $2 \cdot_4 b = ...
-Somewhere in the math formula just ended, you used the
-stated character from an undefined font family. For example,
-plain TeX doesn't allow \it or \sl in subscripts. Proceed,
-and I'll try to forget that I needed that character.
-
-/home/albertd/Documents/University/university-content/Mathe_II/submission/exercise02/exercise02.tex:211: \textfont 7 is undefined (character Z).
-l.211 ...ass $2 \cdot_4 b = 1$, ist $\mathbb{Z}_4$
-                                                   kein Körper.
-Somewhere in the math formula just ended, you used the
-stated character from an undefined font family. For example,
-plain TeX doesn't allow \it or \sl in subscripts. Proceed,
-and I'll try to forget that I needed that character.
+Overfull \hbox (17.26321pt too wide) in paragraph at lines 200--202
+\OT1/cmr/m/n/10.95 und jedes $\OMS/cmsy/m/n/10.95 f\OML/cmm/m/it/10.95 !\OMS/cmsy/m/n/10.95 g$ \OT1/cmr/m/n/10.95 eine Wahrscheinlichkeit von 0 hat, ergibt die Summe dieser Wahrscheinlichkeiten
+ []
 
 
-LaTeX Warning: Reference `LastPage' on page 1 undefined on input line 212.
+Overfull \hbox (25.44894pt too wide) in paragraph at lines 204--210
+\OT1/cmr/m/n/10.95 Wahrscheinlichkeitsraum f[]ur dieses Experiment ist das kartesische Produkt $
+ = \OMS/cmsy/m/n/10.95 f\OT1/cmr/m/n/10.95 1\OML/cmm/m/it/10.95 ; \OT1/cmr/m/n/10.95 2\OML/cmm/m/it/10.95 ; \OT1/cmr/m/n/10.95 3\OML/cmm/m/it/10.95 ; \OT1/cmr/m/n/10.95 4\OML/cmm/m/it/10.95 ; \OT1/cmr/m/n/10.95 5\OML/cmm/m/it/10.95 ; \OT1/cmr/m/n/10.95 6\OMS/cmsy/m/n/10.95 g[]$\OT1/cmr/m/n/10.95 ,
+ []
 
 [1{/home/albertd/.miktex/texmfs/data/fonts/map/pdftex/pdftex.map}
 
 ]
-/home/albertd/Documents/University/university-content/Mathe_II/submission/exercise02/exercise02.tex:215: \textfont 7 is undefined (character F).
-l.215 ... Die Additionstabelle für $\mathbb{F}_4$
-                                                   ist gegeben durch:
-Somewhere in the math formula just ended, you used the
-stated character from an undefined font family. For example,
-plain TeX doesn't allow \it or \sl in subscripts. Proceed,
-and I'll try to forget that I needed that character.
-
-/home/albertd/Documents/University/university-content/Mathe_II/submission/exercise02/exercise02.tex:218: \textfont 7 is undefined (character F).
-\)  ->\relax \ifmmode \ifinner $
-                                \else \@badmath \fi \else \@badmath \fi 
-l.218 ...additives Inverses) in \( \mathbb{F}_4 \)
-                                                   sind ebenfalls trivial.
-Somewhere in the math formula just ended, you used the
-stated character from an undefined font family. For example,
-plain TeX doesn't allow \it or \sl in subscripts. Proceed,
-and I'll try to forget that I needed that character.
-
-/home/albertd/Documents/University/university-content/Mathe_II/submission/exercise02/exercise02.tex:223: \textfont 7 is undefined (character F).
-\)  ->\relax \ifmmode \ifinner $
-                                \else \@badmath \fi \else \@badmath \fi 
-l.223 ...haften der Addition in \( \mathbb{F}_4 \)
-                                                  .
-Somewhere in the math formula just ended, you used the
-stated character from an undefined font family. For example,
-plain TeX doesn't allow \it or \sl in subscripts. Proceed,
-and I'll try to forget that I needed that character.
-
-/home/albertd/Documents/University/university-content/Mathe_II/submission/exercise02/exercise02.tex:226: \textfont 7 is undefined (character F).
-\)  ->\relax \ifmmode \ifinner $
-                                \else \@badmath \fi \else \@badmath \fi 
-l.226 ...eidung der Addition in \( \mathbb{F}_4 \)
-                                                  . Für den Fall \( a + b \...
-Somewhere in the math formula just ended, you used the
-stated character from an undefined font family. For example,
-plain TeX doesn't allow \it or \sl in subscripts. Proceed,
-and I'll try to forget that I needed that character.
-
-/home/albertd/Documents/University/university-content/Mathe_II/submission/exercise02/exercise02.tex:233: \textfont 7 is undefined (character F).
-\)  ->\relax \ifmmode \ifinner $
-                                \else \@badmath \fi \else \@badmath \fi 
-l.233 ... Additionstabelle für \( \mathbb{F}_4 \)
-                                                  :
-Somewhere in the math formula just ended, you used the
-stated character from an undefined font family. For example,
-plain TeX doesn't allow \it or \sl in subscripts. Proceed,
-and I'll try to forget that I needed that character.
-
-/home/albertd/Documents/University/university-content/Mathe_II/submission/exercise02/exercise02.tex:244: \textfont 7 is undefined (character F).
-l.244 ...:} Die Multiplikation für $\mathbb{F}_4$
-                                                   ist gegeben durch:
-Somewhere in the math formula just ended, you used the
-stated character from an undefined font family. For example,
-plain TeX doesn't allow \it or \sl in subscripts. Proceed,
-and I'll try to forget that I needed that character.
-
-/home/albertd/Documents/University/university-content/Mathe_II/submission/exercise02/exercise02.tex:247: \textfont 7 is undefined (character F).
-\)  ->\relax \ifmmode \ifinner $
-                                \else \@badmath \fi \else \@badmath \fi 
-l.247 ...(neutrales Element) in \( \mathbb{F}_4 \)
-                                                   sind ebenfalls trivial.
-Somewhere in the math formula just ended, you used the
-stated character from an undefined font family. For example,
-plain TeX doesn't allow \it or \sl in subscripts. Proceed,
-and I'll try to forget that I needed that character.
-
-/home/albertd/Documents/University/university-content/Mathe_II/submission/exercise02/exercise02.tex:251: \textfont 7 is undefined (character F).
-l.251 ...a \times b$ ein Element in $\mathbb{F}_4$
-                                                   sein muss und wir wissen,...
-Somewhere in the math formula just ended, you used the
-stated character from an undefined font family. For example,
-plain TeX doesn't allow \it or \sl in subscripts. Proceed,
-and I'll try to forget that I needed that character.
-
-/home/albertd/Documents/University/university-content/Mathe_II/submission/exercise02/exercise02.tex:255: \textfont 7 is undefined (character F).
-\)  ->\relax \ifmmode \ifinner $
-                                \else \@badmath \fi \else \@badmath \fi 
-l.255 ...plikationstabelle für \( \mathbb{F}_4 \)
-                                                  :
-Somewhere in the math formula just ended, you used the
-stated character from an undefined font family. For example,
-plain TeX doesn't allow \it or \sl in subscripts. Proceed,
-and I'll try to forget that I needed that character.
-
-
-LaTeX Warning: Reference `LastPage' on page 2 undefined on input line 269.
+Overfull \hbox (12.5901pt too wide) in paragraph at lines 231--232
+[]\OT1/cmr/bx/n/10.95 Ergebnisraum $\OT1/cmr/m/n/10.95 
+$: Jedes Ergebnis der Ziehung kann als eine Sequenz oder Kombination
+ []
 
 [2]
-/home/albertd/Documents/University/university-content/Mathe_II/submission/exercise02/exercise02.tex:275: \textfont 7 is undefined (character Q).
-\endmathdisplay ...admath \fi \endmathdisplay@a $$
-                                                  \global \let \df@label \@e...
-l.275   \]
-          
-Somewhere in the math formula just ended, you used the
-stated character from an undefined font family. For example,
-plain TeX doesn't allow \it or \sl in subscripts. Proceed,
-and I'll try to forget that I needed that character.
 
-/home/albertd/Documents/University/university-content/Mathe_II/submission/exercise02/exercise02.tex:276: \textfont 7 is undefined (character R).
-\)  ->\relax \ifmmode \ifinner $
-                                \else \@badmath \fi \else \@badmath \fi 
-l.276   ein \(\mathbb{R}\)
-                          -Untervektorraum des \(\mathbb{R}^3\) ist, müssen...
-Somewhere in the math formula just ended, you used the
-stated character from an undefined font family. For example,
-plain TeX doesn't allow \it or \sl in subscripts. Proceed,
-and I'll try to forget that I needed that character.
-
-/home/albertd/Documents/University/university-content/Mathe_II/submission/exercise02/exercise02.tex:276: \textfont 7 is undefined (character R).
-\)  ->\relax \ifmmode \ifinner $
-                                \else \@badmath \fi \else \@badmath \fi 
-l.276 ...R}\)-Untervektorraum des \(\mathbb{R}^3\)
-                                                   ist, müssen wir prüfen,...
-Somewhere in the math formula just ended, you used the
-stated character from an undefined font family. For example,
-plain TeX doesn't allow \it or \sl in subscripts. Proceed,
-and I'll try to forget that I needed that character.
-
-/home/albertd/Documents/University/university-content/Mathe_II/submission/exercise02/exercise02.tex:280: \textfont 7 is undefined (character R).
-\)  ->\relax \ifmmode \ifinner $
-                                \else \@badmath \fi \else \@badmath \fi 
-l.280       Der Nullvektor in \(\mathbb{R}^3\)
-                                               ist \(\begin{pmatrix} 0 \\ 0 ...
-Somewhere in the math formula just ended, you used the
-stated character from an undefined font family. For example,
-plain TeX doesn't allow \it or \sl in subscripts. Proceed,
-and I'll try to forget that I needed that character.
-
-/home/albertd/Documents/University/university-content/Mathe_II/submission/exercise02/exercise02.tex:280: \textfont 7 is undefined (character Q).
-\)  ->\relax \ifmmode \ifinner $
-                                \else \@badmath \fi \else \@badmath \fi 
-l.280 ...d{pmatrix}\), und da \(0 \in \mathbb{Q}\)
-                                                  , gehört der Nullvektor z...
-Somewhere in the math formula just ended, you used the
-stated character from an undefined font family. For example,
-plain TeX doesn't allow \it or \sl in subscripts. Proceed,
-and I'll try to forget that I needed that character.
-
-/home/albertd/Documents/University/university-content/Mathe_II/submission/exercise02/exercise02.tex:283: \textfont 7 is undefined (character Q).
-\)  ->\relax \ifmmode \ifinner $
-                                \else \@badmath \fi \else \@badmath \fi 
-l.283 ...it \(a, b, c, a', b', c' \in \mathbb{Q}\)
-                                                  , dann ist ihre Summe
-Somewhere in the math formula just ended, you used the
-stated character from an undefined font family. For example,
-plain TeX doesn't allow \it or \sl in subscripts. Proceed,
-and I'll try to forget that I needed that character.
-
-/home/albertd/Documents/University/university-content/Mathe_II/submission/exercise02/exercise02.tex:287: \textfont 7 is undefined (character Q).
-\)  ->\relax \ifmmode \ifinner $
-                                \else \@badmath \fi \else \@badmath \fi 
-l.287 ... ist (\(a+a', b+b', c+c' \in \mathbb{Q}\)
-                                                  ), ist die Menge abgeschlo...
-Somewhere in the math formula just ended, you used the
-stated character from an undefined font family. For example,
-plain TeX doesn't allow \it or \sl in subscripts. Proceed,
-and I'll try to forget that I needed that character.
-
-/home/albertd/Documents/University/university-content/Mathe_II/submission/exercise02/exercise02.tex:290: \textfont 7 is undefined (character R).
-\)  ->\relax \ifmmode \ifinner $
-                                \else \@badmath \fi \else \@badmath \fi 
-l.290 ...rodukt eines Skalars \(r \in \mathbb{R}\)
-                                                   mit einem Vektor \(\begin...
-Somewhere in the math formula just ended, you used the
-stated character from an undefined font family. For example,
-plain TeX doesn't allow \it or \sl in subscripts. Proceed,
-and I'll try to forget that I needed that character.
-
-/home/albertd/Documents/University/university-content/Mathe_II/submission/exercise02/exercise02.tex:290: \textfont 7 is undefined (character Q).
-\)  ->\relax \ifmmode \ifinner $
-                                \else \@badmath \fi \else \@badmath \fi 
-l.290 ...trix}\), wobei \(a, b, c \in \mathbb{Q}\)
-                                                  , immer noch in der Menge ...
-Somewhere in the math formula just ended, you used the
-stated character from an undefined font family. For example,
-plain TeX doesn't allow \it or \sl in subscripts. Proceed,
-and I'll try to forget that I needed that character.
-
-/home/albertd/Documents/University/university-content/Mathe_II/submission/exercise02/exercise02.tex:299: \textfont 7 is undefined (character R).
-\endmathdisplay ...admath \fi \endmathdisplay@a $$
-                                                  \global \let \df@label \@e...
-l.299   \]
-          
-Somewhere in the math formula just ended, you used the
-stated character from an undefined font family. For example,
-plain TeX doesn't allow \it or \sl in subscripts. Proceed,
-and I'll try to forget that I needed that character.
-
-/home/albertd/Documents/University/university-content/Mathe_II/submission/exercise02/exercise02.tex:300: \textfont 7 is undefined (character R).
-\)  ->\relax \ifmmode \ifinner $
-                                \else \@badmath \fi \else \@badmath \fi 
-l.300   ein \(\mathbb{R}\)
-                          -Untervektorraum des \(\mathbb{R}^3\) ist, müssen...
-Somewhere in the math formula just ended, you used the
-stated character from an undefined font family. For example,
-plain TeX doesn't allow \it or \sl in subscripts. Proceed,
-and I'll try to forget that I needed that character.
-
-/home/albertd/Documents/University/university-content/Mathe_II/submission/exercise02/exercise02.tex:300: \textfont 7 is undefined (character R).
-\)  ->\relax \ifmmode \ifinner $
-                                \else \@badmath \fi \else \@badmath \fi 
-l.300 ...R}\)-Untervektorraum des \(\mathbb{R}^3\)
-                                                   ist, müssen wir die drei...
-Somewhere in the math formula just ended, you used the
-stated character from an undefined font family. For example,
-plain TeX doesn't allow \it or \sl in subscripts. Proceed,
-and I'll try to forget that I needed that character.
-
-/home/albertd/Documents/University/university-content/Mathe_II/submission/exercise02/exercise02.tex:304: \textfont 7 is undefined (character R).
-\)  ->\relax \ifmmode \ifinner $
-                                \else \@badmath \fi \else \@badmath \fi 
-l.304 ...der Menge mit Skalaren aus \(\mathbb{R}\)
-                                                   darstellbar ist. Der Null...
-Somewhere in the math formula just ended, you used the
-stated character from an undefined font family. For example,
-plain TeX doesn't allow \it or \sl in subscripts. Proceed,
-and I'll try to forget that I needed that character.
-
-/home/albertd/Documents/University/university-content/Mathe_II/submission/exercise02/exercise02.tex:304: \textfont 7 is undefined (character R).
-\)  ->\relax \ifmmode \ifinner $
-                                \else \@badmath \fi \else \@badmath \fi 
-l.304 ...r ist. Der Nullvektor in \(\mathbb{R}^3\)
-                                                   ist \(\begin{pmatrix} 0 \...
-Somewhere in the math formula just ended, you used the
-stated character from an undefined font family. For example,
-plain TeX doesn't allow \it or \sl in subscripts. Proceed,
-and I'll try to forget that I needed that character.
+Package amsmath Warning: Foreign command \atopwithdelims;
+(amsmath)                \frac or \genfrac should be used instead
+(amsmath)                 on input line 257.
 
 
-LaTeX Warning: Reference `LastPage' on page 3 undefined on input line 305.
+Overfull \hbox (4.08409pt too wide) in paragraph at lines 271--275
+\OT1/cmr/bx/n/10.95 Nichtnegativit[]at:\OT1/cmr/m/n/10.95 Der Ausdruck $[]$ wechselt das Vorzeichen f[]ur aufeinanderfolgende
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 271--275
+
+ []
+
+
+Overfull \hbox (0.74005pt too wide) in paragraph at lines 271--275
+\OT1/cmr/m/n/10.95 der $[][] \OML/cmm/m/it/10.95 f\OT1/cmr/m/n/10.95 (\OML/cmm/m/it/10.95 k\OT1/cmr/m/n/10.95 ) = 1$ erf[]ullt, auch wenn $\OML/cmm/m/it/10.95 f\OT1/cmr/m/n/10.95 (\OML/cmm/m/it/10.95 k\OT1/cmr/m/n/10.95 )$ negative Werte annehmen k[]onnte. Der Ausdruck
+ []
 
 [3]
-/home/albertd/Documents/University/university-content/Mathe_II/submission/exercise02/exercise02.tex:327: \textfont 7 is undefined (character R).
-\)  ->\relax \ifmmode \ifinner $
-                                \else \@badmath \fi \else \@badmath \fi 
-l.327 ...�lt, ist sie \textit{kein} \(\mathbb{R}\)
-                                                  -Untervektorraum des \(\ma...
-Somewhere in the math formula just ended, you used the
-stated character from an undefined font family. For example,
-plain TeX doesn't allow \it or \sl in subscripts. Proceed,
-and I'll try to forget that I needed that character.
+Underfull \hbox (badness 10000) in paragraph at lines 285--288
 
-/home/albertd/Documents/University/university-content/Mathe_II/submission/exercise02/exercise02.tex:327: \textfont 7 is undefined (character R).
-\)  ->\relax \ifmmode \ifinner $
-                                \else \@badmath \fi \else \@badmath \fi 
-l.327 ...R}\)-Untervektorraum des \(\mathbb{R}^3\)
-                                                  . Dies ist eine grundlegen...
-Somewhere in the math formula just ended, you used the
-stated character from an undefined font family. For example,
-plain TeX doesn't allow \it or \sl in subscripts. Proceed,
-and I'll try to forget that I needed that character.
+ []
 
 
-LaTeX Warning: Reference `LastPage' on page 4 undefined on input line 329.
+Overfull \hbox (9.20564pt too wide) in paragraph at lines 298--301
+\OT1/cmr/bx/n/10.95 Nichtnegativit[]at: \OT1/cmr/m/n/10.95 Die Funktion ist offensichtlich nichtnegativ f[]ur alle $\OML/cmm/m/it/10.95 k \OMS/cmsy/m/n/10.95 2 \OML/cmm/m/it/10.95 N$\OT1/cmr/m/n/10.95 , vorausgesetzt,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 298--301
+
+ []
 
 [4]
-/home/albertd/Documents/University/university-content/Mathe_II/submission/exercise02/exercise02.tex:334: \textfont 7 is undefined (character R).
-\endmathdisplay ...admath \fi \endmathdisplay@a $$
-                                                  \global \let \df@label \@e...
-l.334   \]
-          
-Somewhere in the math formula just ended, you used the
-stated character from an undefined font family. For example,
-plain TeX doesn't allow \it or \sl in subscripts. Proceed,
-and I'll try to forget that I needed that character.
+Underfull \hbox (badness 10000) in paragraph at lines 323--326
 
-/home/albertd/Documents/University/university-content/Mathe_II/submission/exercise02/exercise02.tex:335: \textfont 7 is undefined (character R).
-\)  ->\relax \ifmmode \ifinner $
-                                \else \@badmath \fi \else \@badmath \fi 
-l.335   ein \(\mathbb{R}\)
-                          -Untervektorraum des \(\mathbb{R}^3\) ist, müssen...
-Somewhere in the math formula just ended, you used the
-stated character from an undefined font family. For example,
-plain TeX doesn't allow \it or \sl in subscripts. Proceed,
-and I'll try to forget that I needed that character.
-
-/home/albertd/Documents/University/university-content/Mathe_II/submission/exercise02/exercise02.tex:335: \textfont 7 is undefined (character R).
-\)  ->\relax \ifmmode \ifinner $
-                                \else \@badmath \fi \else \@badmath \fi 
-l.335 ...R}\)-Untervektorraum des \(\mathbb{R}^3\)
-                                                   ist, müssen wir prüfen,...
-Somewhere in the math formula just ended, you used the
-stated character from an undefined font family. For example,
-plain TeX doesn't allow \it or \sl in subscripts. Proceed,
-and I'll try to forget that I needed that character.
-
-/home/albertd/Documents/University/university-content/Mathe_II/submission/exercise02/exercise02.tex:339: \textfont 7 is undefined (character R).
-\)  ->\relax \ifmmode \ifinner $
-                                \else \@badmath \fi \else \@badmath \fi 
-l.339   Der Nullvektor in \(\mathbb{R}^3\)
-                                           ist \(\begin{pmatrix} 0 \\ 0 \\ 0...
-Somewhere in the math formula just ended, you used the
-stated character from an undefined font family. For example,
-plain TeX doesn't allow \it or \sl in subscripts. Proceed,
-and I'll try to forget that I needed that character.
-
-/home/albertd/Documents/University/university-content/Mathe_II/submission/exercise02/exercise02.tex:359: \textfont 7 is undefined (character R).
-\)  ->\relax \ifmmode \ifinner $
-                                \else \@badmath \fi \else \@badmath \fi 
-l.359 Sei \(\lambda \in \mathbb{R}\)
-                                     und \(v \in V\):
-Somewhere in the math formula just ended, you used the
-stated character from an undefined font family. For example,
-plain TeX doesn't allow \it or \sl in subscripts. Proceed,
-and I'll try to forget that I needed that character.
-
-
-Overfull \hbox (15.90065pt too wide) in paragraph at lines 369--370
-\OT1/cmr/m/n/10.95 skalierten konstanten Vektor. Daher ist $\OML/cmm/m/it/10.95 V$ \OT1/cmr/m/n/10.95 abgeschlossen unter Skalarmultiplikation. 
  []
 
-/home/albertd/Documents/University/university-content/Mathe_II/submission/exercise02/exercise02.tex:371: \textfont 7 is undefined (character R).
-\)  ->\relax \ifmmode \ifinner $
-                                \else \@badmath \fi \else \@badmath \fi 
-l.371 ... ein Untervektorraum von \(\mathbb{R}^3\)
-                                                  .
-Somewhere in the math formula just ended, you used the
-stated character from an undefined font family. For example,
-plain TeX doesn't allow \it or \sl in subscripts. Proceed,
-and I'll try to forget that I needed that character.
-
-
-Overfull \hbox (50.20308pt too wide) in paragraph at lines 371--372
-[]\OT1/cmr/bx/n/10.95 Schlussfolgerung: \OT1/cmr/m/n/10.95 Da $\OML/cmm/m/it/10.95 V$ \OT1/cmr/m/n/10.95 den Nullvektor enth[]alt, unter Addition und Skalarmultiplikation
- []
-
-
-LaTeX Warning: Reference `LastPage' on page 5 undefined on input line 372.
-
-[5]
-/home/albertd/Documents/University/university-content/Mathe_II/submission/exercise02/exercise02.tex:379: \textfont 7 is undefined (character R).
-\endmathdisplay ...admath \fi \endmathdisplay@a $$
-                                                  \global \let \df@label \@e...
-l.379 ...hbb{R}^3 \mid 2x_1 + 4x_2 = 1 \right\} \]
-                                                  
-Somewhere in the math formula just ended, you used the
-stated character from an undefined font family. For example,
-plain TeX doesn't allow \it or \sl in subscripts. Proceed,
-and I'll try to forget that I needed that character.
-
-/home/albertd/Documents/University/university-content/Mathe_II/submission/exercise02/exercise02.tex:381: \textfont 7 is undefined (character R).
-l.381 ... einen Untervektorraum des $\mathbb{R}^3$
-                                                   bildet, müssen zwei Bedi...
-Somewhere in the math formula just ended, you used the
-stated character from an undefined font family. For example,
-plain TeX doesn't allow \it or \sl in subscripts. Proceed,
-and I'll try to forget that I needed that character.
-
-
-Overfull \hbox (11.76036pt too wide) in paragraph at lines 381--382
-\OT1/cmr/m/n/10.95 erf[]ullt sein: Die Abgeschlossenheit bez[]uglich der Vektoraddition und der Skalarmultiplikation.
- []
-
-/home/albertd/Documents/University/university-content/Mathe_II/submission/exercise02/exercise02.tex:384: \textfont 7 is undefined (character R).
-l.384 ...lvektor: Der Nullvektor im $\mathbb{R}^3$
-                                                   ist $\begin{pmatrix} 0 \\...
-Somewhere in the math formula just ended, you used the
-stated character from an undefined font family. For example,
-plain TeX doesn't allow \it or \sl in subscripts. Proceed,
-and I'll try to forget that I needed that character.
-
-/home/albertd/Documents/University/university-content/Mathe_II/submission/exercise02/exercise02.tex:387: \textfont 7 is undefined (character R).
-l.387 ...$ kein Untervektorraum von $\mathbb{R}^3$
-                                                  .
-Somewhere in the math formula just ended, you used the
-stated character from an undefined font family. For example,
-plain TeX doesn't allow \it or \sl in subscripts. Proceed,
-and I'll try to forget that I needed that character.
-
-/home/albertd/Documents/University/university-content/Mathe_II/submission/exercise02/exercise02.tex:392: \textfont 7 is undefined (character R).
-\endmathdisplay ...admath \fi \endmathdisplay@a $$
-                                                  \global \let \df@label \@e...
-l.392 ...4 \mid x_2 = x_1 - 2x_3 + x_4 \right\} \]
-                                                  
-Somewhere in the math formula just ended, you used the
-stated character from an undefined font family. For example,
-plain TeX doesn't allow \it or \sl in subscripts. Proceed,
-and I'll try to forget that I needed that character.
-
-
-Overfull \hbox (2.38887pt too wide) in paragraph at lines 397--398
-\OML/cmm/m/it/10.95 V$\OT1/cmr/m/n/10.95 . Die Summe ist $[]$, was ebenfalls die Bedingung
- []
-
-
-Overfull \hbox (11.50165pt too wide) in paragraph at lines 399--400
-[]\OT1/cmr/m/n/10.95 Abgeschlossenheit unter Skalarmultiplikation: F[]ur einen Skalar $\OML/cmm/m/it/10.95 k$ \OT1/cmr/m/n/10.95 und $[]$
- []
-
-
-LaTeX Warning: Reference `LastPage' on page 6 undefined on input line 400.
-
-[6]
-Overfull \hbox (12.49628pt too wide) in paragraph at lines 401--406
-\OT1/cmr/m/n/10.95 der Fall ist, spannen sie $\OML/cmm/m/it/10.95 V$ \OT1/cmr/m/n/10.95 auf. Um zu zeigen, dass die Vektoren $\OML/cmm/m/it/10.95 v[]; v[]; v[]$ \OT1/cmr/m/n/10.95 den Untervektorraum
- []
-
-
-Overfull \hbox (1.39294pt too wide) in paragraph at lines 412--415
-\OML/cmm/m/it/10.95 v[]; v[]; v[]$ \OT1/cmr/m/n/10.95 nur zwei unabh[]angige Vektoren. Das bedeutet, sie spannen keinen 4-dimensionalen
- []
-
-
-LaTeX Warning: Reference `LastPage' on page 7 undefined on input line 416.
-
-[7] 
+[5] 
 enddocument/afterlastpage: lastpage setting LastPage.
-(exercise02.aux)
+(exercise03.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-03-14>
  ***********
-
-
-LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
-
-Package rerunfilecheck Warning: File `exercise02.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `exercise02.out':
-(rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  D41D8CD98F00B204E9800998ECF8427E;0.
-
-Package lastpage Warning: Rerun to get the references right on input line 416.
-
+Package rerunfilecheck Info: File `exercise03.out' has not changed.
+(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 28779 strings out of 476359
- 544196 string characters out of 5793823
- 1947493 words of memory out of 5000000
- 50378 multiletter control sequences out of 15000+600000
- 568109 words of font info for 75 fonts, out of 8000000 for 9000
+ 28814 strings out of 476359
+ 545233 string characters out of 5793823
+ 1942493 words of memory out of 5000000
+ 50414 multiletter control sequences out of 15000+600000
+ 567212 words of font info for 71 fonts, out of 8000000 for 9000
  0 hyphenation exceptions out of 8191
- 108i,17n,107p,10990b,743s stack positions out of 10000i,1000n,20000p,200000b,200000s
- </home/albertd/.miktex/texmfs/data/fonts/pk/ljfour/public/bbold/dpi600/bbold12.pk> </home/albertd/.miktex/texmfs/data/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm1095.pk></usr/local/share/miktex-texmf/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/share/miktex-texmf/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/share/miktex-texmf/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/share/miktex-texmf/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/share/miktex-texmf/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/share/miktex-texmf/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/share/miktex-texmf/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/share/miktex-texmf/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/local/share/miktex-texmf/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/share/miktex-texmf/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/share/miktex-texmf/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on exercise02.pdf (7 pages, 159894 bytes).
+ 108i,12n,107p,10993b,531s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ </home/albertd/.miktex/texmfs/data/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm1095.pk></usr/local/share/miktex-texmf/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/share/miktex-texmf/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/share/miktex-texmf/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/share/miktex-texmf/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/share/miktex-texmf/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/share/miktex-texmf/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/share/miktex-texmf/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/share/miktex-texmf/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/share/miktex-texmf/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/share/miktex-texmf/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/share/miktex-texmf/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/local/share/miktex-texmf/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/share/miktex-texmf/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
+Output written on exercise03.pdf (5 pages, 176657 bytes).
 PDF statistics:
- 127 PDF objects out of 1000 (max. 8388607)
- 24 named destinations out of 1000 (max. 500000)
+ 120 PDF objects out of 1000 (max. 8388607)
+ 22 named destinations out of 1000 (max. 500000)
  13 words of extra memory for PDF output out of 10000 (max. 10000000)
 

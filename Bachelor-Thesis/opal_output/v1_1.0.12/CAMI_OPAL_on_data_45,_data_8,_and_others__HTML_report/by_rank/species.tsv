@@ -1,0 +1,7 @@
+tool	sample	Sum of abundances	Weighted UniFrac error	Unweighted UniFrac error	L1 norm error	Completeness	Purity	F1 score	True positives	False positives	False negatives	Taxon counts	Jaccard index	Shannon diversity	Shannon equitability	Bray-Curtis distance
+Kraken_PlusPF_CAMI_Output.tsv		1.0	0.13708229406364839	0.9959343742872238	2.0000000000000004	0.0	0.0	na	0.0	1.0	23.0	1.0	0.0	0.0	0.0	1.0
+Kraken_Capped16_CAMI_Output.tsv		na	0.12470134168269598	0.9947624644365346	na	0.0	0.0	na	0.0	0.0	23.0	na	0.0	na	na	na
+Kraken_Capped8_CAMI_Output.tsv		na	0.12470134168269598	0.9947624644365346	na	0.0	0.0	na	0.0	0.0	23.0	na	0.0	na	na	na
+Bracken_PlusPF_CAMI_Output.tsv		1.0	0.13708229406364839	0.9959343742872238	2.0000000000000004	0.0	0.0	na	0.0	1.0	23.0	1.0	0.0	0.0	0.0	1.0
+Bracken_Capped16_CAMI_Output.tsv		1.0	0.13708229406364839	0.9959343742872238	2.0000000000000004	0.0	0.0	na	0.0	1.0	23.0	1.0	0.0	0.0	0.0	1.0
+Bracken_Capped8_CAMI_Output.tsv		1.0	0.13708229406364839	0.9959343742872238	2.0000000000000004	0.0	0.0	na	0.0	1.0	23.0	1.0	0.0	0.0	0.0	1.0

@@ -1,0 +1,8 @@
+tool	sample	Sum of abundances	Weighted UniFrac error	Unweighted UniFrac error	L1 norm error	Completeness	Purity	F1 score	True positives	False positives	False negatives	Taxon counts	Jaccard index	Shannon diversity	Shannon equitability	Bray-Curtis distance
+M_UC.tsv		na	0.040441111244599516	0.5439028755655683	na	0.0	0.0	na	0.0	0.0	60.0	na	0.0	na	na	na
+K_UC.tsv		na	0.13708229406364839	0.9959343742872236	na	0.0	0.0	na	0.0	0.0	60.0	na	0.0	na	na	na
+K_Capped-16.tsv		na	0.12470134168269598	0.9947624644365343	na	0.0	0.0	na	0.0	0.0	60.0	na	0.0	na	na	na
+K_Capped-8.tsv		na	0.12470134168269598	0.9947624644365343	na	0.0	0.0	na	0.0	0.0	60.0	na	0.0	na	na	na
+B_UC.tsv		na	0.13708229406364839	0.9959343742872236	na	0.0	0.0	na	0.0	0.0	60.0	na	0.0	na	na	na
+B_Capped-16.tsv		na	0.13708229406364839	0.9959343742872236	na	0.0	0.0	na	0.0	0.0	60.0	na	0.0	na	na	na
+B_Capped-8.tsv		na	0.13708229406364839	0.9959343742872236	na	0.0	0.0	na	0.0	0.0	60.0	na	0.0	na	na	na

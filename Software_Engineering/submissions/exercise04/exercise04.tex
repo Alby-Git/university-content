@@ -1,0 +1,252 @@
+% ----------------------- TODO ---------------------------
+% Diese Daten müssen pro Blatt angepasst werden:
+\newcommand{\NUMBER}{4}
+\newcommand{\EXERCISES}{2}
+\newcommand{\AUFGABENSTART}{1}
+\newcommand{\DEADLINE}{Wednesday, 2024-05-15, 15:59}
+% Diese Daten müssen einmalig pro Vorlesung angepasst werden:
+\newcommand{\COURSE}{Software Engineering}
+\newcommand{\TUTOR}{}
+\newcommand{\STUDENTA}{Albert Ratschinski (5154309)}
+\newcommand{\STUDENTB}{Severin Plewe (5333060)}
+% ----------------------- TODO ---------------------------
+
+\documentclass[a4paper]{scrartcl}
+
+\usepackage[utf8]{inputenc}
+\usepackage[ngerman]{babel}
+\usepackage{dsfont}
+\usepackage{amsmath}
+\usepackage{amssymb} % Added for square symbols
+\usepackage{fancyhdr}
+\usepackage{color}
+\usepackage{graphicx}
+\usepackage{lastpage}
+\usepackage{listings}
+\usepackage{tikz}
+\usepackage{pdflscape}
+\usepackage{subfigure}
+\usepackage{float}
+\usepackage{polynom}
+\usepackage{hyperref}
+\usepackage{tabularx}
+\usepackage{forloop}
+\usepackage{geometry}
+\usepackage{fancybox}
+\usepackage{stmaryrd}
+\usepackage{bbold}
+\usepackage{xcolor}
+
+\usetikzlibrary{calc,arrows}
+\usepackage{listings}
+\lstset{
+    basicstyle=\small\ttfamily,
+    breaklines=true,
+    numbers=left,
+    numberstyle=\tiny,
+    frame=tb,
+    columns=fullflexible
+}
+
+%Größe der Ränder setzen
+\geometry{a4paper,left=3cm, right=3cm, top=3cm, bottom=3cm}
+
+%Kopf- und Fußzeile
+\pagestyle {fancy}
+\fancyhead[L]{Tutor: \TUTOR}
+\fancyhead[C]{\COURSE}
+\fancyhead[R]{\today}
+
+\fancyfoot[L]{}
+\fancyfoot[C]{}
+\fancyfoot[R]{Seite \thepage /\pageref*{LastPage}}
+
+\newcounter{aufgabe}
+
+%Formatierung der Überschrift, hier nichts ändern
+\def\header#1#2{
+  \begin{center}
+    {\Large Exercise Sheet #1}\\
+    {(Deadline #2)}
+  \end{center}
+}
+
+\newcommand{\nextAufgabe}{
+  \section*{Aufgabe \theaufgabe}
+  \stepcounter{aufgabe}
+}
+\newcommand{\circled}[2]{
+  \tikz[baseline=(char.base)]{
+  \node[shape=circle,draw,color=#2,inner sep=2pt] (char) {#1};}
+}
+
+\newcommand{\rc}[1]{
+  \circled{#1}{red}
+}
+\newcommand{\gc}[1]{
+  \circled{#1}{green}
+}
+\newcommand{\bc}[1]{
+  \circled{#1}{blue}
+}
+
+\newcommand{\R}{
+  \mathbb{R}
+}
+\newcommand{\N}{
+  \mathbb{N}
+}
+\newcommand{\Z}{
+  \mathbb{Z}
+}
+\newcommand{\Q}{
+  \mathbb{Q}
+}
+\newcommand{\C}{
+  \mathbb{C}
+}
+
+\newcounter{spalte}
+\newcounter{zeile}
+
+\newcommand{\spalte}[3]{
+\left(\begin{array}{c}
+  #1   \\
+  #2   \\
+  #3   \\
+\end{array}\right)
+}
+\newcommand{\spaltef}[4]{
+\left(\begin{array}{c}
+  #1   \\
+  #2   \\
+  #3   \\
+  #4   \\
+\end{array}\right)
+}
+\newcommand{\kopf}[4]{
+  
+    idx & 
+    %x werte
+      \setsepchar{ }
+      \forloop{spalte}{0}{\value{spalte} < #1}%
+        {
+        \readlist\arg{#3}
+        \arg[\fpeval{\thespalte+1}] &
+        } 
+      %funktionen
+      \setsepchar{ }
+      \forloop{spalte}{0}{\value{spalte} < #2}%
+        {
+        \readlist\arg{#4}
+        \arg[\fpeval{\thespalte+1}] \ifthenelse{\fpeval{#2-1}=\thespalte}{}{&}
+        }
+        \\\hline 
+}
+
+\begin{document}
+
+\begin{tabularx}{\linewidth}{m{0.5 \linewidth} X}
+  \begin{minipage}{\linewidth}
+    \STUDENTA\\
+    \STUDENTB\\
+  \end{minipage} &
+\end{tabularx}
+\setcounter{aufgabe}{\AUFGABENSTART}%
+\header{Nr. \NUMBER}{\DEADLINE}
+
+% ----------------------- TODO ---------------------------
+
+\begin{center}
+  \begin{tabular}{|c|ccc|ccc|}
+    \hline
+    Task      & 1.1         & 1.2        & 1.3       & 2.1       & 2.2     & 2.3  \\
+    \hline
+    Completed & $\boxtimes$ & $\boxtimes$  & $\boxtimes$ & $\boxtimes$ & $\boxtimes$ & $\boxtimes$ \\
+    \hline
+    Feedback  & $\square$ & $\square$  & $\square$ & $\square$ & $\square$ & $\square$ \\
+    \hline
+  \end{tabular}
+\end{center}
+
+\section*{Exercise 1 – Software Development Models}
+\subsection*{Exercise 1.1}
+\subsubsection*{V-Model}
+The V-Model (Verification and Validation Model) is a sequential development model where each phase has a corresponding testing phase.
+\\
+\textbf{Advantage:} Clear structure and thorough documentation lead to high software quality.
+\\
+\textbf{Disadvantage:} Inflexible to changes in requirements.
+
+\subsubsection*{SCRUM (Agile Model)}
+SCRUM is an agile framework that emphasizes iterative development in sprints (2-4 weeks) and continuous improvement.
+\\
+\textbf{Advantage:} Highly adaptable to changing requirements.
+\\
+\textbf{Disadvantage:} Lack of structure can lead to scope creep.
+
+\subsection*{Exercise 1.2}
+The V-Model offers a clear and structured approach with detailed documentation and verification. This reduces the risk of errors and ensures adherence to high-quality standards. In an academic environment with fixed deadlines and high-quality demands, this is particularly beneficial.
+
+\subsection*{Exercise 1.3}
+SCRUM allows for flexibility and adaptability, which is crucial when requirements change. Through iterative sprints and regular feedback, the platform can be better aligned with user needs. This is very advantageous in a dynamic project environment with evolving user requirements.
+
+\section*{Exercise 2 – Risk Management}
+\subsection*{Exercise 2.1}
+\begin{enumerate}
+    \item \textbf{Weather Conditions}
+    \begin{itemize}
+        \item \textbf{Description:} If it rains or the weather is otherwise unfavorable, it could significantly reduce the number of people willing to attend the waffle sale.
+        \item \textbf{Impact:} Reduced attendance leading to lower sales.
+    \end{itemize}
+    
+    \item \textbf{Equipment Failure}
+    \begin{itemize}
+        \item \textbf{Description:} If one or both waffle irons fail, the production of waffles will be slowed or halted, reducing the number of waffles available for sale.
+        \item \textbf{Impact:} Lower production leading to decreased sales and potentially long wait times for customers.
+    \end{itemize}
+    
+    \item \textbf{Ingredient Shortage}
+    \begin{itemize}
+        \item \textbf{Description:} If there are not enough ingredients (e.g., batter, toppings), the waffle sale could be forced to end early or sell fewer waffles.
+        \item \textbf{Impact:} Reduced sales due to inability to meet demand.
+    \end{itemize}
+\end{enumerate}
+
+\subsection*{Exercise 2.2}
+
+\begin{enumerate}
+    \item \textbf{Weather Conditions}
+    \begin{itemize}
+        \item \textbf{Probability:} 30\% (based on historical weather data for late June in the area, assuming some chance of rain)
+        \item \textbf{Cost in case of occurrence:} 0.5 (assuming half the potential customers would not show up due to bad weather)
+        \item \textbf{Risk Value:} $0.3 \times 0.5 = 0.15$
+    \end{itemize}
+    
+    \item \textbf{Equipment Failure}
+    \begin{itemize}
+        \item \textbf{Probability:} 20\% (considering the age and condition of the household waffle irons)
+        \item \textbf{Cost in case of occurrence:} 0.7 (if one iron fails, production is halved; if both fail, no production)
+        \item \textbf{Risk Value:} $0.2 \times 0.7 = 0.14$
+    \end{itemize}
+    
+    \item \textbf{Ingredient Shortage}
+    \begin{itemize}
+        \item \textbf{Probability:} 10\% (assuming reasonable planning but accounting for unexpected shortages)
+        \item \textbf{Cost in case of occurrence:} 0.8 (if ingredients run out early, most sales would be lost)
+        \item \textbf{Risk Value:} $0.1 \times 0.8 = 0.08$
+    \end{itemize}
+\end{enumerate}
+
+\subsection*{Exercise 2.3}
+
+The highest risk value is for \textbf{Weather Conditions} with a risk value of 0.15.
+\textbf{Mitigation Strategy:}
+\begin{itemize}
+    \item \textbf{Location:} Consider setting up the waffle sale in a sheltered area, such as under a large canopy or inside a nearby building entrance, to protect against rain.
+    \item \textbf{Promotion:} Have a backup plan for promoting the sale through social media to encourage attendance regardless of weather.
+    \item \textbf{Weather Monitoring:} Closely monitor weather forecasts in the days leading up to the event and prepare contingency plans accordingly.
+\end{itemize}
+By implementing these measures, the impact of unfavorable weather can be minimized, ensuring a better turnout and higher sales despite potential rain.
+
+\end{document}

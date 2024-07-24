@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.4.20)  8 MAY 2024 12:39
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.4.20)  15 MAY 2024 10:32
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**"g:/Drive/My files/university-content/Software_Engineering/submissions/exercise03/exercise03.tex"
-(g:/Drive/My files/university-content/Software_Engineering/submissions/exercise03/exercise03.tex
+**"g:/Drive/My files/university-content/Software_Engineering/submissions/exercise04/exercise04.tex"
+(g:/Drive/My files/university-content/Software_Engineering/submissions/exercise04/exercise04.tex
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-04>
 (C:\Users\TempestW\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\scrartcl.cls
@@ -712,8 +712,8 @@ File: pgflibraryarrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
 File: l3backend-pdftex.def 2024-01-04 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count331
 \l__pdf_internal_box=\box74
-) (exercise03.aux)
-\openout1 = `exercise03.aux'.
+) (exercise04.aux)
+\openout1 = `exercise04.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 147.
 LaTeX Font Info:    ... okay on input line 147.
@@ -754,9 +754,9 @@ File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
 \c@lstlisting=\count338
 Package hyperref Info: Link coloring OFF on input line 147.
- (exercise03.out) (exercise03.out)
+ (exercise04.out) (exercise04.out)
 \@outlinefile=\write5
-\openout5 = `exercise03.out'.
+\openout5 = `exercise04.out'.
 
 Class scrartcl Info: loading recommended package `bookmark'.
 (scrartcl)           Using `bookmark' together with `hyperref' is recommended,
@@ -816,63 +816,30 @@ Overfull \hbox (10.95003pt too wide) in paragraph at lines 154--156
 [][] 
  []
 
-<1.1_GPM_SW_module.png, id=6, 959.585pt x 871.255pt>
-File: 1.1_GPM_SW_module.png Graphic file (type png)
-<use 1.1_GPM_SW_module.png>
-Package pdftex.def Info: 1.1_GPM_SW_module.png  used on input line 177.
-(pdftex.def)             Requested size: 426.79135pt x 387.5012pt.
 [1{C:/Users/TempestW/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}
 
- <./1.1_GPM_SW_module.png>]
-<1.2_Gantt_Chart.PNG, id=21, 856.70062pt x 243.15843pt>
-File: 1.2_Gantt_Chart.PNG Graphic file (type png)
-<use 1.2_Gantt_Chart.PNG>
-Package pdftex.def Info: 1.2_Gantt_Chart.PNG  used on input line 186.
-(pdftex.def)             Requested size: 426.79135pt x 121.13739pt.
- [2 <./1.2_Gantt_Chart.PNG>]
-<1.4_GPM_extended.png, id=30, 1080.035pt x 871.255pt>
-File: 1.4_GPM_extended.png Graphic file (type png)
-<use 1.4_GPM_extended.png>
-Package pdftex.def Info: 1.4_GPM_extended.png  used on input line 198.
-(pdftex.def)             Requested size: 426.79135pt x 344.28154pt.
- [3 <./1.4_GPM_extended.png>]
-<1.4_Bonus_Gantt_Chart.PNG, id=39, 855.94781pt x 289.08pt>
-File: 1.4_Bonus_Gantt_Chart.PNG Graphic file (type png)
-<use 1.4_Bonus_Gantt_Chart.PNG>
-Package pdftex.def Info: 1.4_Bonus_Gantt_Chart.PNG  used on input line 207.
-(pdftex.def)             Requested size: 426.79135pt x 144.13823pt.
- [4 <./1.4_Bonus_Gantt_Chart.PNG>]
-<ex2.png, id=57, 1240.635pt x 825.0825pt>
-File: ex2.png Graphic file (type png)
-<use ex2.png>
-Package pdftex.def Info: ex2.png  used on input line 283.
-(pdftex.def)             Requested size: 426.79135pt x 283.83543pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[5] [6 <./ex2.png (PNG copy)>] [7] 
+] [2] 
 enddocument/afterlastpage: lastpage setting LastPage.
-(exercise03.aux)
+(exercise04.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-04>
  ***********
-Package rerunfilecheck Info: File `exercise03.out' has not changed.
+Package rerunfilecheck Info: File `exercise04.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 28492 strings out of 474485
- 545815 string characters out of 5742318
- 1935542 words of memory out of 5000000
- 50256 multiletter control sequences out of 15000+600000
+ 28427 strings out of 474485
+ 544658 string characters out of 5742318
+ 1943542 words of memory out of 5000000
+ 50217 multiletter control sequences out of 15000+600000
  565463 words of font info for 64 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 108i,11n,107p,10988b,691s stack positions out of 10000i,1000n,20000p,200000b,200000s
- <C:\Users\TempestW\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1095.pk><C:/Users/TempestW/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/TempestW/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/TempestW/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/TempestW/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><C:/Users/TempestW/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on exercise03.pdf (7 pages, 371635 bytes).
+ 108i,11n,107p,10988b,620s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ <C:\Users\TempestW\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1095.pk><C:/Users/TempestW/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/TempestW/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/TempestW/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/TempestW/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/TempestW/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><C:/Users/TempestW/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/TempestW/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msam10.pfb>
+Output written on exercise04.pdf (2 pages, 102009 bytes).
 PDF statistics:
- 127 PDF objects out of 1000 (max. 8388607)
- 45 named destinations out of 1000 (max. 500000)
- 38 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 78 PDF objects out of 1000 (max. 8388607)
+ 19 named destinations out of 1000 (max. 500000)
+ 13 words of extra memory for PDF output out of 10000 (max. 10000000)
 

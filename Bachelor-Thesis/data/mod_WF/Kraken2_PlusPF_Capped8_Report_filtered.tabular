@@ -1,0 +1,122 @@
+@SampleID:
+@Version:0.10.0
+@Ranks:superkingdom|phylum|class|order|family|genus|species|strain
+@TaxonomyID:
+@@TAXID	RANK	TAXPATH	TAXPATHSN	PERCENTAGE
+79.65	39744551	39744551	U	0	unclassified
+20.35	10153628	21176	R	1	root
+20.31	10131941	5278	R1	131567	  cellular organisms
+20.28	10118831	104151	D	2	    Bacteria
+14.80	7385876	99036	P	1224	      Pseudomonadota
+7.93	3955648	18932	C	1236	        Gammaproteobacteria
+7.53	3756247	508	O	72274	          Pseudomonadales
+7.53	3755111	39491	F	135621	            Pseudomonadaceae
+7.44	3712217	2697392	G	286	              Pseudomonas
+1.90	949697	44429	G1	136841	                Pseudomonas aeruginosa group
+1.80	900388	893088	S	287	                  Pseudomonas aeruginosa
+0.06	31284	6562	G1	196821	                unclassified Pseudomonas
+0.28	141333	1675	O	135614	          Xanthomonadales
+0.26	131817	5846	F	32033	            Xanthomonadaceae
+0.19	97202	136	G	2370	              Xylella
+0.19	97038	96267	S	2371	                Xylella fastidiosa
+0.03	15302	4069	G	68	              Lysobacter
+0.03	17302	1389	O	91347	          Enterobacterales
+4.02	2006460	35383	C	28211	        Alphaproteobacteria
+3.80	1897883	39638	O	204455	          Rhodobacterales
+3.64	1817261	23280	F	31989	            Paracoccaceae
+3.51	1750148	235323	G	265	              Paracoccus
+2.93	1461703	1461371	S	266	                Paracoccus denitrificans
+0.08	40984	8187	F	2854170	            Roseobacteraceae
+0.09	46967	4833	O	356	          Hyphomicrobiales
+0.03	12722	394	O	204457	          Sphingomonadales
+2.65	1324466	23507	C	28216	        Betaproteobacteria
+2.56	1277239	75041	O	80840	          Burkholderiales
+2.23	1110536	76140	F	75682	            Oxalobacteraceae
+1.95	972591	150010	F1	2895353	              Telluria group
+1.24	616785	33295	G	1522432	                Pseudoduganella
+1.08	537669	537669	S	2660641	                  Pseudoduganella aquatica
+0.30	148118	20083	G	149698	                Massilia
+0.20	100706	35266	G1	2609279	                  unclassified Massilia
+0.04	18098	18098	S	2899220	                    Massilia sp. DM-R-R2A-13
+0.06	29640	558	G	75654	                Duganella
+0.03	16372	16372	S	2728021	                  Duganella dendranthematis
+0.03	12710	12710	S	75659	                  Duganella zoogloeoides
+0.05	24789	0	G	212744	                Rugamonas
+0.05	24789	0	G1	2620350	                  unclassified Rugamonas
+0.05	24789	24789	S	3039386	                    Rugamonas sp. DEMB1
+0.08	40741	15706	G	29580	              Janthinobacterium
+0.03	14486	1369	G1	2610881	                unclassified Janthinobacterium
+0.03	12635	3427	G	963	              Herbaspirillum
+0.08	38977	4234	F	119060	            Burkholderiaceae
+0.06	29086	4605	F	80864	            Comamonadaceae
+0.03	13439	802	O	206351	          Neisseriales
+4.38	2184302	7847	D1	1783272	      Terrabacteria group
+2.20	1096531	5783	P	201174	        Actinomycetota
+2.18	1086741	223406	C	1760	          Actinomycetes
+1.05	525814	113384	O	85006	            Micrococcales
+0.40	200229	14764	F	85021	              Intrasporangiaceae
+0.28	137750	10229	G	367298	                Phycicoccus
+0.18	89246	0	G1	2637926	                  unclassified Phycicoccus
+0.18	89246	89246	S	2714941	                    Phycicoccus sp. HDW14
+0.08	38275	38275	S	1690220	                  Phycicoccus endophyticus
+0.05	24400	7967	G	53457	                Janibacter
+0.19	94178	3509	F	1268	              Micrococcaceae
+0.16	79916	795	G	1663	                Arthrobacter
+0.15	76453	666	G1	235627	                  unclassified Arthrobacter
+0.15	72665	72665	S	904039	                    Arthrobacter sp. NEB 688
+0.09	45243	5124	F	85023	              Microbacteriaceae
+0.03	15391	2893	G	33882	                Microbacterium
+0.04	20544	1363	F	2805590	              Ornithinimicrobiaceae
+0.03	14615	267	F	85016	              Cellulomonadaceae
+0.20	100068	1918	O	85009	            Propionibacteriales
+0.17	85161	1934	F	85015	              Nocardioidaceae
+0.15	73857	11122	G	1839	                Nocardioides
+0.08	40069	1123	G1	2615069	                  unclassified Nocardioides
+0.05	25727	25727	S	2714939	                    Nocardioides sp. HDW12B
+0.18	88434	13655	O	85007	            Mycobacteriales
+0.05	27255	4902	F	1762	              Mycobacteriaceae
+0.04	21702	1178	F	85025	              Nocardiaceae
+0.03	13818	49	F	85026	              Gordoniaceae
+0.03	13500	5593	G	2053	                Gordonia
+0.14	72238	0	O	85011	            Kitasatosporales
+0.14	72238	3088	F	2062	              Streptomycetaceae
+0.13	64966	23421	G	1883	                Streptomyces
+0.04	21155	4026	G1	2593676	                  unclassified Streptomyces
+0.05	24317	0	O	85010	            Pseudonocardiales
+0.05	24317	1974	F	2070	              Pseudonocardiaceae
+0.05	23754	0	O	85008	            Micromonosporales
+0.05	23754	2695	F	28056	              Micromonosporaceae
+2.15	1072674	7672	P	1239	        Bacillota
+2.01	1004299	1717	C	91061	          Bacilli
+2.00	997557	6701	O	1385	            Bacillales
+1.95	971269	0	O1	539002	              Bacillales incertae sedis
+1.95	971258	0	O2	539742	                Bacillales Family XII. Incertae Sedis
+1.95	971258	481738	G	33986	                  Exiguobacterium
+0.66	331737	331737	S	41170	                    Exiguobacterium acetylicum
+0.29	146441	7048	G1	2644629	                    unclassified Exiguobacterium
+0.14	67941	67941	S	1224749	                      Exiguobacterium sp. ZWU0009
+0.11	54885	54885	S	1399115	                      Exiguobacterium sp. MH3
+0.10	47716	74	C	186801	          Clostridia
+0.09	47173	1819	O	186802	            Eubacteriales
+0.06	29905	24	F	216572	              Oscillospiraceae
+0.06	28452	5026	G	216851	                Faecalibacterium
+0.04	20319	20241	G1	2646395	                  unclassified Faecalibacterium
+0.66	330057	804	P	200940	      Thermodesulfobacteriota
+0.65	326180	0	C	3024418	        Desulfobacteria
+0.65	326180	621	O	213118	          Desulfobacterales
+0.65	324379	0	F	3031627	            Desulfatibacillaceae
+0.65	324379	0	G	218207	              Desulfatibacillum
+0.65	324379	324379	S	218208	                Desulfatibacillum aliphaticivorans
+0.20	100628	23	D1	1783270	      FCB group
+0.20	100410	81	D2	68336	        Bacteroidota/Chlorobiota group
+0.20	99671	8507	P	976	          Bacteroidota
+0.11	54280	0	C	117743	            Flavobacteriia
+0.11	54280	2931	O	200644	              Flavobacteriales
+0.10	48993	2769	F	49546	                Flavobacteriaceae
+0.07	36903	99	G	363408	                  Nonlabens
+0.07	36750	0	S	328515	                    Nonlabens dokdonensis
+0.07	36750	36750	S1	592029	                      Nonlabens dokdonensis DSW-6
+0.03	15643	0	C	1853228	            Chitinophagia
+0.03	15643	0	O	1853229	              Chitinophagales
+0.03	15643	4472	F	563835	                Chitinophagaceae
+0.03	12819	24	C	200643	            Bacteroidia

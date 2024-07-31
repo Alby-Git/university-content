@@ -1,0 +1,5 @@
+Name, CPU-Runtime, value
+Bracken(Uncapped), 5.473, secounds
+Bracken(Capped16), 2.353, secounds
+Bracken(Capped8), 4.139, secounds
+Kraken2(Uncapped), 5.473, secounds

@@ -1,0 +1,1667 @@
+tool	rank	metric	sample	value
+Gold standard	superkingdom	Bray-Curtis distance		0.0
+Gold standard	phylum	Bray-Curtis distance		0.0
+Gold standard	class	Bray-Curtis distance		0.0
+Gold standard	order	Bray-Curtis distance		0.0
+Gold standard	family	Bray-Curtis distance		0.0
+Gold standard	genus	Bray-Curtis distance		0.0
+Gold standard	species	Bray-Curtis distance		0.0
+Gold standard	strain	Bray-Curtis distance		0.0
+Gold standard	superkingdom	Shannon diversity		0.47404061812816134
+Gold standard	superkingdom	Shannon equitability		0.6838960489534373
+Gold standard	phylum	Shannon diversity		1.6471831966453045
+Gold standard	phylum	Shannon equitability		0.9193104459243973
+Gold standard	class	Shannon diversity		2.1395668019073213
+Gold standard	class	Shannon equitability		0.8610250216400919
+Gold standard	order	Shannon diversity		2.1801058886115747
+Gold standard	order	Shannon equitability		0.8260926597336963
+Gold standard	family	Shannon diversity		2.0921900724845237
+Gold standard	family	Shannon equitability		0.7545980605426358
+Gold standard	genus	Shannon diversity		2.2153967399565477
+Gold standard	genus	Shannon equitability		0.7167150802311343
+Gold standard	species	Shannon diversity		1.3957167792808653
+Gold standard	species	Shannon equitability		0.445134541212116
+Gold standard	strain	Shannon diversity		2.0822879184699707
+Gold standard	strain	Shannon equitability		0.5085766199754967
+Gold standard	superkingdom	True positives		2.0
+Gold standard	superkingdom	False negatives		0.0
+Gold standard	superkingdom	False positives		0.0
+Gold standard	superkingdom	Completeness		1.0
+Gold standard	superkingdom	Purity		1.0
+Gold standard	superkingdom	F1 score		1.0
+Gold standard	superkingdom	Jaccard index		1.0
+Gold standard	phylum	True positives		6.0
+Gold standard	phylum	False negatives		0.0
+Gold standard	phylum	False positives		0.0
+Gold standard	phylum	Completeness		1.0
+Gold standard	phylum	Purity		1.0
+Gold standard	phylum	F1 score		1.0
+Gold standard	phylum	Jaccard index		1.0
+Gold standard	class	True positives		12.0
+Gold standard	class	False negatives		0.0
+Gold standard	class	False positives		0.0
+Gold standard	class	Completeness		1.0
+Gold standard	class	Purity		1.0
+Gold standard	class	F1 score		1.0
+Gold standard	class	Jaccard index		1.0
+Gold standard	order	True positives		14.0
+Gold standard	order	False negatives		0.0
+Gold standard	order	False positives		0.0
+Gold standard	order	Completeness		1.0
+Gold standard	order	Purity		1.0
+Gold standard	order	F1 score		1.0
+Gold standard	order	Jaccard index		1.0
+Gold standard	family	True positives		16.0
+Gold standard	family	False negatives		0.0
+Gold standard	family	False positives		0.0
+Gold standard	family	Completeness		1.0
+Gold standard	family	Purity		1.0
+Gold standard	family	F1 score		1.0
+Gold standard	family	Jaccard index		1.0
+Gold standard	genus	True positives		22.0
+Gold standard	genus	False negatives		0.0
+Gold standard	genus	False positives		0.0
+Gold standard	genus	Completeness		1.0
+Gold standard	genus	Purity		1.0
+Gold standard	genus	F1 score		1.0
+Gold standard	genus	Jaccard index		1.0
+Gold standard	species	True positives		23.0
+Gold standard	species	False negatives		0.0
+Gold standard	species	False positives		0.0
+Gold standard	species	Completeness		1.0
+Gold standard	species	Purity		1.0
+Gold standard	species	F1 score		1.0
+Gold standard	species	Jaccard index		1.0
+Gold standard	strain	True positives		60.0
+Gold standard	strain	False negatives		0.0
+Gold standard	strain	False positives		0.0
+Gold standard	strain	Completeness		1.0
+Gold standard	strain	Purity		1.0
+Gold standard	strain	F1 score		1.0
+Gold standard	strain	Jaccard index		1.0
+Gold standard	superkingdom	L1 norm error		0.0
+Gold standard	phylum	L1 norm error		0.0
+Gold standard	class	L1 norm error		0.0
+Gold standard	order	L1 norm error		0.0
+Gold standard	family	L1 norm error		0.0
+Gold standard	genus	L1 norm error		0.0
+Gold standard	species	L1 norm error		0.0
+Gold standard	strain	L1 norm error		0.0
+Gold standard	na	Weighted UniFrac error		0.0
+Gold standard	na	Unweighted UniFrac error		0.0
+Gold standard	na	Weighted UniFrac (CAMI)		0.0
+Gold standard	na	Unweighted UniFrac (CAMI)		0.0
+Gold standard	superkingdom	Sum of abundances		1.0
+Gold standard	phylum	Sum of abundances		1.0
+Gold standard	class	Sum of abundances		0.9999999999999999
+Gold standard	order	Sum of abundances		0.9999999999999997
+Gold standard	family	Sum of abundances		1.0
+Gold standard	genus	Sum of abundances		0.9999999999999997
+Gold standard	species	Sum of abundances		0.9999999999999999
+Gold standard	strain	Sum of abundances		1.0000000000000007
+Gold standard	superkingdom	Taxon counts		2.0
+Gold standard	phylum	Taxon counts		6.0
+Gold standard	class	Taxon counts		12.0
+Gold standard	order	Taxon counts		14.0
+Gold standard	family	Taxon counts		16.0
+Gold standard	genus	Taxon counts		22.0
+Gold standard	species	Taxon counts		23.0
+Gold standard	strain	Taxon counts		60.0
+Gold standard	superkingdom	Bray-Curtis distance (unfiltered)		0.0
+Gold standard	phylum	Bray-Curtis distance (unfiltered)		0.0
+Gold standard	class	Bray-Curtis distance (unfiltered)		0.0
+Gold standard	order	Bray-Curtis distance (unfiltered)		0.0
+Gold standard	family	Bray-Curtis distance (unfiltered)		0.0
+Gold standard	genus	Bray-Curtis distance (unfiltered)		0.0
+Gold standard	species	Bray-Curtis distance (unfiltered)		0.0
+Gold standard	strain	Bray-Curtis distance (unfiltered)		0.0
+Gold standard	superkingdom	Shannon diversity (unfiltered)		0.47404061812816134
+Gold standard	superkingdom	Shannon equitability (unfiltered)		0.6838960489534373
+Gold standard	phylum	Shannon diversity (unfiltered)		1.6471831966453045
+Gold standard	phylum	Shannon equitability (unfiltered)		0.9193104459243973
+Gold standard	class	Shannon diversity (unfiltered)		2.1395668019073213
+Gold standard	class	Shannon equitability (unfiltered)		0.8610250216400919
+Gold standard	order	Shannon diversity (unfiltered)		2.1801058886115747
+Gold standard	order	Shannon equitability (unfiltered)		0.8260926597336963
+Gold standard	family	Shannon diversity (unfiltered)		2.0921900724845237
+Gold standard	family	Shannon equitability (unfiltered)		0.7545980605426358
+Gold standard	genus	Shannon diversity (unfiltered)		2.2153967399565477
+Gold standard	genus	Shannon equitability (unfiltered)		0.7167150802311343
+Gold standard	species	Shannon diversity (unfiltered)		1.3957167792808653
+Gold standard	species	Shannon equitability (unfiltered)		0.445134541212116
+Gold standard	strain	Shannon diversity (unfiltered)		2.0822879184699707
+Gold standard	strain	Shannon equitability (unfiltered)		0.5085766199754967
+Gold standard	superkingdom	True positives (unfiltered)		2.0
+Gold standard	superkingdom	False negatives (unfiltered)		0.0
+Gold standard	superkingdom	False positives (unfiltered)		0.0
+Gold standard	superkingdom	Completeness (unfiltered)		1.0
+Gold standard	superkingdom	Purity (unfiltered)		1.0
+Gold standard	superkingdom	F1 score (unfiltered)		1.0
+Gold standard	superkingdom	Jaccard index (unfiltered)		1.0
+Gold standard	phylum	True positives (unfiltered)		6.0
+Gold standard	phylum	False negatives (unfiltered)		0.0
+Gold standard	phylum	False positives (unfiltered)		0.0
+Gold standard	phylum	Completeness (unfiltered)		1.0
+Gold standard	phylum	Purity (unfiltered)		1.0
+Gold standard	phylum	F1 score (unfiltered)		1.0
+Gold standard	phylum	Jaccard index (unfiltered)		1.0
+Gold standard	class	True positives (unfiltered)		12.0
+Gold standard	class	False negatives (unfiltered)		0.0
+Gold standard	class	False positives (unfiltered)		0.0
+Gold standard	class	Completeness (unfiltered)		1.0
+Gold standard	class	Purity (unfiltered)		1.0
+Gold standard	class	F1 score (unfiltered)		1.0
+Gold standard	class	Jaccard index (unfiltered)		1.0
+Gold standard	order	True positives (unfiltered)		14.0
+Gold standard	order	False negatives (unfiltered)		0.0
+Gold standard	order	False positives (unfiltered)		0.0
+Gold standard	order	Completeness (unfiltered)		1.0
+Gold standard	order	Purity (unfiltered)		1.0
+Gold standard	order	F1 score (unfiltered)		1.0
+Gold standard	order	Jaccard index (unfiltered)		1.0
+Gold standard	family	True positives (unfiltered)		16.0
+Gold standard	family	False negatives (unfiltered)		0.0
+Gold standard	family	False positives (unfiltered)		0.0
+Gold standard	family	Completeness (unfiltered)		1.0
+Gold standard	family	Purity (unfiltered)		1.0
+Gold standard	family	F1 score (unfiltered)		1.0
+Gold standard	family	Jaccard index (unfiltered)		1.0
+Gold standard	genus	True positives (unfiltered)		22.0
+Gold standard	genus	False negatives (unfiltered)		0.0
+Gold standard	genus	False positives (unfiltered)		0.0
+Gold standard	genus	Completeness (unfiltered)		1.0
+Gold standard	genus	Purity (unfiltered)		1.0
+Gold standard	genus	F1 score (unfiltered)		1.0
+Gold standard	genus	Jaccard index (unfiltered)		1.0
+Gold standard	species	True positives (unfiltered)		23.0
+Gold standard	species	False negatives (unfiltered)		0.0
+Gold standard	species	False positives (unfiltered)		0.0
+Gold standard	species	Completeness (unfiltered)		1.0
+Gold standard	species	Purity (unfiltered)		1.0
+Gold standard	species	F1 score (unfiltered)		1.0
+Gold standard	species	Jaccard index (unfiltered)		1.0
+Gold standard	strain	True positives (unfiltered)		60.0
+Gold standard	strain	False negatives (unfiltered)		0.0
+Gold standard	strain	False positives (unfiltered)		0.0
+Gold standard	strain	Completeness (unfiltered)		1.0
+Gold standard	strain	Purity (unfiltered)		1.0
+Gold standard	strain	F1 score (unfiltered)		1.0
+Gold standard	strain	Jaccard index (unfiltered)		1.0
+Gold standard	superkingdom	L1 norm error (unfiltered)		0.0
+Gold standard	phylum	L1 norm error (unfiltered)		0.0
+Gold standard	class	L1 norm error (unfiltered)		0.0
+Gold standard	order	L1 norm error (unfiltered)		0.0
+Gold standard	family	L1 norm error (unfiltered)		0.0
+Gold standard	genus	L1 norm error (unfiltered)		0.0
+Gold standard	species	L1 norm error (unfiltered)		0.0
+Gold standard	strain	L1 norm error (unfiltered)		0.0
+Gold standard	na	Weighted UniFrac error (unfiltered)		0.0
+Gold standard	na	Unweighted UniFrac error (unfiltered)		0.0
+Gold standard	na	Weighted UniFrac (CAMI) (unfiltered)		0.0
+Gold standard	na	Unweighted UniFrac (CAMI) (unfiltered)		0.0
+Gold standard	superkingdom	Sum of abundances (unfiltered)		1.0
+Gold standard	phylum	Sum of abundances (unfiltered)		1.0
+Gold standard	class	Sum of abundances (unfiltered)		0.9999999999999999
+Gold standard	order	Sum of abundances (unfiltered)		0.9999999999999997
+Gold standard	family	Sum of abundances (unfiltered)		1.0
+Gold standard	genus	Sum of abundances (unfiltered)		0.9999999999999997
+Gold standard	species	Sum of abundances (unfiltered)		0.9999999999999999
+Gold standard	strain	Sum of abundances (unfiltered)		1.0000000000000007
+Gold standard	superkingdom	Taxon counts (unfiltered)		2.0
+Gold standard	phylum	Taxon counts (unfiltered)		6.0
+Gold standard	class	Taxon counts (unfiltered)		12.0
+Gold standard	order	Taxon counts (unfiltered)		14.0
+Gold standard	family	Taxon counts (unfiltered)		16.0
+Gold standard	genus	Taxon counts (unfiltered)		22.0
+Gold standard	species	Taxon counts (unfiltered)		23.0
+Gold standard	strain	Taxon counts (unfiltered)		60.0
+B_C8.tsv	superkingdom	Bray-Curtis distance (unfiltered)		0.18175257318616866
+B_C8.tsv	phylum	Bray-Curtis distance (unfiltered)		0.5664533223044925
+B_C8.tsv	class	Bray-Curtis distance (unfiltered)		0.6139838999768964
+B_C8.tsv	order	Bray-Curtis distance (unfiltered)		0.7098824105072619
+B_C8.tsv	family	Bray-Curtis distance (unfiltered)		0.7551186720417109
+B_C8.tsv	genus	Bray-Curtis distance (unfiltered)		0.8784834462615833
+B_C8.tsv	species	Bray-Curtis distance (unfiltered)		0.9722061663507764
+B_C8.tsv	superkingdom	Shannon diversity (unfiltered)		0.006262891772148288
+B_C8.tsv	superkingdom	Shannon equitability (unfiltered)		0.00570072976312784
+B_C8.tsv	phylum	Shannon diversity (unfiltered)		0.8779395316952412
+B_C8.tsv	phylum	Shannon equitability (unfiltered)		0.30374623239962506
+B_C8.tsv	class	Shannon diversity (unfiltered)		1.6514609195591001
+B_C8.tsv	class	Shannon equitability (unfiltered)		0.4573521081097517
+B_C8.tsv	order	Shannon diversity (unfiltered)		1.9484483279152465
+B_C8.tsv	order	Shannon equitability (unfiltered)		0.4555998232481921
+B_C8.tsv	family	Shannon diversity (unfiltered)		2.043836815996188
+B_C8.tsv	family	Shannon equitability (unfiltered)		0.41125022064119754
+B_C8.tsv	genus	Shannon diversity (unfiltered)		2.4269735270867465
+B_C8.tsv	genus	Shannon equitability (unfiltered)		0.414507893213688
+B_C8.tsv	species	Shannon diversity (unfiltered)		2.7160669155480752
+B_C8.tsv	species	Shannon equitability (unfiltered)		0.4139695504954512
+B_C8.tsv	superkingdom	True positives (unfiltered)		1.0
+B_C8.tsv	superkingdom	False negatives (unfiltered)		1.0
+B_C8.tsv	superkingdom	False positives (unfiltered)		2.0
+B_C8.tsv	superkingdom	Completeness (unfiltered)		0.5
+B_C8.tsv	superkingdom	Purity (unfiltered)		0.3333333333333333
+B_C8.tsv	superkingdom	F1 score (unfiltered)		0.4
+B_C8.tsv	superkingdom	Jaccard index (unfiltered)		0.25
+B_C8.tsv	phylum	True positives (unfiltered)		6.0
+B_C8.tsv	phylum	False negatives (unfiltered)		0.0
+B_C8.tsv	phylum	False positives (unfiltered)		12.0
+B_C8.tsv	phylum	Completeness (unfiltered)		1.0
+B_C8.tsv	phylum	Purity (unfiltered)		0.3333333333333333
+B_C8.tsv	phylum	F1 score (unfiltered)		0.5
+B_C8.tsv	phylum	Jaccard index (unfiltered)		0.3333333333333333
+B_C8.tsv	class	True positives (unfiltered)		11.0
+B_C8.tsv	class	False negatives (unfiltered)		1.0
+B_C8.tsv	class	False positives (unfiltered)		26.0
+B_C8.tsv	class	Completeness (unfiltered)		0.9166666666666666
+B_C8.tsv	class	Purity (unfiltered)		0.2972972972972973
+B_C8.tsv	class	F1 score (unfiltered)		0.4489795918367347
+B_C8.tsv	class	Jaccard index (unfiltered)		0.2894736842105263
+B_C8.tsv	order	True positives (unfiltered)		13.0
+B_C8.tsv	order	False negatives (unfiltered)		1.0
+B_C8.tsv	order	False positives (unfiltered)		59.0
+B_C8.tsv	order	Completeness (unfiltered)		0.9285714285714286
+B_C8.tsv	order	Purity (unfiltered)		0.18055555555555555
+B_C8.tsv	order	F1 score (unfiltered)		0.3023255813953489
+B_C8.tsv	order	Jaccard index (unfiltered)		0.1780821917808219
+B_C8.tsv	family	True positives (unfiltered)		12.0
+B_C8.tsv	family	False negatives (unfiltered)		4.0
+B_C8.tsv	family	False positives (unfiltered)		132.0
+B_C8.tsv	family	Completeness (unfiltered)		0.75
+B_C8.tsv	family	Purity (unfiltered)		0.08333333333333333
+B_C8.tsv	family	F1 score (unfiltered)		0.15
+B_C8.tsv	family	Jaccard index (unfiltered)		0.08108108108108109
+B_C8.tsv	genus	True positives (unfiltered)		12.0
+B_C8.tsv	genus	False negatives (unfiltered)		10.0
+B_C8.tsv	genus	False positives (unfiltered)		337.0
+B_C8.tsv	genus	Completeness (unfiltered)		0.5454545454545454
+B_C8.tsv	genus	Purity (unfiltered)		0.034383954154727794
+B_C8.tsv	genus	F1 score (unfiltered)		0.0646900269541779
+B_C8.tsv	genus	Jaccard index (unfiltered)		0.033426183844011144
+B_C8.tsv	species	True positives (unfiltered)		4.0
+B_C8.tsv	species	False negatives (unfiltered)		19.0
+B_C8.tsv	species	False positives (unfiltered)		703.0
+B_C8.tsv	species	Completeness (unfiltered)		0.17391304347826086
+B_C8.tsv	species	Purity (unfiltered)		0.005657708628005658
+B_C8.tsv	species	F1 score (unfiltered)		0.010958904109589041
+B_C8.tsv	species	Jaccard index (unfiltered)		0.005509641873278237
+B_C8.tsv	strain	True positives (unfiltered)		0.0
+B_C8.tsv	strain	False negatives (unfiltered)		60.0
+B_C8.tsv	strain	False positives (unfiltered)		0.0
+B_C8.tsv	strain	Completeness (unfiltered)		0.0
+B_C8.tsv	strain	Purity (unfiltered)		0.0
+B_C8.tsv	strain	Jaccard index (unfiltered)		0.0
+B_C8.tsv	superkingdom	L1 norm error (unfiltered)		0.3635051463723373
+B_C8.tsv	phylum	L1 norm error (unfiltered)		1.1329066446089848
+B_C8.tsv	class	L1 norm error (unfiltered)		1.227967799953792
+B_C8.tsv	order	L1 norm error (unfiltered)		1.4197648210145228
+B_C8.tsv	family	L1 norm error (unfiltered)		1.5102373440834196
+B_C8.tsv	genus	L1 norm error (unfiltered)		1.7569668925231607
+B_C8.tsv	species	L1 norm error (unfiltered)		1.9444123327015341
+B_C8.tsv	na	Weighted UniFrac error (unfiltered)		0.10639428949886186
+B_C8.tsv	na	Unweighted UniFrac error (unfiltered)		9.39070099421775
+B_C8.tsv	na	Weighted UniFrac (CAMI) (unfiltered)		11.413226651922978
+B_C8.tsv	na	Unweighted UniFrac (CAMI) (unfiltered)		6707.679073861861
+B_C8.tsv	superkingdom	Sum of abundances (unfiltered)		1.0
+B_C8.tsv	phylum	Sum of abundances (unfiltered)		0.9999999999999994
+B_C8.tsv	class	Sum of abundances (unfiltered)		0.9999999999999984
+B_C8.tsv	order	Sum of abundances (unfiltered)		0.9999999999999991
+B_C8.tsv	family	Sum of abundances (unfiltered)		0.9999999999999954
+B_C8.tsv	genus	Sum of abundances (unfiltered)		1.0000000000000004
+B_C8.tsv	species	Sum of abundances (unfiltered)		0.9999999999999516
+B_C8.tsv	superkingdom	Taxon counts (unfiltered)		3.0
+B_C8.tsv	phylum	Taxon counts (unfiltered)		18.0
+B_C8.tsv	class	Taxon counts (unfiltered)		37.0
+B_C8.tsv	order	Taxon counts (unfiltered)		72.0
+B_C8.tsv	family	Taxon counts (unfiltered)		144.0
+B_C8.tsv	genus	Taxon counts (unfiltered)		349.0
+B_C8.tsv	species	Taxon counts (unfiltered)		707.0
+B_C8.tsv	superkingdom	Bray-Curtis distance		0.1814660863163794
+B_C8.tsv	phylum	Bray-Curtis distance		0.6568832494618182
+B_C8.tsv	class	Bray-Curtis distance		0.6746708149922609
+B_C8.tsv	order	Bray-Curtis distance		0.7151027892571107
+B_C8.tsv	family	Bray-Curtis distance		0.785585802069724
+B_C8.tsv	genus	Bray-Curtis distance		0.8813245434556286
+B_C8.tsv	species	Bray-Curtis distance		0.9706937932911034
+B_C8.tsv	superkingdom	Shannon diversity		0.0006997549428133504
+B_C8.tsv	superkingdom	Shannon equitability		0.0
+B_C8.tsv	phylum	Shannon diversity		0.4634400476390209
+B_C8.tsv	phylum	Shannon equitability		0.6686026584781605
+B_C8.tsv	class	Shannon diversity		1.1935082819709124
+B_C8.tsv	class	Shannon equitability		0.860934239829671
+B_C8.tsv	order	Shannon diversity		1.1773558812440894
+B_C8.tsv	order	Shannon equitability		0.8492827456161516
+B_C8.tsv	family	Shannon diversity		1.0745536395186108
+B_C8.tsv	family	Shannon equitability		0.7751266034513433
+B_C8.tsv	genus	Shannon diversity		1.3201753455513339
+B_C8.tsv	genus	Shannon equitability		0.7368038892631643
+B_C8.tsv	species	Shannon diversity		1.3288946536650639
+B_C8.tsv	species	Shannon equitability		0.6829167597025003
+B_C8.tsv	superkingdom	True positives		1.0
+B_C8.tsv	superkingdom	False negatives		1.0
+B_C8.tsv	superkingdom	False positives		0.0
+B_C8.tsv	superkingdom	Completeness		0.5
+B_C8.tsv	superkingdom	Purity		1.0
+B_C8.tsv	superkingdom	F1 score		0.6666666666666666
+B_C8.tsv	superkingdom	Jaccard index		0.5
+B_C8.tsv	phylum	True positives		2.0
+B_C8.tsv	phylum	False negatives		4.0
+B_C8.tsv	phylum	False positives		0.0
+B_C8.tsv	phylum	Completeness		0.3333333333333333
+B_C8.tsv	phylum	Purity		1.0
+B_C8.tsv	phylum	F1 score		0.5
+B_C8.tsv	phylum	Jaccard index		0.3333333333333333
+B_C8.tsv	class	True positives		4.0
+B_C8.tsv	class	False negatives		8.0
+B_C8.tsv	class	False positives		0.0
+B_C8.tsv	class	Completeness		0.3333333333333333
+B_C8.tsv	class	Purity		1.0
+B_C8.tsv	class	F1 score		0.5
+B_C8.tsv	class	Jaccard index		0.3333333333333333
+B_C8.tsv	order	True positives		4.0
+B_C8.tsv	order	False negatives		10.0
+B_C8.tsv	order	False positives		0.0
+B_C8.tsv	order	Completeness		0.2857142857142857
+B_C8.tsv	order	Purity		1.0
+B_C8.tsv	order	F1 score		0.4444444444444445
+B_C8.tsv	order	Jaccard index		0.2857142857142857
+B_C8.tsv	family	True positives		3.0
+B_C8.tsv	family	False negatives		13.0
+B_C8.tsv	family	False positives		1.0
+B_C8.tsv	family	Completeness		0.1875
+B_C8.tsv	family	Purity		0.75
+B_C8.tsv	family	F1 score		0.3
+B_C8.tsv	family	Jaccard index		0.17647058823529413
+B_C8.tsv	genus	True positives		3.0
+B_C8.tsv	genus	False negatives		19.0
+B_C8.tsv	genus	False positives		3.0
+B_C8.tsv	genus	Completeness		0.13636363636363635
+B_C8.tsv	genus	Purity		0.5
+B_C8.tsv	genus	F1 score		0.21428571428571427
+B_C8.tsv	genus	Jaccard index		0.12
+B_C8.tsv	species	True positives		2.0
+B_C8.tsv	species	False negatives		21.0
+B_C8.tsv	species	False positives		5.0
+B_C8.tsv	species	Completeness		0.08695652173913043
+B_C8.tsv	species	Purity		0.2857142857142857
+B_C8.tsv	species	F1 score		0.13333333333333333
+B_C8.tsv	species	Jaccard index		0.07142857142857142
+B_C8.tsv	strain	True positives		0.0
+B_C8.tsv	strain	False negatives		60.0
+B_C8.tsv	strain	False positives		0.0
+B_C8.tsv	strain	Completeness		0.0
+B_C8.tsv	strain	Purity		0.0
+B_C8.tsv	strain	Jaccard index		0.0
+B_C8.tsv	superkingdom	L1 norm error		0.3628051463723373
+B_C8.tsv	phylum	L1 norm error		1.214622987877639
+B_C8.tsv	class	L1 norm error		1.2473478729606786
+B_C8.tsv	order	L1 norm error		1.2964278458300675
+B_C8.tsv	family	L1 norm error		1.4238032901072404
+B_C8.tsv	genus	L1 norm error		1.6059434607980285
+B_C8.tsv	species	L1 norm error		1.7502981277981784
+B_C8.tsv	na	Weighted UniFrac error		0.10334119283522444
+B_C8.tsv	na	Unweighted UniFrac error		0.8504265947528308
+B_C8.tsv	na	Weighted UniFrac (CAMI)		10.988417960935234
+B_C8.tsv	na	Unweighted UniFrac (CAMI)		789.0102610462205
+B_C8.tsv	superkingdom	Sum of abundances		0.9993
+B_C8.tsv	phylum	Sum of abundances		0.8490698139627925
+B_C8.tsv	class	Sum of abundances		0.8488244122061023
+B_C8.tsv	order	Sum of abundances		0.8129251700680267
+B_C8.tsv	family	Sum of abundances		0.8124096519515155
+B_C8.tsv	genus	Sum of abundances		0.8221930533117875
+B_C8.tsv	species	Sum of abundances		0.8031413612565234
+B_C8.tsv	superkingdom	Taxon counts		1.0
+B_C8.tsv	phylum	Taxon counts		2.0
+B_C8.tsv	class	Taxon counts		4.0
+B_C8.tsv	order	Taxon counts		4.0
+B_C8.tsv	family	Taxon counts		4.0
+B_C8.tsv	genus	Taxon counts		6.0
+B_C8.tsv	species	Taxon counts		7.0
+B_C16.tsv	superkingdom	Bray-Curtis distance (unfiltered)		0.1817525731861687
+B_C16.tsv	phylum	Bray-Curtis distance (unfiltered)		0.4965096158192708
+B_C16.tsv	class	Bray-Curtis distance (unfiltered)		0.5801602007687484
+B_C16.tsv	order	Bray-Curtis distance (unfiltered)		0.7034146079427666
+B_C16.tsv	family	Bray-Curtis distance (unfiltered)		0.7371108641069015
+B_C16.tsv	genus	Bray-Curtis distance (unfiltered)		0.8753164139016568
+B_C16.tsv	species	Bray-Curtis distance (unfiltered)		0.9722061663507763
+B_C16.tsv	superkingdom	Shannon diversity (unfiltered)		0.008581024826685373
+B_C16.tsv	superkingdom	Shannon equitability (unfiltered)		0.007810785401907785
+B_C16.tsv	phylum	Shannon diversity (unfiltered)		1.051745784005858
+B_C16.tsv	phylum	Shannon equitability (unfiltered)		0.3571973443659557
+B_C16.tsv	class	Shannon diversity (unfiltered)		1.8324739849961915
+B_C16.tsv	class	Shannon equitability (unfiltered)		0.49675626644632365
+B_C16.tsv	order	Shannon diversity (unfiltered)		2.1975415388923207
+B_C16.tsv	order	Shannon equitability (unfiltered)		0.49596759213019137
+B_C16.tsv	family	Shannon diversity (unfiltered)		2.408822888202274
+B_C16.tsv	family	Shannon equitability (unfiltered)		0.4684909585645363
+B_C16.tsv	genus	Shannon diversity (unfiltered)		2.860575728565595
+B_C16.tsv	genus	Shannon equitability (unfiltered)		0.4741479938128079
+B_C16.tsv	species	Shannon diversity (unfiltered)		3.3013139682188513
+B_C16.tsv	species	Shannon equitability (unfiltered)		0.4859542836883305
+B_C16.tsv	superkingdom	True positives (unfiltered)		1.0
+B_C16.tsv	superkingdom	False negatives (unfiltered)		1.0
+B_C16.tsv	superkingdom	False positives (unfiltered)		2.0
+B_C16.tsv	superkingdom	Completeness (unfiltered)		0.5
+B_C16.tsv	superkingdom	Purity (unfiltered)		0.3333333333333333
+B_C16.tsv	superkingdom	F1 score (unfiltered)		0.4
+B_C16.tsv	superkingdom	Jaccard index (unfiltered)		0.25
+B_C16.tsv	phylum	True positives (unfiltered)		6.0
+B_C16.tsv	phylum	False negatives (unfiltered)		0.0
+B_C16.tsv	phylum	False positives (unfiltered)		13.0
+B_C16.tsv	phylum	Completeness (unfiltered)		1.0
+B_C16.tsv	phylum	Purity (unfiltered)		0.3157894736842105
+B_C16.tsv	phylum	F1 score (unfiltered)		0.4799999999999999
+B_C16.tsv	phylum	Jaccard index (unfiltered)		0.3157894736842105
+B_C16.tsv	class	True positives (unfiltered)		11.0
+B_C16.tsv	class	False negatives (unfiltered)		1.0
+B_C16.tsv	class	False positives (unfiltered)		29.0
+B_C16.tsv	class	Completeness (unfiltered)		0.9166666666666666
+B_C16.tsv	class	Purity (unfiltered)		0.275
+B_C16.tsv	class	F1 score (unfiltered)		0.4230769230769231
+B_C16.tsv	class	Jaccard index (unfiltered)		0.2682926829268293
+B_C16.tsv	order	True positives (unfiltered)		13.0
+B_C16.tsv	order	False negatives (unfiltered)		1.0
+B_C16.tsv	order	False positives (unfiltered)		71.0
+B_C16.tsv	order	Completeness (unfiltered)		0.9285714285714286
+B_C16.tsv	order	Purity (unfiltered)		0.15476190476190477
+B_C16.tsv	order	F1 score (unfiltered)		0.2653061224489796
+B_C16.tsv	order	Jaccard index (unfiltered)		0.15294117647058825
+B_C16.tsv	family	True positives (unfiltered)		12.0
+B_C16.tsv	family	False negatives (unfiltered)		4.0
+B_C16.tsv	family	False positives (unfiltered)		159.0
+B_C16.tsv	family	Completeness (unfiltered)		0.75
+B_C16.tsv	family	Purity (unfiltered)		0.07017543859649122
+B_C16.tsv	family	F1 score (unfiltered)		0.1283422459893048
+B_C16.tsv	family	Jaccard index (unfiltered)		0.06857142857142857
+B_C16.tsv	genus	True positives (unfiltered)		12.0
+B_C16.tsv	genus	False negatives (unfiltered)		10.0
+B_C16.tsv	genus	False positives (unfiltered)		405.0
+B_C16.tsv	genus	Completeness (unfiltered)		0.5454545454545454
+B_C16.tsv	genus	Purity (unfiltered)		0.02877697841726619
+B_C16.tsv	genus	F1 score (unfiltered)		0.05466970387243736
+B_C16.tsv	genus	Jaccard index (unfiltered)		0.02810304449648712
+B_C16.tsv	species	True positives (unfiltered)		4.0
+B_C16.tsv	species	False negatives (unfiltered)		19.0
+B_C16.tsv	species	False positives (unfiltered)		888.0
+B_C16.tsv	species	Completeness (unfiltered)		0.17391304347826086
+B_C16.tsv	species	Purity (unfiltered)		0.004484304932735426
+B_C16.tsv	species	F1 score (unfiltered)		0.008743169398907102
+B_C16.tsv	species	Jaccard index (unfiltered)		0.0043907793633369925
+B_C16.tsv	strain	True positives (unfiltered)		0.0
+B_C16.tsv	strain	False negatives (unfiltered)		60.0
+B_C16.tsv	strain	False positives (unfiltered)		0.0
+B_C16.tsv	strain	Completeness (unfiltered)		0.0
+B_C16.tsv	strain	Purity (unfiltered)		0.0
+B_C16.tsv	strain	Jaccard index (unfiltered)		0.0
+B_C16.tsv	superkingdom	L1 norm error (unfiltered)		0.3635051463723374
+B_C16.tsv	phylum	L1 norm error (unfiltered)		0.9930192316385416
+B_C16.tsv	class	L1 norm error (unfiltered)		1.1603204015374973
+B_C16.tsv	order	L1 norm error (unfiltered)		1.4068292158855322
+B_C16.tsv	family	L1 norm error (unfiltered)		1.4742217282138017
+B_C16.tsv	genus	L1 norm error (unfiltered)		1.7506328278033094
+B_C16.tsv	species	L1 norm error (unfiltered)		1.9444123327015288
+B_C16.tsv	na	Weighted UniFrac error (unfiltered)		0.10191607906644734
+B_C16.tsv	na	Unweighted UniFrac error (unfiltered)		11.628481329304595
+B_C16.tsv	na	Weighted UniFrac (CAMI) (unfiltered)		11.241031947661487
+B_C16.tsv	na	Unweighted UniFrac (CAMI) (unfiltered)		8243.58635028781
+B_C16.tsv	superkingdom	Sum of abundances (unfiltered)		1.0
+B_C16.tsv	phylum	Sum of abundances (unfiltered)		0.9999999999999999
+B_C16.tsv	class	Sum of abundances (unfiltered)		1.0000000000000007
+B_C16.tsv	order	Sum of abundances (unfiltered)		0.9999999999999986
+B_C16.tsv	family	Sum of abundances (unfiltered)		1.0
+B_C16.tsv	genus	Sum of abundances (unfiltered)		0.9999999999999908
+B_C16.tsv	species	Sum of abundances (unfiltered)		0.999999999999945
+B_C16.tsv	superkingdom	Taxon counts (unfiltered)		3.0
+B_C16.tsv	phylum	Taxon counts (unfiltered)		19.0
+B_C16.tsv	class	Taxon counts (unfiltered)		40.0
+B_C16.tsv	order	Taxon counts (unfiltered)		84.0
+B_C16.tsv	family	Taxon counts (unfiltered)		171.0
+B_C16.tsv	genus	Taxon counts (unfiltered)		417.0
+B_C16.tsv	species	Taxon counts (unfiltered)		892.0
+B_C16.tsv	superkingdom	Bray-Curtis distance		0.18134320385116076
+B_C16.tsv	phylum	Bray-Curtis distance		0.606491103380338
+B_C16.tsv	class	Bray-Curtis distance		0.5760786493500091
+B_C16.tsv	order	Bray-Curtis distance		0.7171784577878586
+B_C16.tsv	family	Bray-Curtis distance		0.728482971116424
+B_C16.tsv	genus	Bray-Curtis distance		0.8807431999723013
+B_C16.tsv	species	Bray-Curtis distance		0.9694256494260717
+B_C16.tsv	superkingdom	Shannon diversity		0.0009995997431859638
+B_C16.tsv	superkingdom	Shannon equitability		0.0
+B_C16.tsv	phylum	Shannon diversity		0.557519738564519
+B_C16.tsv	phylum	Shannon equitability		0.804330962024743
+B_C16.tsv	class	Shannon diversity		1.4910512166205494
+B_C16.tsv	class	Shannon equitability		0.9264422101039587
+B_C16.tsv	order	Shannon diversity		1.4063431358331742
+B_C16.tsv	order	Shannon equitability		0.8738101202712646
+B_C16.tsv	family	Shannon diversity		1.3486461405088943
+B_C16.tsv	family	Shannon equitability		0.7526937424753405
+B_C16.tsv	genus	Shannon diversity		1.621319948710124
+B_C16.tsv	genus	Shannon equitability		0.7378945081142834
+B_C16.tsv	species	Shannon diversity		1.759467297180435
+B_C16.tsv	species	Shannon equitability		0.6497173857649722
+B_C16.tsv	superkingdom	True positives		1.0
+B_C16.tsv	superkingdom	False negatives		1.0
+B_C16.tsv	superkingdom	False positives		0.0
+B_C16.tsv	superkingdom	Completeness		0.5
+B_C16.tsv	superkingdom	Purity		1.0
+B_C16.tsv	superkingdom	F1 score		0.6666666666666666
+B_C16.tsv	superkingdom	Jaccard index		0.5
+B_C16.tsv	phylum	True positives		2.0
+B_C16.tsv	phylum	False negatives		4.0
+B_C16.tsv	phylum	False positives		0.0
+B_C16.tsv	phylum	Completeness		0.3333333333333333
+B_C16.tsv	phylum	Purity		1.0
+B_C16.tsv	phylum	F1 score		0.5
+B_C16.tsv	phylum	Jaccard index		0.3333333333333333
+B_C16.tsv	class	True positives		5.0
+B_C16.tsv	class	False negatives		7.0
+B_C16.tsv	class	False positives		0.0
+B_C16.tsv	class	Completeness		0.4166666666666667
+B_C16.tsv	class	Purity		1.0
+B_C16.tsv	class	F1 score		0.5882352941176471
+B_C16.tsv	class	Jaccard index		0.4166666666666667
+B_C16.tsv	order	True positives		4.0
+B_C16.tsv	order	False negatives		10.0
+B_C16.tsv	order	False positives		1.0
+B_C16.tsv	order	Completeness		0.2857142857142857
+B_C16.tsv	order	Purity		0.8
+B_C16.tsv	order	F1 score		0.4210526315789473
+B_C16.tsv	order	Jaccard index		0.26666666666666666
+B_C16.tsv	family	True positives		4.0
+B_C16.tsv	family	False negatives		12.0
+B_C16.tsv	family	False positives		2.0
+B_C16.tsv	family	Completeness		0.25
+B_C16.tsv	family	Purity		0.6666666666666666
+B_C16.tsv	family	F1 score		0.36363636363636365
+B_C16.tsv	family	Jaccard index		0.2222222222222222
+B_C16.tsv	genus	True positives		3.0
+B_C16.tsv	genus	False negatives		19.0
+B_C16.tsv	genus	False positives		6.0
+B_C16.tsv	genus	Completeness		0.13636363636363635
+B_C16.tsv	genus	Purity		0.3333333333333333
+B_C16.tsv	genus	F1 score		0.1935483870967742
+B_C16.tsv	genus	Jaccard index		0.10714285714285714
+B_C16.tsv	species	True positives		3.0
+B_C16.tsv	species	False negatives		20.0
+B_C16.tsv	species	False positives		12.0
+B_C16.tsv	species	Completeness		0.13043478260869565
+B_C16.tsv	species	Purity		0.2
+B_C16.tsv	species	F1 score		0.15789473684210528
+B_C16.tsv	species	Jaccard index		0.08571428571428572
+B_C16.tsv	strain	True positives		0.0
+B_C16.tsv	strain	False negatives		60.0
+B_C16.tsv	strain	False positives		0.0
+B_C16.tsv	strain	Completeness		0.0
+B_C16.tsv	strain	Purity		0.0
+B_C16.tsv	strain	Jaccard index		0.0
+B_C16.tsv	superkingdom	L1 norm error		0.3625050463623364
+B_C16.tsv	phylum	L1 norm error		1.0923514600353021
+B_C16.tsv	class	L1 norm error		1.1040690599293337
+B_C16.tsv	order	L1 norm error		1.3097331679589188
+B_C16.tsv	family	L1 norm error		1.3163116709426077
+B_C16.tsv	genus	L1 norm error		1.5970607802577081
+B_C16.tsv	species	L1 norm error		1.7454782797167343
+B_C16.tsv	na	Weighted UniFrac error		0.09765074569254073
+B_C16.tsv	na	Unweighted UniFrac error		0.7884041962822699
+B_C16.tsv	na	Weighted UniFrac (CAMI)		10.749094217036031
+B_C16.tsv	na	Unweighted UniFrac (CAMI)		776.9971141873622
+B_C16.tsv	superkingdom	Sum of abundances		0.9989998999899989
+B_C16.tsv	phylum	Sum of abundances		0.8011005502751377
+B_C16.tsv	class	Sum of abundances		0.9165248723851462
+B_C16.tsv	order	Sum of abundances		0.8262304921968782
+B_C16.tsv	family	Sum of abundances		0.8069216757741324
+B_C16.tsv	genus	Sum of abundances		0.8133103727714669
+B_C16.tsv	species	Sum of abundances		0.8005282620179365
+B_C16.tsv	superkingdom	Taxon counts		1.0
+B_C16.tsv	phylum	Taxon counts		2.0
+B_C16.tsv	class	Taxon counts		5.0
+B_C16.tsv	order	Taxon counts		5.0
+B_C16.tsv	family	Taxon counts		6.0
+B_C16.tsv	genus	Taxon counts		9.0
+B_C16.tsv	species	Taxon counts		15.0
+B_PlusPF.tsv	superkingdom	Bray-Curtis distance (unfiltered)		0.18165258318516875
+B_PlusPF.tsv	phylum	Bray-Curtis distance (unfiltered)		0.4696929381400013
+B_PlusPF.tsv	class	Bray-Curtis distance (unfiltered)		0.5568739515757493
+B_PlusPF.tsv	order	Bray-Curtis distance (unfiltered)		0.6962525447926483
+B_PlusPF.tsv	family	Bray-Curtis distance (unfiltered)		0.6922553068484998
+B_PlusPF.tsv	genus	Bray-Curtis distance (unfiltered)		0.8617873322502422
+B_PlusPF.tsv	species	Bray-Curtis distance (unfiltered)		0.9722061663507761
+B_PlusPF.tsv	superkingdom	Shannon diversity (unfiltered)		0.016822849241710205
+B_PlusPF.tsv	superkingdom	Shannon equitability (unfiltered)		0.012135120587318986
+B_PlusPF.tsv	phylum	Shannon diversity (unfiltered)		1.2277862132685877
+B_PlusPF.tsv	phylum	Shannon equitability (unfiltered)		0.3814332332372158
+B_PlusPF.tsv	class	Shannon diversity (unfiltered)		2.0946375702016073
+B_PlusPF.tsv	class	Shannon equitability (unfiltered)		0.5327391817094016
+B_PlusPF.tsv	order	Shannon diversity (unfiltered)		2.5014394718087836
+B_PlusPF.tsv	order	Shannon equitability (unfiltered)		0.5252725973594697
+B_PlusPF.tsv	family	Shannon diversity (unfiltered)		2.986221163352924
+B_PlusPF.tsv	family	Shannon equitability (unfiltered)		0.5420240834176959
+B_PlusPF.tsv	genus	Shannon diversity (unfiltered)		3.4957810116856307
+B_PlusPF.tsv	genus	Shannon equitability (unfiltered)		0.5439644114864802
+B_PlusPF.tsv	species	Shannon diversity (unfiltered)		4.370991541328022
+B_PlusPF.tsv	species	Shannon equitability (unfiltered)		0.5999007043018169
+B_PlusPF.tsv	superkingdom	True positives (unfiltered)		2.0
+B_PlusPF.tsv	superkingdom	False negatives (unfiltered)		0.0
+B_PlusPF.tsv	superkingdom	False positives (unfiltered)		2.0
+B_PlusPF.tsv	superkingdom	Completeness (unfiltered)		1.0
+B_PlusPF.tsv	superkingdom	Purity (unfiltered)		0.5
+B_PlusPF.tsv	superkingdom	F1 score (unfiltered)		0.6666666666666666
+B_PlusPF.tsv	superkingdom	Jaccard index (unfiltered)		0.5
+B_PlusPF.tsv	phylum	True positives (unfiltered)		6.0
+B_PlusPF.tsv	phylum	False negatives (unfiltered)		0.0
+B_PlusPF.tsv	phylum	False positives (unfiltered)		19.0
+B_PlusPF.tsv	phylum	Completeness (unfiltered)		1.0
+B_PlusPF.tsv	phylum	Purity (unfiltered)		0.24
+B_PlusPF.tsv	phylum	F1 score (unfiltered)		0.3870967741935484
+B_PlusPF.tsv	phylum	Jaccard index (unfiltered)		0.24
+B_PlusPF.tsv	class	True positives (unfiltered)		12.0
+B_PlusPF.tsv	class	False negatives (unfiltered)		0.0
+B_PlusPF.tsv	class	False positives (unfiltered)		39.0
+B_PlusPF.tsv	class	Completeness (unfiltered)		1.0
+B_PlusPF.tsv	class	Purity (unfiltered)		0.23529411764705882
+B_PlusPF.tsv	class	F1 score (unfiltered)		0.38095238095238093
+B_PlusPF.tsv	class	Jaccard index (unfiltered)		0.23529411764705882
+B_PlusPF.tsv	order	True positives (unfiltered)		13.0
+B_PlusPF.tsv	order	False negatives (unfiltered)		1.0
+B_PlusPF.tsv	order	False positives (unfiltered)		104.0
+B_PlusPF.tsv	order	Completeness (unfiltered)		0.9285714285714286
+B_PlusPF.tsv	order	Purity (unfiltered)		0.1111111111111111
+B_PlusPF.tsv	order	F1 score (unfiltered)		0.19847328244274806
+B_PlusPF.tsv	order	Jaccard index (unfiltered)		0.11016949152542373
+B_PlusPF.tsv	family	True positives (unfiltered)		13.0
+B_PlusPF.tsv	family	False negatives (unfiltered)		3.0
+B_PlusPF.tsv	family	False positives (unfiltered)		234.0
+B_PlusPF.tsv	family	Completeness (unfiltered)		0.8125
+B_PlusPF.tsv	family	Purity (unfiltered)		0.05263157894736842
+B_PlusPF.tsv	family	F1 score (unfiltered)		0.09885931558935361
+B_PlusPF.tsv	family	Jaccard index (unfiltered)		0.052
+B_PlusPF.tsv	genus	True positives (unfiltered)		12.0
+B_PlusPF.tsv	genus	False negatives (unfiltered)		10.0
+B_PlusPF.tsv	genus	False positives (unfiltered)		606.0
+B_PlusPF.tsv	genus	Completeness (unfiltered)		0.5454545454545454
+B_PlusPF.tsv	genus	Purity (unfiltered)		0.019417475728155338
+B_PlusPF.tsv	genus	F1 score (unfiltered)		0.0375
+B_PlusPF.tsv	genus	Jaccard index (unfiltered)		0.01910828025477707
+B_PlusPF.tsv	species	True positives (unfiltered)		4.0
+B_PlusPF.tsv	species	False negatives (unfiltered)		19.0
+B_PlusPF.tsv	species	False positives (unfiltered)		1456.0
+B_PlusPF.tsv	species	Completeness (unfiltered)		0.17391304347826086
+B_PlusPF.tsv	species	Purity (unfiltered)		0.0027397260273972603
+B_PlusPF.tsv	species	F1 score (unfiltered)		0.005394470667565745
+B_PlusPF.tsv	species	Jaccard index (unfiltered)		0.002704530087897228
+B_PlusPF.tsv	strain	True positives (unfiltered)		0.0
+B_PlusPF.tsv	strain	False negatives (unfiltered)		60.0
+B_PlusPF.tsv	strain	False positives (unfiltered)		0.0
+B_PlusPF.tsv	strain	Completeness (unfiltered)		0.0
+B_PlusPF.tsv	strain	Purity (unfiltered)		0.0
+B_PlusPF.tsv	strain	Jaccard index (unfiltered)		0.0
+B_PlusPF.tsv	superkingdom	L1 norm error (unfiltered)		0.36330516637033744
+B_PlusPF.tsv	phylum	L1 norm error (unfiltered)		0.9393858762800026
+B_PlusPF.tsv	class	L1 norm error (unfiltered)		1.1137479031514979
+B_PlusPF.tsv	order	L1 norm error (unfiltered)		1.3925050895852964
+B_PlusPF.tsv	family	L1 norm error (unfiltered)		1.3845106136970018
+B_PlusPF.tsv	genus	L1 norm error (unfiltered)		1.723574664500463
+B_PlusPF.tsv	species	L1 norm error (unfiltered)		1.94441233270155
+B_PlusPF.tsv	na	Weighted UniFrac error (unfiltered)		0.10046616858469774
+B_PlusPF.tsv	na	Unweighted UniFrac error (unfiltered)		18.127753932144923
+B_PlusPF.tsv	na	Weighted UniFrac (CAMI) (unfiltered)		11.084970109358169
+B_PlusPF.tsv	na	Unweighted UniFrac (CAMI) (unfiltered)		12804.109936456853
+B_PlusPF.tsv	superkingdom	Sum of abundances (unfiltered)		1.0
+B_PlusPF.tsv	phylum	Sum of abundances (unfiltered)		1.0000000000000002
+B_PlusPF.tsv	class	Sum of abundances (unfiltered)		0.9999999999999991
+B_PlusPF.tsv	order	Sum of abundances (unfiltered)		0.9999999999999986
+B_PlusPF.tsv	family	Sum of abundances (unfiltered)		1.000000000000002
+B_PlusPF.tsv	genus	Sum of abundances (unfiltered)		0.9999999999999768
+B_PlusPF.tsv	species	Sum of abundances (unfiltered)		1.0000000000000016
+B_PlusPF.tsv	superkingdom	Taxon counts (unfiltered)		4.0
+B_PlusPF.tsv	phylum	Taxon counts (unfiltered)		25.0
+B_PlusPF.tsv	class	Taxon counts (unfiltered)		51.0
+B_PlusPF.tsv	order	Taxon counts (unfiltered)		117.0
+B_PlusPF.tsv	family	Taxon counts (unfiltered)		247.0
+B_PlusPF.tsv	genus	Taxon counts (unfiltered)		618.0
+B_PlusPF.tsv	species	Taxon counts (unfiltered)		1460.0
+B_PlusPF.tsv	superkingdom	Bray-Curtis distance		0.18089259641007682
+B_PlusPF.tsv	phylum	Bray-Curtis distance		0.4761800421672465
+B_PlusPF.tsv	class	Bray-Curtis distance		0.5581756695454191
+B_PlusPF.tsv	order	Bray-Curtis distance		0.6970544898223813
+B_PlusPF.tsv	family	Bray-Curtis distance		0.6824987447460469
+B_PlusPF.tsv	genus	Bray-Curtis distance		0.8571174184707169
+B_PlusPF.tsv	species	Bray-Curtis distance		0.9691244402286251
+B_PlusPF.tsv	superkingdom	Shannon diversity		0.0020975839172727717
+B_PlusPF.tsv	superkingdom	Shannon equitability		0.0
+B_PlusPF.tsv	phylum	Shannon diversity		0.9180212654811495
+B_PlusPF.tsv	phylum	Shannon equitability		0.835618966718552
+B_PlusPF.tsv	class	Shannon diversity		1.4732850527891468
+B_PlusPF.tsv	class	Shannon equitability		0.9154034718623988
+B_PlusPF.tsv	order	Shannon diversity		1.55779229778582
+B_PlusPF.tsv	order	Shannon equitability		0.8694204353539512
+B_PlusPF.tsv	family	Shannon diversity		1.8304742173604194
+B_PlusPF.tsv	family	Shannon equitability		0.7366370151235203
+B_PlusPF.tsv	genus	Shannon diversity		2.022885930314064
+B_PlusPF.tsv	genus	Shannon equitability		0.6451569644227892
+B_PlusPF.tsv	species	Shannon diversity		2.6355221046128436
+B_PlusPF.tsv	species	Shannon equitability		0.5710624662986443
+B_PlusPF.tsv	superkingdom	True positives		1.0
+B_PlusPF.tsv	superkingdom	False negatives		1.0
+B_PlusPF.tsv	superkingdom	False positives		0.0
+B_PlusPF.tsv	superkingdom	Completeness		0.5
+B_PlusPF.tsv	superkingdom	Purity		1.0
+B_PlusPF.tsv	superkingdom	F1 score		0.6666666666666666
+B_PlusPF.tsv	superkingdom	Jaccard index		0.5
+B_PlusPF.tsv	phylum	True positives		3.0
+B_PlusPF.tsv	phylum	False negatives		3.0
+B_PlusPF.tsv	phylum	False positives		0.0
+B_PlusPF.tsv	phylum	Completeness		0.5
+B_PlusPF.tsv	phylum	Purity		1.0
+B_PlusPF.tsv	phylum	F1 score		0.6666666666666666
+B_PlusPF.tsv	phylum	Jaccard index		0.5
+B_PlusPF.tsv	class	True positives		5.0
+B_PlusPF.tsv	class	False negatives		7.0
+B_PlusPF.tsv	class	False positives		0.0
+B_PlusPF.tsv	class	Completeness		0.4166666666666667
+B_PlusPF.tsv	class	Purity		1.0
+B_PlusPF.tsv	class	F1 score		0.5882352941176471
+B_PlusPF.tsv	class	Jaccard index		0.4166666666666667
+B_PlusPF.tsv	order	True positives		5.0
+B_PlusPF.tsv	order	False negatives		9.0
+B_PlusPF.tsv	order	False positives		1.0
+B_PlusPF.tsv	order	Completeness		0.35714285714285715
+B_PlusPF.tsv	order	Purity		0.8333333333333334
+B_PlusPF.tsv	order	F1 score		0.5
+B_PlusPF.tsv	order	Jaccard index		0.3333333333333333
+B_PlusPF.tsv	family	True positives		6.0
+B_PlusPF.tsv	family	False negatives		10.0
+B_PlusPF.tsv	family	False positives		6.0
+B_PlusPF.tsv	family	Completeness		0.375
+B_PlusPF.tsv	family	Purity		0.5
+B_PlusPF.tsv	family	F1 score		0.42857142857142855
+B_PlusPF.tsv	family	Jaccard index		0.2727272727272727
+B_PlusPF.tsv	genus	True positives		5.0
+B_PlusPF.tsv	genus	False negatives		17.0
+B_PlusPF.tsv	genus	False positives		18.0
+B_PlusPF.tsv	genus	Completeness		0.22727272727272727
+B_PlusPF.tsv	genus	Purity		0.21739130434782608
+B_PlusPF.tsv	genus	F1 score		0.22222222222222224
+B_PlusPF.tsv	genus	Jaccard index		0.125
+B_PlusPF.tsv	species	True positives		4.0
+B_PlusPF.tsv	species	False negatives		19.0
+B_PlusPF.tsv	species	False positives		97.0
+B_PlusPF.tsv	species	Completeness		0.17391304347826086
+B_PlusPF.tsv	species	Purity		0.039603960396039604
+B_PlusPF.tsv	species	F1 score		0.06451612903225806
+B_PlusPF.tsv	species	Jaccard index		0.03333333333333333
+B_PlusPF.tsv	strain	True positives		0.0
+B_PlusPF.tsv	strain	False negatives		60.0
+B_PlusPF.tsv	strain	False positives		0.0
+B_PlusPF.tsv	strain	Completeness		0.0
+B_PlusPF.tsv	strain	Purity		0.0
+B_PlusPF.tsv	strain	Jaccard index		0.0
+B_PlusPF.tsv	superkingdom	L1 norm error		0.36140535635133936
+B_PlusPF.tsv	phylum	L1 norm error		0.9124898489087806
+B_PlusPF.tsv	class	L1 norm error		1.0264103532437971
+B_PlusPF.tsv	order	L1 norm error		1.2626076241014428
+B_PlusPF.tsv	family	L1 norm error		1.2354463904031092
+B_PlusPF.tsv	genus	L1 norm error		1.5441487238942255
+B_PlusPF.tsv	species	L1 norm error		1.7447899682831798
+B_PlusPF.tsv	na	Weighted UniFrac error		0.09432081733200548
+B_PlusPF.tsv	na	Unweighted UniFrac error		0.8907502003926391
+B_PlusPF.tsv	na	Weighted UniFrac (CAMI)		10.51014238453814
+B_PlusPF.tsv	na	Unweighted UniFrac (CAMI)		1114.7899194564495
+B_PlusPF.tsv	superkingdom	Sum of abundances		0.997900209979002
+B_PlusPF.tsv	phylum	Sum of abundances		0.9162706709750998
+B_PlusPF.tsv	class	Sum of abundances		0.8388661656996096
+B_PlusPF.tsv	order	Sum of abundances		0.811347093429055
+B_PlusPF.tsv	family	Sum of abundances		0.8101811906816181
+B_PlusPF.tsv	genus	Sum of abundances		0.8015603120624027
+B_PlusPF.tsv	species	Sum of abundances		0.800377635581625
+B_PlusPF.tsv	superkingdom	Taxon counts		1.0
+B_PlusPF.tsv	phylum	Taxon counts		3.0
+B_PlusPF.tsv	class	Taxon counts		5.0
+B_PlusPF.tsv	order	Taxon counts		6.0
+B_PlusPF.tsv	family	Taxon counts		12.0
+B_PlusPF.tsv	genus	Taxon counts		23.0
+B_PlusPF.tsv	species	Taxon counts		101.0
+K_C8.tsv	superkingdom	Bray-Curtis distance (unfiltered)		0.18175257318616864
+K_C8.tsv	phylum	Bray-Curtis distance (unfiltered)		0.5641390301899537
+K_C8.tsv	class	Bray-Curtis distance (unfiltered)		0.6117383946331315
+K_C8.tsv	order	Bray-Curtis distance (unfiltered)		0.709808768485008
+K_C8.tsv	family	Bray-Curtis distance (unfiltered)		0.7663306576709575
+K_C8.tsv	genus	Bray-Curtis distance (unfiltered)		0.8797821265064187
+K_C8.tsv	species	Bray-Curtis distance (unfiltered)		0.9722061663507767
+K_C8.tsv	strain	Bray-Curtis distance (unfiltered)		1.0
+K_C8.tsv	superkingdom	Shannon diversity (unfiltered)		0.008487978620041255
+K_C8.tsv	superkingdom	Shannon equitability (unfiltered)		0.007726091094731481
+K_C8.tsv	phylum	Shannon diversity (unfiltered)		0.8717886559394735
+K_C8.tsv	phylum	Shannon equitability (unfiltered)		0.4480107451840484
+K_C8.tsv	class	Shannon diversity (unfiltered)		1.641648700148606
+K_C8.tsv	class	Shannon equitability (unfiltered)		0.6220587486774825
+K_C8.tsv	order	Shannon diversity (unfiltered)		1.8868116796529795
+K_C8.tsv	order	Shannon equitability (unfiltered)		0.5265248243576678
+K_C8.tsv	family	Shannon diversity (unfiltered)		1.8537930790274337
+K_C8.tsv	family	Shannon equitability (unfiltered)		0.45851337423685984
+K_C8.tsv	genus	Shannon diversity (unfiltered)		2.014683829816067
+K_C8.tsv	genus	Shannon equitability (unfiltered)		0.462432517287805
+K_C8.tsv	species	Shannon diversity (unfiltered)		2.2938767741609993
+K_C8.tsv	species	Shannon equitability (unfiltered)		0.5515607744154077
+K_C8.tsv	strain	Shannon diversity (unfiltered)		1.349792396172401
+K_C8.tsv	strain	Shannon equitability (unfiltered)		0.753333479941888
+K_C8.tsv	superkingdom	True positives (unfiltered)		1.0
+K_C8.tsv	superkingdom	False negatives (unfiltered)		1.0
+K_C8.tsv	superkingdom	False positives (unfiltered)		2.0
+K_C8.tsv	superkingdom	Completeness (unfiltered)		0.5
+K_C8.tsv	superkingdom	Purity (unfiltered)		0.3333333333333333
+K_C8.tsv	superkingdom	F1 score (unfiltered)		0.4
+K_C8.tsv	superkingdom	Jaccard index (unfiltered)		0.25
+K_C8.tsv	phylum	True positives (unfiltered)		4.0
+K_C8.tsv	phylum	False negatives (unfiltered)		2.0
+K_C8.tsv	phylum	False positives (unfiltered)		3.0
+K_C8.tsv	phylum	Completeness (unfiltered)		0.6666666666666666
+K_C8.tsv	phylum	Purity (unfiltered)		0.5714285714285714
+K_C8.tsv	phylum	F1 score (unfiltered)		0.6153846153846153
+K_C8.tsv	phylum	Jaccard index (unfiltered)		0.4444444444444444
+K_C8.tsv	class	True positives (unfiltered)		9.0
+K_C8.tsv	class	False negatives (unfiltered)		3.0
+K_C8.tsv	class	False positives (unfiltered)		5.0
+K_C8.tsv	class	Completeness (unfiltered)		0.75
+K_C8.tsv	class	Purity (unfiltered)		0.6428571428571429
+K_C8.tsv	class	F1 score (unfiltered)		0.6923076923076924
+K_C8.tsv	class	Jaccard index (unfiltered)		0.5294117647058824
+K_C8.tsv	order	True positives (unfiltered)		12.0
+K_C8.tsv	order	False negatives (unfiltered)		2.0
+K_C8.tsv	order	False positives (unfiltered)		24.0
+K_C8.tsv	order	Completeness (unfiltered)		0.8571428571428571
+K_C8.tsv	order	Purity (unfiltered)		0.3333333333333333
+K_C8.tsv	order	F1 score (unfiltered)		0.48
+K_C8.tsv	order	Jaccard index (unfiltered)		0.3157894736842105
+K_C8.tsv	family	True positives (unfiltered)		11.0
+K_C8.tsv	family	False negatives (unfiltered)		5.0
+K_C8.tsv	family	False positives (unfiltered)		46.0
+K_C8.tsv	family	Completeness (unfiltered)		0.6875
+K_C8.tsv	family	Purity (unfiltered)		0.19298245614035087
+K_C8.tsv	family	F1 score (unfiltered)		0.30136986301369867
+K_C8.tsv	family	Jaccard index (unfiltered)		0.1774193548387097
+K_C8.tsv	genus	True positives (unfiltered)		9.0
+K_C8.tsv	genus	False negatives (unfiltered)		13.0
+K_C8.tsv	genus	False positives (unfiltered)		69.0
+K_C8.tsv	genus	Completeness (unfiltered)		0.4090909090909091
+K_C8.tsv	genus	Purity (unfiltered)		0.11538461538461539
+K_C8.tsv	genus	F1 score (unfiltered)		0.18000000000000002
+K_C8.tsv	genus	Jaccard index (unfiltered)		0.0989010989010989
+K_C8.tsv	species	True positives (unfiltered)		4.0
+K_C8.tsv	species	False negatives (unfiltered)		19.0
+K_C8.tsv	species	False positives (unfiltered)		60.0
+K_C8.tsv	species	Completeness (unfiltered)		0.17391304347826086
+K_C8.tsv	species	Purity (unfiltered)		0.0625
+K_C8.tsv	species	F1 score (unfiltered)		0.09195402298850575
+K_C8.tsv	species	Jaccard index (unfiltered)		0.04819277108433735
+K_C8.tsv	strain	True positives (unfiltered)		0.0
+K_C8.tsv	strain	False negatives (unfiltered)		60.0
+K_C8.tsv	strain	False positives (unfiltered)		6.0
+K_C8.tsv	strain	Completeness (unfiltered)		0.0
+K_C8.tsv	strain	Purity (unfiltered)		0.0
+K_C8.tsv	strain	Jaccard index (unfiltered)		0.0
+K_C8.tsv	superkingdom	L1 norm error (unfiltered)		0.3635051463723372
+K_C8.tsv	phylum	L1 norm error (unfiltered)		1.1282780603799076
+K_C8.tsv	class	L1 norm error (unfiltered)		1.2234767892662624
+K_C8.tsv	order	L1 norm error (unfiltered)		1.4196175369700146
+K_C8.tsv	family	L1 norm error (unfiltered)		1.5326613153419129
+K_C8.tsv	genus	L1 norm error (unfiltered)		1.7595642530128348
+K_C8.tsv	species	L1 norm error (unfiltered)		1.944412332701556
+K_C8.tsv	strain	L1 norm error (unfiltered)		2.0000000000000013
+K_C8.tsv	na	Weighted UniFrac error (unfiltered)		0.11188615795904991
+K_C8.tsv	na	Unweighted UniFrac error (unfiltered)		1.3816627217636543
+K_C8.tsv	na	Weighted UniFrac (CAMI) (unfiltered)		12.463532368922912
+K_C8.tsv	na	Unweighted UniFrac (CAMI) (unfiltered)		1269.394318041449
+K_C8.tsv	superkingdom	Sum of abundances (unfiltered)		0.9999999999999999
+K_C8.tsv	phylum	Sum of abundances (unfiltered)		1.0
+K_C8.tsv	class	Sum of abundances (unfiltered)		0.9999999999999996
+K_C8.tsv	order	Sum of abundances (unfiltered)		0.9999999999999989
+K_C8.tsv	family	Sum of abundances (unfiltered)		0.9999999999999991
+K_C8.tsv	genus	Sum of abundances (unfiltered)		0.9999999999999971
+K_C8.tsv	species	Sum of abundances (unfiltered)		1.000000000000003
+K_C8.tsv	strain	Sum of abundances (unfiltered)		1.0
+K_C8.tsv	superkingdom	Taxon counts (unfiltered)		3.0
+K_C8.tsv	phylum	Taxon counts (unfiltered)		7.0
+K_C8.tsv	class	Taxon counts (unfiltered)		14.0
+K_C8.tsv	order	Taxon counts (unfiltered)		36.0
+K_C8.tsv	family	Taxon counts (unfiltered)		57.0
+K_C8.tsv	genus	Taxon counts (unfiltered)		78.0
+K_C8.tsv	species	Taxon counts (unfiltered)		64.0
+K_C8.tsv	strain	Taxon counts (unfiltered)		6.0
+K_C8.tsv	superkingdom	Bray-Curtis distance		0.18134929697778326
+K_C8.tsv	phylum	Bray-Curtis distance		0.6553985835649353
+K_C8.tsv	class	Bray-Curtis distance		0.6723884156834349
+K_C8.tsv	order	Bray-Curtis distance		0.7180594771950551
+K_C8.tsv	family	Bray-Curtis distance		0.7857265892341743
+K_C8.tsv	genus	Bray-Curtis distance		0.9007336175382503
+K_C8.tsv	species	Bray-Curtis distance		0.9708347918546455
+K_C8.tsv	strain	Bray-Curtis distance		1.0
+K_C8.tsv	superkingdom	Shannon diversity		0.0009847361845379725
+K_C8.tsv	superkingdom	Shannon equitability		0.0
+K_C8.tsv	phylum	Shannon diversity		0.46619276466914317
+K_C8.tsv	phylum	Shannon equitability		0.6725739896864884
+K_C8.tsv	class	Shannon diversity		1.2029891972899085
+K_C8.tsv	class	Shannon equitability		0.8677732745865729
+K_C8.tsv	order	Shannon diversity		1.1938508367906666
+K_C8.tsv	order	Shannon equitability		0.861181340899517
+K_C8.tsv	family	Shannon diversity		0.9621784754397922
+K_C8.tsv	family	Shannon equitability		0.8758125913613058
+K_C8.tsv	genus	Shannon diversity		1.123412366029117
+K_C8.tsv	genus	Shannon equitability		0.8103707246717722
+K_C8.tsv	species	Shannon diversity		1.3367475631931358
+K_C8.tsv	species	Shannon equitability		0.8305679596993276
+K_C8.tsv	strain	Shannon diversity		0.9356412878744009
+K_C8.tsv	strain	Shannon equitability		0.6749225230336806
+K_C8.tsv	superkingdom	True positives		1.0
+K_C8.tsv	superkingdom	False negatives		1.0
+K_C8.tsv	superkingdom	False positives		0.0
+K_C8.tsv	superkingdom	Completeness		0.5
+K_C8.tsv	superkingdom	Purity		1.0
+K_C8.tsv	superkingdom	F1 score		0.6666666666666666
+K_C8.tsv	superkingdom	Jaccard index		0.5
+K_C8.tsv	phylum	True positives		2.0
+K_C8.tsv	phylum	False negatives		4.0
+K_C8.tsv	phylum	False positives		0.0
+K_C8.tsv	phylum	Completeness		0.3333333333333333
+K_C8.tsv	phylum	Purity		1.0
+K_C8.tsv	phylum	F1 score		0.5
+K_C8.tsv	phylum	Jaccard index		0.3333333333333333
+K_C8.tsv	class	True positives		4.0
+K_C8.tsv	class	False negatives		8.0
+K_C8.tsv	class	False positives		0.0
+K_C8.tsv	class	Completeness		0.3333333333333333
+K_C8.tsv	class	Purity		1.0
+K_C8.tsv	class	F1 score		0.5
+K_C8.tsv	class	Jaccard index		0.3333333333333333
+K_C8.tsv	order	True positives		4.0
+K_C8.tsv	order	False negatives		10.0
+K_C8.tsv	order	False positives		0.0
+K_C8.tsv	order	Completeness		0.2857142857142857
+K_C8.tsv	order	Purity		1.0
+K_C8.tsv	order	F1 score		0.4444444444444445
+K_C8.tsv	order	Jaccard index		0.2857142857142857
+K_C8.tsv	family	True positives		3.0
+K_C8.tsv	family	False negatives		13.0
+K_C8.tsv	family	False positives		0.0
+K_C8.tsv	family	Completeness		0.1875
+K_C8.tsv	family	Purity		1.0
+K_C8.tsv	family	F1 score		0.3157894736842105
+K_C8.tsv	family	Jaccard index		0.1875
+K_C8.tsv	genus	True positives		2.0
+K_C8.tsv	genus	False negatives		20.0
+K_C8.tsv	genus	False positives		2.0
+K_C8.tsv	genus	Completeness		0.09090909090909091
+K_C8.tsv	genus	Purity		0.5
+K_C8.tsv	genus	F1 score		0.15384615384615385
+K_C8.tsv	genus	Jaccard index		0.08333333333333333
+K_C8.tsv	species	True positives		2.0
+K_C8.tsv	species	False negatives		21.0
+K_C8.tsv	species	False positives		3.0
+K_C8.tsv	species	Completeness		0.08695652173913043
+K_C8.tsv	species	Purity		0.4
+K_C8.tsv	species	F1 score		0.14285714285714285
+K_C8.tsv	species	Jaccard index		0.07692307692307693
+K_C8.tsv	strain	True positives		0.0
+K_C8.tsv	strain	False negatives		60.0
+K_C8.tsv	strain	False positives		4.0
+K_C8.tsv	strain	Completeness		0.0
+K_C8.tsv	strain	Purity		0.0
+K_C8.tsv	strain	Jaccard index		0.0
+K_C8.tsv	superkingdom	L1 norm error		0.36251992469746036
+K_C8.tsv	phylum	L1 norm error		1.211652997973517
+K_C8.tsv	class	L1 norm error		1.2433741249530719
+K_C8.tsv	order	L1 norm error		1.3154398485369088
+K_C8.tsv	family	L1 norm error		1.424994123887357
+K_C8.tsv	genus	L1 norm error		1.6416512063684314
+K_C8.tsv	species	L1 norm error		1.7590153754356128
+K_C8.tsv	strain	L1 norm error		1.8333333333333344
+K_C8.tsv	na	Weighted UniFrac error		0.10753516632016197
+K_C8.tsv	na	Unweighted UniFrac error		0.8872496019983841
+K_C8.tsv	na	Weighted UniFrac (CAMI)		16.399837050894018
+K_C8.tsv	na	Unweighted UniFrac (CAMI)		819.0064350705035
+K_C8.tsv	superkingdom	Sum of abundances		0.999014778325123
+K_C8.tsv	phylum	Sum of abundances		0.8487269096355466
+K_C8.tsv	class	Sum of abundances		0.8491902834008094
+K_C8.tsv	order	Sum of abundances		0.831937172774868
+K_C8.tsv	family	Sum of abundances		0.813600485731632
+K_C8.tsv	genus	Sum of abundances		0.8225712623618351
+K_C8.tsv	species	Sum of abundances		0.8118586088939577
+K_C8.tsv	strain	Sum of abundances		0.8333333333333335
+K_C8.tsv	superkingdom	Taxon counts		1.0
+K_C8.tsv	phylum	Taxon counts		2.0
+K_C8.tsv	class	Taxon counts		4.0
+K_C8.tsv	order	Taxon counts		4.0
+K_C8.tsv	family	Taxon counts		3.0
+K_C8.tsv	genus	Taxon counts		4.0
+K_C8.tsv	species	Taxon counts		5.0
+K_C8.tsv	strain	Taxon counts		4.0
+K_C16.tsv	superkingdom	Bray-Curtis distance (unfiltered)		0.1817525731861687
+K_C16.tsv	phylum	Bray-Curtis distance (unfiltered)		0.5050862820259372
+K_C16.tsv	class	Bray-Curtis distance (unfiltered)		0.5800891655747967
+K_C16.tsv	order	Bray-Curtis distance (unfiltered)		0.7033653759468923
+K_C16.tsv	family	Bray-Curtis distance (unfiltered)		0.7515365950754546
+K_C16.tsv	genus	Bray-Curtis distance (unfiltered)		0.8759521184879291
+K_C16.tsv	species	Bray-Curtis distance (unfiltered)		0.9722061663507766
+K_C16.tsv	strain	Bray-Curtis distance (unfiltered)		1.0
+K_C16.tsv	superkingdom	Shannon diversity (unfiltered)		0.009023257382917633
+K_C16.tsv	superkingdom	Shannon equitability (unfiltered)		0.008213322821881846
+K_C16.tsv	phylum	Shannon diversity (unfiltered)		1.0423043412922528
+K_C16.tsv	phylum	Shannon equitability (unfiltered)		0.3949532772917092
+K_C16.tsv	class	Shannon diversity (unfiltered)		1.800659247175158
+K_C16.tsv	class	Shannon equitability (unfiltered)		0.5825410923162186
+K_C16.tsv	order	Shannon diversity (unfiltered)		2.1284309013121594
+K_C16.tsv	order	Shannon equitability (unfiltered)		0.5386736564243896
+K_C16.tsv	family	Shannon diversity (unfiltered)		2.2395225550472206
+K_C16.tsv	family	Shannon equitability (unfiltered)		0.4964735771113636
+K_C16.tsv	genus	Shannon diversity (unfiltered)		2.478550082522045
+K_C16.tsv	genus	Shannon equitability (unfiltered)		0.4927105992068335
+K_C16.tsv	species	Shannon diversity (unfiltered)		2.6371932306584362
+K_C16.tsv	species	Shannon equitability (unfiltered)		0.5578542171259312
+K_C16.tsv	strain	Shannon diversity (unfiltered)		1.610012437185724
+K_C16.tsv	strain	Shannon equitability (unfiltered)		0.827382722664426
+K_C16.tsv	superkingdom	True positives (unfiltered)		1.0
+K_C16.tsv	superkingdom	False negatives (unfiltered)		1.0
+K_C16.tsv	superkingdom	False positives (unfiltered)		2.0
+K_C16.tsv	superkingdom	Completeness (unfiltered)		0.5
+K_C16.tsv	superkingdom	Purity (unfiltered)		0.3333333333333333
+K_C16.tsv	superkingdom	F1 score (unfiltered)		0.4
+K_C16.tsv	superkingdom	Jaccard index (unfiltered)		0.25
+K_C16.tsv	phylum	True positives (unfiltered)		6.0
+K_C16.tsv	phylum	False negatives (unfiltered)		0.0
+K_C16.tsv	phylum	False positives (unfiltered)		8.0
+K_C16.tsv	phylum	Completeness (unfiltered)		1.0
+K_C16.tsv	phylum	Purity (unfiltered)		0.42857142857142855
+K_C16.tsv	phylum	F1 score (unfiltered)		0.6
+K_C16.tsv	phylum	Jaccard index (unfiltered)		0.42857142857142855
+K_C16.tsv	class	True positives (unfiltered)		10.0
+K_C16.tsv	class	False negatives (unfiltered)		2.0
+K_C16.tsv	class	False positives (unfiltered)		12.0
+K_C16.tsv	class	Completeness (unfiltered)		0.8333333333333334
+K_C16.tsv	class	Purity (unfiltered)		0.45454545454545453
+K_C16.tsv	class	F1 score (unfiltered)		0.5882352941176471
+K_C16.tsv	class	Jaccard index (unfiltered)		0.4166666666666667
+K_C16.tsv	order	True positives (unfiltered)		13.0
+K_C16.tsv	order	False negatives (unfiltered)		1.0
+K_C16.tsv	order	False positives (unfiltered)		39.0
+K_C16.tsv	order	Completeness (unfiltered)		0.9285714285714286
+K_C16.tsv	order	Purity (unfiltered)		0.25
+K_C16.tsv	order	F1 score (unfiltered)		0.3939393939393939
+K_C16.tsv	order	Jaccard index (unfiltered)		0.24528301886792453
+K_C16.tsv	family	True positives (unfiltered)		12.0
+K_C16.tsv	family	False negatives (unfiltered)		4.0
+K_C16.tsv	family	False positives (unfiltered)		79.0
+K_C16.tsv	family	Completeness (unfiltered)		0.75
+K_C16.tsv	family	Purity (unfiltered)		0.13186813186813187
+K_C16.tsv	family	F1 score (unfiltered)		0.22429906542056077
+K_C16.tsv	family	Jaccard index (unfiltered)		0.12631578947368421
+K_C16.tsv	genus	True positives (unfiltered)		12.0
+K_C16.tsv	genus	False negatives (unfiltered)		10.0
+K_C16.tsv	genus	False positives (unfiltered)		141.0
+K_C16.tsv	genus	Completeness (unfiltered)		0.5454545454545454
+K_C16.tsv	genus	Purity (unfiltered)		0.0784313725490196
+K_C16.tsv	genus	F1 score (unfiltered)		0.13714285714285715
+K_C16.tsv	genus	Jaccard index (unfiltered)		0.0736196319018405
+K_C16.tsv	species	True positives (unfiltered)		4.0
+K_C16.tsv	species	False negatives (unfiltered)		19.0
+K_C16.tsv	species	False positives (unfiltered)		109.0
+K_C16.tsv	species	Completeness (unfiltered)		0.17391304347826086
+K_C16.tsv	species	Purity (unfiltered)		0.035398230088495575
+K_C16.tsv	species	F1 score (unfiltered)		0.058823529411764705
+K_C16.tsv	species	Jaccard index (unfiltered)		0.030303030303030304
+K_C16.tsv	strain	True positives (unfiltered)		0.0
+K_C16.tsv	strain	False negatives (unfiltered)		60.0
+K_C16.tsv	strain	False positives (unfiltered)		7.0
+K_C16.tsv	strain	Completeness (unfiltered)		0.0
+K_C16.tsv	strain	Purity (unfiltered)		0.0
+K_C16.tsv	strain	Jaccard index (unfiltered)		0.0
+K_C16.tsv	superkingdom	L1 norm error (unfiltered)		0.3635051463723374
+K_C16.tsv	phylum	L1 norm error (unfiltered)		1.0101725640518742
+K_C16.tsv	class	L1 norm error (unfiltered)		1.1601783311495928
+K_C16.tsv	order	L1 norm error (unfiltered)		1.4067307518937833
+K_C16.tsv	family	L1 norm error (unfiltered)		1.5030731901509073
+K_C16.tsv	genus	L1 norm error (unfiltered)		1.7519042369758544
+K_C16.tsv	species	L1 norm error (unfiltered)		1.944412332701553
+K_C16.tsv	strain	L1 norm error (unfiltered)		2.0
+K_C16.tsv	na	Weighted UniFrac error (unfiltered)		0.10808830533359905
+K_C16.tsv	na	Unweighted UniFrac error (unfiltered)		2.5976793601562083
+K_C16.tsv	na	Weighted UniFrac (CAMI) (unfiltered)		12.324740070698155
+K_C16.tsv	na	Unweighted UniFrac (CAMI) (unfiltered)		2039.0010399230932
+K_C16.tsv	superkingdom	Sum of abundances (unfiltered)		1.0
+K_C16.tsv	phylum	Sum of abundances (unfiltered)		0.9999999999999996
+K_C16.tsv	class	Sum of abundances (unfiltered)		0.9999999999999996
+K_C16.tsv	order	Sum of abundances (unfiltered)		0.9999999999999984
+K_C16.tsv	family	Sum of abundances (unfiltered)		0.9999999999999949
+K_C16.tsv	genus	Sum of abundances (unfiltered)		0.9999999999999999
+K_C16.tsv	species	Sum of abundances (unfiltered)		1.0000000000000029
+K_C16.tsv	strain	Sum of abundances (unfiltered)		0.9999999999999997
+K_C16.tsv	superkingdom	Taxon counts (unfiltered)		3.0
+K_C16.tsv	phylum	Taxon counts (unfiltered)		14.0
+K_C16.tsv	class	Taxon counts (unfiltered)		22.0
+K_C16.tsv	order	Taxon counts (unfiltered)		52.0
+K_C16.tsv	family	Taxon counts (unfiltered)		91.0
+K_C16.tsv	genus	Taxon counts (unfiltered)		153.0
+K_C16.tsv	species	Taxon counts (unfiltered)		113.0
+K_C16.tsv	strain	Taxon counts (unfiltered)		7.0
+K_C16.tsv	superkingdom	Bray-Curtis distance		0.18131710356040295
+K_C16.tsv	phylum	Bray-Curtis distance		0.6181442489686216
+K_C16.tsv	class	Bray-Curtis distance		0.6361707883578473
+K_C16.tsv	order	Bray-Curtis distance		0.7200687403093312
+K_C16.tsv	family	Bray-Curtis distance		0.7466474559314519
+K_C16.tsv	genus	Bray-Curtis distance		0.8807702269611208
+K_C16.tsv	species	Bray-Curtis distance		0.9708015231596829
+K_C16.tsv	strain	Bray-Curtis distance		1.0
+K_C16.tsv	superkingdom	Shannon diversity		0.0010632637195571411
+K_C16.tsv	superkingdom	Shannon equitability		0.0
+K_C16.tsv	phylum	Shannon diversity		0.5495776826725799
+K_C16.tsv	phylum	Shannon equitability		0.7928729973749794
+K_C16.tsv	class	Shannon diversity		1.2456256800486738
+K_C16.tsv	class	Shannon equitability		0.8985289957050822
+K_C16.tsv	order	Shannon diversity		1.4157296492036033
+K_C16.tsv	order	Shannon equitability		0.8796422889420231
+K_C16.tsv	family	Shannon diversity		1.2598228821237616
+K_C16.tsv	family	Shannon equitability		0.782771968021069
+K_C16.tsv	genus	Shannon diversity		1.399101477099974
+K_C16.tsv	genus	Shannon equitability		0.780853401993042
+K_C16.tsv	species	Shannon diversity		1.5479973437342311
+K_C16.tsv	species	Shannon equitability		0.7955132689377986
+K_C16.tsv	strain	Shannon diversity		1.1100336117640393
+K_C16.tsv	strain	Shannon equitability		0.8007199934560222
+K_C16.tsv	superkingdom	True positives		1.0
+K_C16.tsv	superkingdom	False negatives		1.0
+K_C16.tsv	superkingdom	False positives		0.0
+K_C16.tsv	superkingdom	Completeness		0.5
+K_C16.tsv	superkingdom	Purity		1.0
+K_C16.tsv	superkingdom	F1 score		0.6666666666666666
+K_C16.tsv	superkingdom	Jaccard index		0.5
+K_C16.tsv	phylum	True positives		2.0
+K_C16.tsv	phylum	False negatives		4.0
+K_C16.tsv	phylum	False positives		0.0
+K_C16.tsv	phylum	Completeness		0.3333333333333333
+K_C16.tsv	phylum	Purity		1.0
+K_C16.tsv	phylum	F1 score		0.5
+K_C16.tsv	phylum	Jaccard index		0.3333333333333333
+K_C16.tsv	class	True positives		4.0
+K_C16.tsv	class	False negatives		8.0
+K_C16.tsv	class	False positives		0.0
+K_C16.tsv	class	Completeness		0.3333333333333333
+K_C16.tsv	class	Purity		1.0
+K_C16.tsv	class	F1 score		0.5
+K_C16.tsv	class	Jaccard index		0.3333333333333333
+K_C16.tsv	order	True positives		4.0
+K_C16.tsv	order	False negatives		10.0
+K_C16.tsv	order	False positives		1.0
+K_C16.tsv	order	Completeness		0.2857142857142857
+K_C16.tsv	order	Purity		0.8
+K_C16.tsv	order	F1 score		0.4210526315789473
+K_C16.tsv	order	Jaccard index		0.26666666666666666
+K_C16.tsv	family	True positives		4.0
+K_C16.tsv	family	False negatives		12.0
+K_C16.tsv	family	False positives		1.0
+K_C16.tsv	family	Completeness		0.25
+K_C16.tsv	family	Purity		0.8
+K_C16.tsv	family	F1 score		0.38095238095238093
+K_C16.tsv	family	Jaccard index		0.23529411764705882
+K_C16.tsv	genus	True positives		3.0
+K_C16.tsv	genus	False negatives		19.0
+K_C16.tsv	genus	False positives		3.0
+K_C16.tsv	genus	Completeness		0.13636363636363635
+K_C16.tsv	genus	Purity		0.5
+K_C16.tsv	genus	F1 score		0.21428571428571427
+K_C16.tsv	genus	Jaccard index		0.12
+K_C16.tsv	species	True positives		2.0
+K_C16.tsv	species	False negatives		21.0
+K_C16.tsv	species	False positives		5.0
+K_C16.tsv	species	Completeness		0.08695652173913043
+K_C16.tsv	species	Purity		0.2857142857142857
+K_C16.tsv	species	F1 score		0.13333333333333333
+K_C16.tsv	species	Jaccard index		0.07142857142857142
+K_C16.tsv	strain	True positives		0.0
+K_C16.tsv	strain	False negatives		60.0
+K_C16.tsv	strain	False positives		4.0
+K_C16.tsv	strain	Completeness		0.0
+K_C16.tsv	strain	Purity		0.0
+K_C16.tsv	strain	Jaccard index		0.0
+K_C16.tsv	superkingdom	L1 norm error		0.3624413165851033
+K_C16.tsv	phylum	L1 norm error		1.1150576215231385
+K_C16.tsv	class	L1 norm error		1.148069582045573
+K_C16.tsv	order	L1 norm error		1.3285889473299317
+K_C16.tsv	family	L1 norm error		1.3577220760729458
+K_C16.tsv	genus	L1 norm error		1.59747182120765
+K_C16.tsv	species	L1 norm error		1.756950946811351
+K_C16.tsv	strain	L1 norm error		1.8235294117647056
+K_C16.tsv	na	Weighted UniFrac error		0.10393494148176949
+K_C16.tsv	na	Unweighted UniFrac error		0.8537664749073706
+K_C16.tsv	na	Weighted UniFrac (CAMI)		14.955632789925561
+K_C16.tsv	na	Unweighted UniFrac (CAMI)		798.233073450494
+K_C16.tsv	superkingdom	Sum of abundances		0.9989361702127659
+K_C16.tsv	phylum	Sum of abundances		0.8038793103448273
+K_C16.tsv	class	Sum of abundances		0.8046562386322297
+K_C16.tsv	order	Sum of abundances		0.8450862715678908
+K_C16.tsv	family	Sum of abundances		0.8184245660881154
+K_C16.tsv	genus	Sum of abundances		0.8137214137214088
+K_C16.tsv	species	Sum of abundances		0.8097941802696964
+K_C16.tsv	strain	Sum of abundances		0.8235294117647056
+K_C16.tsv	superkingdom	Taxon counts		1.0
+K_C16.tsv	phylum	Taxon counts		2.0
+K_C16.tsv	class	Taxon counts		4.0
+K_C16.tsv	order	Taxon counts		5.0
+K_C16.tsv	family	Taxon counts		5.0
+K_C16.tsv	genus	Taxon counts		6.0
+K_C16.tsv	species	Taxon counts		7.0
+K_C16.tsv	strain	Taxon counts		4.0
+K_PlusPF.tsv	superkingdom	Bray-Curtis distance (unfiltered)		0.18150523210281475
+K_PlusPF.tsv	phylum	Bray-Curtis distance (unfiltered)		0.468868158465474
+K_PlusPF.tsv	class	Bray-Curtis distance (unfiltered)		0.5567950312848272
+K_PlusPF.tsv	order	Bray-Curtis distance (unfiltered)		0.6960479535040862
+K_PlusPF.tsv	family	Bray-Curtis distance (unfiltered)		0.6962923092460129
+K_PlusPF.tsv	genus	Bray-Curtis distance (unfiltered)		0.8612884030329615
+K_PlusPF.tsv	species	Bray-Curtis distance (unfiltered)		0.9722061663507765
+K_PlusPF.tsv	strain	Bray-Curtis distance (unfiltered)		1.0
+K_PlusPF.tsv	superkingdom	Shannon diversity (unfiltered)		0.017967425372883424
+K_PlusPF.tsv	superkingdom	Shannon equitability (unfiltered)		0.012960757741500725
+K_PlusPF.tsv	phylum	Shannon diversity (unfiltered)		1.230626934721982
+K_PlusPF.tsv	phylum	Shannon equitability (unfiltered)		0.41794954605252777
+K_PlusPF.tsv	class	Shannon diversity (unfiltered)		2.0883080212340728
+K_PlusPF.tsv	class	Shannon equitability (unfiltered)		0.5873709085909397
+K_PlusPF.tsv	order	Shannon diversity (unfiltered)		2.482213496711791
+K_PlusPF.tsv	order	Shannon equitability (unfiltered)		0.5664533111393382
+K_PlusPF.tsv	family	Shannon diversity (unfiltered)		2.892121577573191
+K_PlusPF.tsv	family	Shannon equitability (unfiltered)		0.5779681476871374
+K_PlusPF.tsv	genus	Shannon diversity (unfiltered)		3.2840497395485584
+K_PlusPF.tsv	genus	Shannon equitability (unfiltered)		0.5651299363614882
+K_PlusPF.tsv	species	Shannon diversity (unfiltered)		3.823139324207033
+K_PlusPF.tsv	species	Shannon equitability (unfiltered)		0.6386319176754817
+K_PlusPF.tsv	strain	Shannon diversity (unfiltered)		3.343319099383998
+K_PlusPF.tsv	strain	Shannon equitability (unfiltered)		0.8834967120615008
+K_PlusPF.tsv	superkingdom	True positives (unfiltered)		2.0
+K_PlusPF.tsv	superkingdom	False negatives (unfiltered)		0.0
+K_PlusPF.tsv	superkingdom	False positives (unfiltered)		2.0
+K_PlusPF.tsv	superkingdom	Completeness (unfiltered)		1.0
+K_PlusPF.tsv	superkingdom	Purity (unfiltered)		0.5
+K_PlusPF.tsv	superkingdom	F1 score (unfiltered)		0.6666666666666666
+K_PlusPF.tsv	superkingdom	Jaccard index (unfiltered)		0.5
+K_PlusPF.tsv	phylum	True positives (unfiltered)		6.0
+K_PlusPF.tsv	phylum	False negatives (unfiltered)		0.0
+K_PlusPF.tsv	phylum	False positives (unfiltered)		13.0
+K_PlusPF.tsv	phylum	Completeness (unfiltered)		1.0
+K_PlusPF.tsv	phylum	Purity (unfiltered)		0.3157894736842105
+K_PlusPF.tsv	phylum	F1 score (unfiltered)		0.4799999999999999
+K_PlusPF.tsv	phylum	Jaccard index (unfiltered)		0.3157894736842105
+K_PlusPF.tsv	class	True positives (unfiltered)		12.0
+K_PlusPF.tsv	class	False negatives (unfiltered)		0.0
+K_PlusPF.tsv	class	False positives (unfiltered)		23.0
+K_PlusPF.tsv	class	Completeness (unfiltered)		1.0
+K_PlusPF.tsv	class	Purity (unfiltered)		0.34285714285714286
+K_PlusPF.tsv	class	F1 score (unfiltered)		0.5106382978723404
+K_PlusPF.tsv	class	Jaccard index (unfiltered)		0.34285714285714286
+K_PlusPF.tsv	order	True positives (unfiltered)		13.0
+K_PlusPF.tsv	order	False negatives (unfiltered)		1.0
+K_PlusPF.tsv	order	False positives (unfiltered)		67.0
+K_PlusPF.tsv	order	Completeness (unfiltered)		0.9285714285714286
+K_PlusPF.tsv	order	Purity (unfiltered)		0.1625
+K_PlusPF.tsv	order	F1 score (unfiltered)		0.2765957446808511
+K_PlusPF.tsv	order	Jaccard index (unfiltered)		0.16049382716049382
+K_PlusPF.tsv	family	True positives (unfiltered)		13.0
+K_PlusPF.tsv	family	False negatives (unfiltered)		3.0
+K_PlusPF.tsv	family	False positives (unfiltered)		136.0
+K_PlusPF.tsv	family	Completeness (unfiltered)		0.8125
+K_PlusPF.tsv	family	Purity (unfiltered)		0.087248322147651
+K_PlusPF.tsv	family	F1 score (unfiltered)		0.1575757575757576
+K_PlusPF.tsv	family	Jaccard index (unfiltered)		0.08552631578947369
+K_PlusPF.tsv	genus	True positives (unfiltered)		12.0
+K_PlusPF.tsv	genus	False negatives (unfiltered)		10.0
+K_PlusPF.tsv	genus	False positives (unfiltered)		322.0
+K_PlusPF.tsv	genus	Completeness (unfiltered)		0.5454545454545454
+K_PlusPF.tsv	genus	Purity (unfiltered)		0.03592814371257485
+K_PlusPF.tsv	genus	F1 score (unfiltered)		0.06741573033707866
+K_PlusPF.tsv	genus	Jaccard index (unfiltered)		0.03488372093023256
+K_PlusPF.tsv	species	True positives (unfiltered)		4.0
+K_PlusPF.tsv	species	False negatives (unfiltered)		19.0
+K_PlusPF.tsv	species	False positives (unfiltered)		394.0
+K_PlusPF.tsv	species	Completeness (unfiltered)		0.17391304347826086
+K_PlusPF.tsv	species	Purity (unfiltered)		0.010050251256281407
+K_PlusPF.tsv	species	F1 score (unfiltered)		0.019002375296912115
+K_PlusPF.tsv	species	Jaccard index (unfiltered)		0.009592326139088728
+K_PlusPF.tsv	strain	True positives (unfiltered)		0.0
+K_PlusPF.tsv	strain	False negatives (unfiltered)		60.0
+K_PlusPF.tsv	strain	False positives (unfiltered)		44.0
+K_PlusPF.tsv	strain	Completeness (unfiltered)		0.0
+K_PlusPF.tsv	strain	Purity (unfiltered)		0.0
+K_PlusPF.tsv	strain	Jaccard index (unfiltered)		0.0
+K_PlusPF.tsv	superkingdom	L1 norm error (unfiltered)		0.3630104642056295
+K_PlusPF.tsv	phylum	L1 norm error (unfiltered)		0.9377363169309482
+K_PlusPF.tsv	class	L1 norm error (unfiltered)		1.1135900625696546
+K_PlusPF.tsv	order	L1 norm error (unfiltered)		1.3920959070081724
+K_PlusPF.tsv	family	L1 norm error (unfiltered)		1.3925846184920272
+K_PlusPF.tsv	genus	L1 norm error (unfiltered)		1.7225768060659414
+K_PlusPF.tsv	species	L1 norm error (unfiltered)		1.9444123327015381
+K_PlusPF.tsv	strain	L1 norm error (unfiltered)		1.9999999999999998
+K_PlusPF.tsv	na	Weighted UniFrac error (unfiltered)		0.10581340217358302
+K_PlusPF.tsv	na	Unweighted UniFrac error (unfiltered)		6.522959832932101
+K_PlusPF.tsv	na	Weighted UniFrac (CAMI) (unfiltered)		12.106920768695556
+K_PlusPF.tsv	na	Unweighted UniFrac (CAMI) (unfiltered)		4715.158193153185
+K_PlusPF.tsv	superkingdom	Sum of abundances (unfiltered)		1.0
+K_PlusPF.tsv	phylum	Sum of abundances (unfiltered)		0.9999999999999999
+K_PlusPF.tsv	class	Sum of abundances (unfiltered)		1.0000000000000002
+K_PlusPF.tsv	order	Sum of abundances (unfiltered)		0.9999999999999997
+K_PlusPF.tsv	family	Sum of abundances (unfiltered)		1.000000000000003
+K_PlusPF.tsv	genus	Sum of abundances (unfiltered)		1.000000000000023
+K_PlusPF.tsv	species	Sum of abundances (unfiltered)		0.9999999999999857
+K_PlusPF.tsv	strain	Sum of abundances (unfiltered)		0.999999999999998
+K_PlusPF.tsv	superkingdom	Taxon counts (unfiltered)		4.0
+K_PlusPF.tsv	phylum	Taxon counts (unfiltered)		19.0
+K_PlusPF.tsv	class	Taxon counts (unfiltered)		35.0
+K_PlusPF.tsv	order	Taxon counts (unfiltered)		80.0
+K_PlusPF.tsv	family	Taxon counts (unfiltered)		149.0
+K_PlusPF.tsv	genus	Taxon counts (unfiltered)		334.0
+K_PlusPF.tsv	species	Taxon counts (unfiltered)		398.0
+K_PlusPF.tsv	strain	Taxon counts (unfiltered)		44.0
+K_PlusPF.tsv	superkingdom	Bray-Curtis distance		0.18084082045107835
+K_PlusPF.tsv	phylum	Bray-Curtis distance		0.4754393585578669
+K_PlusPF.tsv	class	Bray-Curtis distance		0.5580137293063542
+K_PlusPF.tsv	order	Bray-Curtis distance		0.6978174429182191
+K_PlusPF.tsv	family	Bray-Curtis distance		0.6875428878639481
+K_PlusPF.tsv	genus	Bray-Curtis distance		0.8533851715801218
+K_PlusPF.tsv	species	Bray-Curtis distance		0.969148470237593
+K_PlusPF.tsv	strain	Bray-Curtis distance		1.0
+K_PlusPF.tsv	superkingdom	Shannon diversity		0.0022235902163640527
+K_PlusPF.tsv	superkingdom	Shannon equitability		0.0
+K_PlusPF.tsv	phylum	Shannon diversity		0.9227847554048355
+K_PlusPF.tsv	phylum	Shannon equitability		0.8399548821027327
+K_PlusPF.tsv	class	Shannon diversity		1.4776128833991953
+K_PlusPF.tsv	class	Shannon equitability		0.9180925042112784
+K_PlusPF.tsv	order	Shannon diversity		1.5688184476526363
+K_PlusPF.tsv	order	Shannon equitability		0.875574246764568
+K_PlusPF.tsv	family	Shannon diversity		1.7807795256100873
+K_PlusPF.tsv	family	Shannon equitability		0.7426427441645096
+K_PlusPF.tsv	genus	Shannon diversity		1.9090305528696299
+K_PlusPF.tsv	genus	Shannon equitability		0.6738040242802665
+K_PlusPF.tsv	species	Shannon diversity		2.363004918620098
+K_PlusPF.tsv	species	Shannon equitability		0.6594090778373709
+K_PlusPF.tsv	strain	Shannon diversity		2.4914944039051385
+K_PlusPF.tsv	strain	Shannon equitability		0.7477015280115981
+K_PlusPF.tsv	superkingdom	True positives		1.0
+K_PlusPF.tsv	superkingdom	False negatives		1.0
+K_PlusPF.tsv	superkingdom	False positives		0.0
+K_PlusPF.tsv	superkingdom	Completeness		0.5
+K_PlusPF.tsv	superkingdom	Purity		1.0
+K_PlusPF.tsv	superkingdom	F1 score		0.6666666666666666
+K_PlusPF.tsv	superkingdom	Jaccard index		0.5
+K_PlusPF.tsv	phylum	True positives		3.0
+K_PlusPF.tsv	phylum	False negatives		3.0
+K_PlusPF.tsv	phylum	False positives		0.0
+K_PlusPF.tsv	phylum	Completeness		0.5
+K_PlusPF.tsv	phylum	Purity		1.0
+K_PlusPF.tsv	phylum	F1 score		0.6666666666666666
+K_PlusPF.tsv	phylum	Jaccard index		0.5
+K_PlusPF.tsv	class	True positives		5.0
+K_PlusPF.tsv	class	False negatives		7.0
+K_PlusPF.tsv	class	False positives		0.0
+K_PlusPF.tsv	class	Completeness		0.4166666666666667
+K_PlusPF.tsv	class	Purity		1.0
+K_PlusPF.tsv	class	F1 score		0.5882352941176471
+K_PlusPF.tsv	class	Jaccard index		0.4166666666666667
+K_PlusPF.tsv	order	True positives		5.0
+K_PlusPF.tsv	order	False negatives		9.0
+K_PlusPF.tsv	order	False positives		1.0
+K_PlusPF.tsv	order	Completeness		0.35714285714285715
+K_PlusPF.tsv	order	Purity		0.8333333333333334
+K_PlusPF.tsv	order	F1 score		0.5
+K_PlusPF.tsv	order	Jaccard index		0.3333333333333333
+K_PlusPF.tsv	family	True positives		6.0
+K_PlusPF.tsv	family	False negatives		10.0
+K_PlusPF.tsv	family	False positives		5.0
+K_PlusPF.tsv	family	Completeness		0.375
+K_PlusPF.tsv	family	Purity		0.5454545454545454
+K_PlusPF.tsv	family	F1 score		0.4444444444444444
+K_PlusPF.tsv	family	Jaccard index		0.2857142857142857
+K_PlusPF.tsv	genus	True positives		6.0
+K_PlusPF.tsv	genus	False negatives		16.0
+K_PlusPF.tsv	genus	False positives		11.0
+K_PlusPF.tsv	genus	Completeness		0.2727272727272727
+K_PlusPF.tsv	genus	Purity		0.35294117647058826
+K_PlusPF.tsv	genus	F1 score		0.30769230769230765
+K_PlusPF.tsv	genus	Jaccard index		0.18181818181818182
+K_PlusPF.tsv	species	True positives		4.0
+K_PlusPF.tsv	species	False negatives		19.0
+K_PlusPF.tsv	species	False positives		32.0
+K_PlusPF.tsv	species	Completeness		0.17391304347826086
+K_PlusPF.tsv	species	Purity		0.1111111111111111
+K_PlusPF.tsv	species	F1 score		0.13559322033898305
+K_PlusPF.tsv	species	Jaccard index		0.07272727272727272
+K_PlusPF.tsv	strain	True positives		0.0
+K_PlusPF.tsv	strain	False negatives		60.0
+K_PlusPF.tsv	strain	False positives		28.0
+K_PlusPF.tsv	strain	Completeness		0.0
+K_PlusPF.tsv	strain	Purity		0.0
+K_PlusPF.tsv	strain	Jaccard index		0.0
+K_PlusPF.tsv	superkingdom	L1 norm error		0.36127907662215186
+K_PlusPF.tsv	phylum	L1 norm error		0.9106509861543421
+K_PlusPF.tsv	class	L1 norm error		1.0257366073692602
+K_PlusPF.tsv	order	L1 norm error		1.2671809286823388
+K_PlusPF.tsv	family	L1 norm error		1.2442594065500379
+K_PlusPF.tsv	genus	L1 norm error		1.5393279906540034
+K_PlusPF.tsv	species	L1 norm error		1.7461922679766206
+K_PlusPF.tsv	strain	L1 norm error		1.8072289156626502
+K_PlusPF.tsv	na	Weighted UniFrac error		0.09872412616472409
+K_PlusPF.tsv	na	Unweighted UniFrac error		0.6446986979061952
+K_PlusPF.tsv	na	Weighted UniFrac (CAMI)		12.602220892784937
+K_PlusPF.tsv	na	Unweighted UniFrac (CAMI)		871.9848917396422
+K_PlusPF.tsv	superkingdom	Sum of abundances		0.9977739302498145
+K_PlusPF.tsv	phylum	Sum of abundances		0.9153883029721958
+K_PlusPF.tsv	class	Sum of abundances		0.838192419825073
+K_PlusPF.tsv	order	Sum of abundances		0.8159203980099509
+K_PlusPF.tsv	family	Sum of abundances		0.8097189695550361
+K_PlusPF.tsv	genus	Sum of abundances		0.8037904124860699
+K_PlusPF.tsv	species	Sum of abundances		0.8017799352750669
+K_PlusPF.tsv	strain	Sum of abundances		0.8072289156626502
+K_PlusPF.tsv	superkingdom	Taxon counts		1.0
+K_PlusPF.tsv	phylum	Taxon counts		3.0
+K_PlusPF.tsv	class	Taxon counts		5.0
+K_PlusPF.tsv	order	Taxon counts		6.0
+K_PlusPF.tsv	family	Taxon counts		11.0
+K_PlusPF.tsv	genus	Taxon counts		17.0
+K_PlusPF.tsv	species	Taxon counts		36.0
+K_PlusPF.tsv	strain	Taxon counts		28.0
+M_UC.tsv	superkingdom	Bray-Curtis distance (unfiltered)		0.1817525731861687
+M_UC.tsv	phylum	Bray-Curtis distance (unfiltered)		0.07521674632447924
+M_UC.tsv	class	Bray-Curtis distance (unfiltered)		0.22992922992922998
+M_UC.tsv	order	Bray-Curtis distance (unfiltered)		0.36744088047058043
+M_UC.tsv	family	Bray-Curtis distance (unfiltered)		0.36872250928437744
+M_UC.tsv	genus	Bray-Curtis distance (unfiltered)		0.17842203682511806
+M_UC.tsv	species	Bray-Curtis distance (unfiltered)		0.788345901720144
+M_UC.tsv	superkingdom	Shannon diversity (unfiltered)		0.0
+M_UC.tsv	superkingdom	Shannon equitability (unfiltered)		0.0
+M_UC.tsv	phylum	Shannon diversity (unfiltered)		1.5201657540808362
+M_UC.tsv	phylum	Shannon equitability (unfiltered)		0.9445320893315794
+M_UC.tsv	class	Shannon diversity (unfiltered)		2.052064300139425
+M_UC.tsv	class	Shannon equitability (unfiltered)		0.8557772824434667
+M_UC.tsv	order	Shannon diversity (unfiltered)		1.960832175246223
+M_UC.tsv	order	Shannon equitability (unfiltered)		0.7890969165435294
+M_UC.tsv	family	Shannon diversity (unfiltered)		2.127654250112368
+M_UC.tsv	family	Shannon equitability (unfiltered)		0.7361178520720942
+M_UC.tsv	genus	Shannon diversity (unfiltered)		2.238637009576204
+M_UC.tsv	genus	Shannon equitability (unfiltered)		0.7242336665884348
+M_UC.tsv	species	Shannon diversity (unfiltered)		2.244617873139677
+M_UC.tsv	species	Shannon equitability (unfiltered)		0.7158737087558374
+M_UC.tsv	superkingdom	True positives (unfiltered)		1.0
+M_UC.tsv	superkingdom	False negatives (unfiltered)		1.0
+M_UC.tsv	superkingdom	False positives (unfiltered)		0.0
+M_UC.tsv	superkingdom	Completeness (unfiltered)		0.5
+M_UC.tsv	superkingdom	Purity (unfiltered)		1.0
+M_UC.tsv	superkingdom	F1 score (unfiltered)		0.6666666666666666
+M_UC.tsv	superkingdom	Jaccard index (unfiltered)		0.5
+M_UC.tsv	phylum	True positives (unfiltered)		5.0
+M_UC.tsv	phylum	False negatives (unfiltered)		1.0
+M_UC.tsv	phylum	False positives (unfiltered)		0.0
+M_UC.tsv	phylum	Completeness (unfiltered)		0.8333333333333334
+M_UC.tsv	phylum	Purity (unfiltered)		1.0
+M_UC.tsv	phylum	F1 score (unfiltered)		0.9090909090909091
+M_UC.tsv	phylum	Jaccard index (unfiltered)		0.8333333333333334
+M_UC.tsv	class	True positives (unfiltered)		10.0
+M_UC.tsv	class	False negatives (unfiltered)		2.0
+M_UC.tsv	class	False positives (unfiltered)		1.0
+M_UC.tsv	class	Completeness (unfiltered)		0.8333333333333334
+M_UC.tsv	class	Purity (unfiltered)		0.9090909090909091
+M_UC.tsv	class	F1 score (unfiltered)		0.8695652173913043
+M_UC.tsv	class	Jaccard index (unfiltered)		0.7692307692307693
+M_UC.tsv	order	True positives (unfiltered)		11.0
+M_UC.tsv	order	False negatives (unfiltered)		3.0
+M_UC.tsv	order	False positives (unfiltered)		1.0
+M_UC.tsv	order	Completeness (unfiltered)		0.7857142857142857
+M_UC.tsv	order	Purity (unfiltered)		0.9166666666666666
+M_UC.tsv	order	F1 score (unfiltered)		0.8461538461538461
+M_UC.tsv	order	Jaccard index (unfiltered)		0.7333333333333333
+M_UC.tsv	family	True positives (unfiltered)		13.0
+M_UC.tsv	family	False negatives (unfiltered)		3.0
+M_UC.tsv	family	False positives (unfiltered)		5.0
+M_UC.tsv	family	Completeness (unfiltered)		0.8125
+M_UC.tsv	family	Purity (unfiltered)		0.7222222222222222
+M_UC.tsv	family	F1 score (unfiltered)		0.7647058823529411
+M_UC.tsv	family	Jaccard index (unfiltered)		0.6190476190476191
+M_UC.tsv	genus	True positives (unfiltered)		17.0
+M_UC.tsv	genus	False negatives (unfiltered)		5.0
+M_UC.tsv	genus	False positives (unfiltered)		5.0
+M_UC.tsv	genus	Completeness (unfiltered)		0.7727272727272727
+M_UC.tsv	genus	Purity (unfiltered)		0.7727272727272727
+M_UC.tsv	genus	F1 score (unfiltered)		0.7727272727272727
+M_UC.tsv	genus	Jaccard index (unfiltered)		0.6296296296296297
+M_UC.tsv	species	True positives (unfiltered)		17.0
+M_UC.tsv	species	False negatives (unfiltered)		6.0
+M_UC.tsv	species	False positives (unfiltered)		6.0
+M_UC.tsv	species	Completeness (unfiltered)		0.7391304347826086
+M_UC.tsv	species	Purity (unfiltered)		0.7391304347826086
+M_UC.tsv	species	F1 score (unfiltered)		0.7391304347826085
+M_UC.tsv	species	Jaccard index (unfiltered)		0.5862068965517241
+M_UC.tsv	strain	True positives (unfiltered)		0.0
+M_UC.tsv	strain	False negatives (unfiltered)		60.0
+M_UC.tsv	strain	False positives (unfiltered)		0.0
+M_UC.tsv	strain	Completeness (unfiltered)		0.0
+M_UC.tsv	strain	Purity (unfiltered)		0.0
+M_UC.tsv	strain	Jaccard index (unfiltered)		0.0
+M_UC.tsv	superkingdom	L1 norm error (unfiltered)		0.3635051463723374
+M_UC.tsv	phylum	L1 norm error (unfiltered)		0.15043349264895847
+M_UC.tsv	class	L1 norm error (unfiltered)		0.4598584598584599
+M_UC.tsv	order	L1 norm error (unfiltered)		0.7348817609411608
+M_UC.tsv	family	L1 norm error (unfiltered)		0.7374450185687549
+M_UC.tsv	genus	L1 norm error (unfiltered)		0.3568440736502362
+M_UC.tsv	species	L1 norm error (unfiltered)		1.5766918034402877
+M_UC.tsv	na	Weighted UniFrac error (unfiltered)		0.04044111124459951
+M_UC.tsv	na	Unweighted UniFrac error (unfiltered)		0.5439028755655683
+M_UC.tsv	na	Weighted UniFrac (CAMI) (unfiltered)		8.070428571379487
+M_UC.tsv	na	Unweighted UniFrac (CAMI) (unfiltered)		596.3715607265788
+M_UC.tsv	superkingdom	Sum of abundances (unfiltered)		1.0
+M_UC.tsv	phylum	Sum of abundances (unfiltered)		0.9999999999999999
+M_UC.tsv	class	Sum of abundances (unfiltered)		1.0
+M_UC.tsv	order	Sum of abundances (unfiltered)		1.0
+M_UC.tsv	family	Sum of abundances (unfiltered)		0.9999999999999999
+M_UC.tsv	genus	Sum of abundances (unfiltered)		0.9999999999999993
+M_UC.tsv	species	Sum of abundances (unfiltered)		0.9999999999999993
+M_UC.tsv	superkingdom	Taxon counts (unfiltered)		1.0
+M_UC.tsv	phylum	Taxon counts (unfiltered)		5.0
+M_UC.tsv	class	Taxon counts (unfiltered)		11.0
+M_UC.tsv	order	Taxon counts (unfiltered)		12.0
+M_UC.tsv	family	Taxon counts (unfiltered)		18.0
+M_UC.tsv	genus	Taxon counts (unfiltered)		22.0
+M_UC.tsv	species	Taxon counts (unfiltered)		23.0
+M_UC.tsv	superkingdom	Bray-Curtis distance		0.1817525731861687
+M_UC.tsv	phylum	Bray-Curtis distance		0.12602908266798307
+M_UC.tsv	class	Bray-Curtis distance		0.32181046925284523
+M_UC.tsv	order	Bray-Curtis distance		0.4650125549218957
+M_UC.tsv	family	Bray-Curtis distance		0.4818572520230489
+M_UC.tsv	genus	Bray-Curtis distance		0.27827627302043256
+M_UC.tsv	species	Bray-Curtis distance		0.8219752119675736
+M_UC.tsv	superkingdom	Shannon diversity		0.0
+M_UC.tsv	superkingdom	Shannon equitability		0.0
+M_UC.tsv	phylum	Shannon diversity		1.2779041500990838
+M_UC.tsv	phylum	Shannon equitability		0.9218129900396869
+M_UC.tsv	class	Shannon diversity		1.5758279607884917
+M_UC.tsv	class	Shannon equitability		0.8794863305326395
+M_UC.tsv	order	Shannon diversity		1.3762301748960233
+M_UC.tsv	order	Shannon equitability		0.8550998856579838
+M_UC.tsv	family	Shannon diversity		1.5560076280060342
+M_UC.tsv	family	Shannon equitability		0.8684243921849678
+M_UC.tsv	genus	Shannon diversity		1.5454593324364263
+M_UC.tsv	genus	Shannon equitability		0.8625372763355662
+M_UC.tsv	species	Shannon diversity		1.5435561955896173
+M_UC.tsv	species	Shannon equitability		0.8614751154375809
+M_UC.tsv	superkingdom	True positives		1.0
+M_UC.tsv	superkingdom	False negatives		1.0
+M_UC.tsv	superkingdom	False positives		0.0
+M_UC.tsv	superkingdom	Completeness		0.5
+M_UC.tsv	superkingdom	Purity		1.0
+M_UC.tsv	superkingdom	F1 score		0.6666666666666666
+M_UC.tsv	superkingdom	Jaccard index		0.5
+M_UC.tsv	phylum	True positives		4.0
+M_UC.tsv	phylum	False negatives		2.0
+M_UC.tsv	phylum	False positives		0.0
+M_UC.tsv	phylum	Completeness		0.6666666666666666
+M_UC.tsv	phylum	Purity		1.0
+M_UC.tsv	phylum	F1 score		0.8
+M_UC.tsv	phylum	Jaccard index		0.6666666666666666
+M_UC.tsv	class	True positives		5.0
+M_UC.tsv	class	False negatives		7.0
+M_UC.tsv	class	False positives		1.0
+M_UC.tsv	class	Completeness		0.4166666666666667
+M_UC.tsv	class	Purity		0.8333333333333334
+M_UC.tsv	class	F1 score		0.5555555555555556
+M_UC.tsv	class	Jaccard index		0.38461538461538464
+M_UC.tsv	order	True positives		4.0
+M_UC.tsv	order	False negatives		10.0
+M_UC.tsv	order	False positives		1.0
+M_UC.tsv	order	Completeness		0.2857142857142857
+M_UC.tsv	order	Purity		0.8
+M_UC.tsv	order	F1 score		0.4210526315789473
+M_UC.tsv	order	Jaccard index		0.26666666666666666
+M_UC.tsv	family	True positives		4.0
+M_UC.tsv	family	False negatives		12.0
+M_UC.tsv	family	False positives		2.0
+M_UC.tsv	family	Completeness		0.25
+M_UC.tsv	family	Purity		0.6666666666666666
+M_UC.tsv	family	F1 score		0.36363636363636365
+M_UC.tsv	family	Jaccard index		0.2222222222222222
+M_UC.tsv	genus	True positives		4.0
+M_UC.tsv	genus	False negatives		18.0
+M_UC.tsv	genus	False positives		2.0
+M_UC.tsv	genus	Completeness		0.18181818181818182
+M_UC.tsv	genus	Purity		0.6666666666666666
+M_UC.tsv	genus	F1 score		0.28571428571428575
+M_UC.tsv	genus	Jaccard index		0.16666666666666666
+M_UC.tsv	species	True positives		3.0
+M_UC.tsv	species	False negatives		20.0
+M_UC.tsv	species	False positives		3.0
+M_UC.tsv	species	Completeness		0.13043478260869565
+M_UC.tsv	species	Purity		0.5
+M_UC.tsv	species	F1 score		0.20689655172413793
+M_UC.tsv	species	Jaccard index		0.11538461538461539
+M_UC.tsv	strain	True positives		0.0
+M_UC.tsv	strain	False negatives		60.0
+M_UC.tsv	strain	False positives		0.0
+M_UC.tsv	strain	Completeness		0.0
+M_UC.tsv	strain	Purity		0.0
+M_UC.tsv	strain	Jaccard index		0.0
+M_UC.tsv	superkingdom	L1 norm error		0.3635051463723374
+M_UC.tsv	phylum	L1 norm error		0.23825110097661475
+M_UC.tsv	class	L1 norm error		0.5933443651977881
+M_UC.tsv	order	L1 norm error		0.8411078112548543
+M_UC.tsv	family	L1 norm error		0.8815101771591372
+M_UC.tsv	genus	L1 norm error		0.5057606651259141
+M_UC.tsv	species	L1 norm error		1.4929612067672533
+M_UC.tsv	na	Weighted UniFrac error		0.04509771661440469
+M_UC.tsv	na	Unweighted UniFrac error		0.829464253893595
+M_UC.tsv	na	Weighted UniFrac (CAMI)		7.96839600783404
+M_UC.tsv	na	Unweighted UniFrac (CAMI)		770.2637692027772
+M_UC.tsv	superkingdom	Sum of abundances		1.0
+M_UC.tsv	phylum	Sum of abundances		0.8904454109554589
+M_UC.tsv	class	Sum of abundances		0.8437696156230383
+M_UC.tsv	order	Sum of abundances		0.8087851658029499
+M_UC.tsv	family	Sum of abundances		0.8294010797973241
+M_UC.tsv	genus	Sum of abundances		0.817476781747678
+M_UC.tsv	species	Sum of abundances		0.8163092816309281
+M_UC.tsv	superkingdom	Taxon counts		1.0
+M_UC.tsv	phylum	Taxon counts		4.0
+M_UC.tsv	class	Taxon counts		6.0
+M_UC.tsv	order	Taxon counts		5.0
+M_UC.tsv	family	Taxon counts		6.0
+M_UC.tsv	genus	Taxon counts		6.0
+M_UC.tsv	species	Taxon counts		6.0
